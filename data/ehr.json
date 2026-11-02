@@ -1,0 +1,471 @@
+[
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT one of the purposes of a paper-based medical record listed in the lecture?",
+    "options": [
+      "Recall past observations",
+      "Inform other caregivers",
+      "Justify interventions performed",
+      "Generate drug-interaction alerts"
+    ],
+    "answer": 3,
+    "explanation": "The lecture lists five purposes: recall observations, inform others, gain knowledge, monitor performance, and justify interventions. Automated alerts are an EHR/CDSS function."
+  },
+  {
+    "type": "mcq",
+    "q": "Analyzing medical records to understand disease patterns and identify adverse drug reactions corresponds to which purpose of the medical record?",
+    "options": [
+      "Recall observations",
+      "Gain knowledge",
+      "Justify interventions",
+      "Inform others"
+    ],
+    "answer": 1,
+    "explanation": "'Gain knowledge' is described as analyzing records to aid research, understand disease patterns, and identify adverse drug reactions."
+  },
+  {
+    "type": "mcq",
+    "q": "Tracking the effectiveness of drug therapies, following up on lab results, and understanding disease progression is which purpose of the medical record?",
+    "options": [
+      "Monitor performance",
+      "Gain knowledge",
+      "Inform others",
+      "Recall observations"
+    ],
+    "answer": 0,
+    "explanation": "The lecture defines 'monitor performance' as tracking drug therapy effectiveness, lab follow-up, and disease progression."
+  },
+  {
+    "type": "mcq",
+    "q": "The inability of paper records to include MRI or other radiology images illustrates which problem of paper records?",
+    "options": [
+      "Limited access",
+      "Requires huge storage space",
+      "Lack of multimedia information",
+      "Poor legibility of handwriting"
+    ],
+    "answer": 2,
+    "explanation": "The lecture lists three problems of paper records: limited access, huge storage space, and lack of multimedia information such as radiology images (MRI)."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture's definition of an EHR, what is its scope?",
+    "options": [
+      "Limited to a single physician's office",
+      "Used across different healthcare organizations",
+      "Used only by the patient on a mobile app",
+      "Restricted to a single inpatient ward"
+    ],
+    "answer": 1,
+    "explanation": "The EHR is defined as a digital record shared across departments, with a scope spanning different healthcare organizations."
+  },
+  {
+    "type": "mcq",
+    "q": "The term 'EHR system' differs from 'EHR' mainly because the system also includes:",
+    "options": [
+      "A scanned archive of the original paper charts kept for legal reasons",
+      "The insurer's claims forms and billing records",
+      "The patient's full genome sequence and biobank samples",
+      "Active tools to manage information, e.g., decision support"
+    ],
+    "answer": 3,
+    "explanation": "The EHR system includes the active tools used to manage information (e.g., visualization, decision support); the two terms are often used interchangeably."
+  },
+  {
+    "type": "mcq",
+    "q": "In the example EHR, entries such as '250: Diabetes' and '401.9: Hypertension' represent which data type?",
+    "options": [
+      "Free text",
+      "Bio-signals",
+      "Coded data",
+      "Images/videos"
+    ],
+    "answer": 2,
+    "explanation": "The lecture shows four EHR data types (images/videos, bio-signals, free text, coded data); ICD codes like 250 and 401.9 are coded data."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is listed in the lecture as a DISADVANTAGE of EHR compared with paper records?",
+    "options": [
+      "Comprehensiveness of information",
+      "Serving multiple users and uses at the same time",
+      "Longer retention of patient data",
+      "Initial investment in hardware, software, and training"
+    ],
+    "answer": 3,
+    "explanation": "Disadvantages listed are initial investment, time to learn, and system failures/security; the other options are advantages."
+  },
+  {
+    "type": "mcq",
+    "q": "In the case study of a southern Taiwan medical center (~1,400 beds) that abolished paper records, what were the estimated annual savings in costs and labor?",
+    "options": [
+      "2.2M NTD",
+      "8M NTD",
+      "13M NTD",
+      "25M NTD"
+    ],
+    "answer": 1,
+    "explanation": "The case study reports annual savings of about 8M NTD; 2.2M NTD was the reduced paper/printing cost."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT one of the five functional components of an EHR system presented in the lecture?",
+    "options": [
+      "Computerized provider order entry",
+      "Clinical decision support system",
+      "Access to knowledge resources",
+      "Revenue cycle and billing management"
+    ],
+    "answer": 3,
+    "explanation": "The five components are patient data capture and review, CPOE, CDSS, access to knowledge resources, and integrated communication and reporting support."
+  },
+  {
+    "type": "mcq",
+    "q": "Which coding standard is used for medical imaging in the lecture's block diagram of multiple-source-data systems?",
+    "options": [
+      "LOINC",
+      "RxNorm",
+      "DICOM",
+      "SNOMED CT"
+    ],
+    "answer": 2,
+    "explanation": "The block diagram maps imaging to DICOM, laboratory to LOINC, medication to RxNorm/ATC, and clinical terms to SNOMED CT."
+  },
+  {
+    "type": "mcq",
+    "q": "In 'ICD-10-CM', what does 'CM' stand for?",
+    "options": [
+      "Coding Manual",
+      "Common Medicine",
+      "Computerized Medicine",
+      "Clinical Modification"
+    ],
+    "answer": 3,
+    "explanation": "ICD-10-CM is the International Classification of Diseases, Tenth Revision, Clinical Modification, used for diagnoses."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT a use of the ATC code in EHRs mentioned in the lecture?",
+    "options": [
+      "Standardized medication coding across hospitals and countries",
+      "Encoding laboratory observation identifiers",
+      "Drug utilization research and pharmacovigilance",
+      "Supporting CDSS such as drug-drug interaction checks"
+    ],
+    "answer": 1,
+    "explanation": "ATC (Anatomical Therapeutic Chemical) codes medications; laboratory observations are coded with LOINC."
+  },
+  {
+    "type": "mcq",
+    "q": "The lecture shows many different expressions for 'myocardial infarction' (心肌梗塞). Which standard addresses this by providing a common clinical language for indexing, storing, retrieving and aggregating data?",
+    "options": [
+      "SNOMED CT",
+      "DICOM",
+      "HL7 CDA R2",
+      "ATC"
+    ],
+    "answer": 0,
+    "explanation": "SNOMED CT is a standardized terminology providing a common language that handles variations in clinical expressions."
+  },
+  {
+    "type": "mcq",
+    "q": "Which standard describes data formats and elements called 'resources' together with an API for exchanging EHRs?",
+    "options": [
+      "HL7 CDA",
+      "FHIR",
+      "LOINC",
+      "ICD-10-CM"
+    ],
+    "answer": 1,
+    "explanation": "FHIR (Fast Healthcare Interoperability Resources) defines resources and an API for EHR exchange; CDA is a document markup standard."
+  },
+  {
+    "type": "mcq",
+    "q": "HL7 CDA (Clinical Document Architecture) is a document markup standard belonging to which HL7 version?",
+    "options": [
+      "HL7 Version 2",
+      "HL7 Version 1",
+      "HL7 Version 3",
+      "HL7 FHIR R4"
+    ],
+    "answer": 2,
+    "explanation": "The lecture describes HL7 Version 3 CDA as specifying the structure and semantics of clinical documents for exchange."
+  },
+  {
+    "type": "mcq",
+    "q": "In a clinical note following the SOAP format, what does the 'A' stand for?",
+    "options": [
+      "Allergies",
+      "Admission",
+      "Activities",
+      "Assessment"
+    ],
+    "answer": 3,
+    "explanation": "SOAP stands for Subjective, Objective, Assessment, Plan."
+  },
+  {
+    "type": "mcq",
+    "q": "The phenomenon in which clinicians become desensitized to frequent CDSS warnings and override most drug alerts is called:",
+    "options": [
+      "Alert fatigue",
+      "Automation bias",
+      "Information overload syndrome",
+      "Clinical inertia"
+    ],
+    "answer": 0,
+    "explanation": "The lecture discusses high overridden rates of drug alerts (often over 50%) and names this alert fatigue (警示疲乏)."
+  },
+  {
+    "type": "mcq",
+    "q": "Taiwan's NHI PharmaCloud system allows physicians and pharmacists to check a patient's outpatient and inpatient prescription records for what period?",
+    "options": [
+      "Preceding 1 month",
+      "Preceding 3 months",
+      "Preceding 6 months",
+      "Preceding 1 year"
+    ],
+    "answer": 1,
+    "explanation": "PharmaCloud, an example of electronic interface data capture, shows prescription records from the preceding 3 months."
+  },
+  {
+    "type": "mcq",
+    "q": "A data entry system flags a record of prostate cancer in a female patient. Which type of data validation is this?",
+    "options": [
+      "Range check",
+      "Pattern check",
+      "Spelling check",
+      "Consistency check"
+    ],
+    "answer": 3,
+    "explanation": "The lecture gives 'prostate cancer in female' as the example of a consistency check."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT one of the three data display methods presented in the lecture?",
+    "options": [
+      "Timeline graphs",
+      "Timeline flowsheets",
+      "Dictation playback",
+      "Summaries and snapshots"
+    ],
+    "answer": 2,
+    "explanation": "The three data display methods are timeline graphs, timeline flowsheets, and summaries and snapshots."
+  },
+  {
+    "type": "mcq",
+    "q": "Using the EHR to identify patients who are receiving a recalled drug such as rofecoxib (Vioxx) falls under which query and surveillance category?",
+    "options": [
+      "Quality reporting",
+      "Clinical care",
+      "Clinical trials",
+      "Retrospective studies"
+    ],
+    "answer": 1,
+    "explanation": "Under clinical care, the lecture lists encouraging preventive care and identifying patients receiving a recalled drug (side effects, product quality)."
+  },
+  {
+    "type": "mcq",
+    "q": "Why was rofecoxib (Vioxx) withdrawn from the market in 2004?",
+    "options": [
+      "Increased risk of heart attacks and strokes",
+      "Severe liver toxicity in elderly users",
+      "Contamination during manufacturing",
+      "Lack of efficacy for arthritis pain"
+    ],
+    "answer": 0,
+    "explanation": "The lecture notes Vioxx, an NSAID for arthritis, was linked to nearly 28,000 heart attacks and was withdrawn by Merck in 2004."
+  },
+  {
+    "type": "mcq",
+    "q": "Which HIMSS EMRAM stage, achieved by three Taiwanese hospitals in the lecture, represents the highest level of EMR adoption?",
+    "options": [
+      "Stage 4",
+      "Stage 5",
+      "Stage 6",
+      "Stage 7"
+    ],
+    "answer": 3,
+    "explanation": "The lecture shows that 3 hospitals passed HIMSS EMRAM Stage 7, the highest stage."
+  },
+  {
+    "type": "fill",
+    "q": "Laboratory results are coded using ____ (Logical Observation Identifiers Names and Codes).",
+    "answer": [
+      "LOINC"
+    ],
+    "explanation": "The lecture lists LOINC as the code standard for laboratory and clinical observations."
+  },
+  {
+    "type": "fill",
+    "q": "Diseases/diagnoses in the EHR are coded using the ____ code set.",
+    "answer": [
+      "ICD-10-CM",
+      "ICD-10",
+      "ICD10CM",
+      "ICD"
+    ],
+    "explanation": "The lecture adopts ICD-10-CM for disease coding."
+  },
+  {
+    "type": "fill",
+    "q": "Medications can be coded with RxNorm or the ____ classification system.",
+    "answer": [
+      "ATC",
+      "Anatomical Therapeutic Chemical",
+      "ATC code"
+    ],
+    "explanation": "The lecture names RxNorm or the Anatomical Therapeutic Chemical (ATC) code for medications."
+  },
+  {
+    "type": "fill",
+    "q": "In transcription, an ____ system reads handwritten numbers, check boxes and bar codes on a paper form and passes the content to the EHR.",
+    "answer": [
+      "OCR",
+      "Optical Character Recognition"
+    ],
+    "explanation": "The lecture's transcription example uses Optical Character Recognition (OCR)."
+  },
+  {
+    "type": "fill",
+    "q": "A serum potassium value of 50 (normal 3.5-5) entered into the EHR would be caught by a ____ check.",
+    "answer": [
+      "range",
+      "range check"
+    ],
+    "explanation": "The lecture gives serum potassium 50 as the example of a range check."
+  },
+  {
+    "type": "fill",
+    "q": "CPOE stands for Computerized ____ Order Entry.",
+    "answer": [
+      "Provider",
+      "Physician"
+    ],
+    "explanation": "CPOE is computerized provider (physician) order entry, used for orders such as radiology, chemotherapy and TPN."
+  },
+  {
+    "type": "fill",
+    "q": "A record that patients themselves manage through mobile or web apps, e.g. storing their own MRIs and X-rays, is called a ____.",
+    "answer": [
+      "Personal Health Record",
+      "PHR",
+      "Patient Health Record"
+    ],
+    "explanation": "The lecture shows PHR mobile/web apps as an example of patient-held records."
+  },
+  {
+    "type": "fill",
+    "q": "Taiwan's NHI system that lets people download or print their latest treatment records, allergy, lab and immunization data is called ____.",
+    "answer": [
+      "My Health Bank",
+      "健康存摺"
+    ],
+    "explanation": "My Health Bank empowers people to manage their health by providing treatment records and preventive health information."
+  },
+  {
+    "type": "fill",
+    "q": "The ____ is the executive role that bridges clinicians' information needs and IT, addressing the 'Users' Information Needs / Leadership' challenge.",
+    "answer": [
+      "CMIO",
+      "Chief Medical Information Officer"
+    ],
+    "explanation": "The lecture names the CMIO (Chief Medical Information Officer) under the leadership challenge."
+  },
+  {
+    "type": "fill",
+    "q": "MIMIC, a database used for retrospective real-world studies, stands for Medical Information Mart for ____.",
+    "answer": [
+      "Intensive Care",
+      "ICU"
+    ],
+    "explanation": "The lecture lists MIMIC (Medical Information Mart for Intensive Care), Taiwan NHI database and TMUCDR as real-world data sources."
+  },
+  {
+    "type": "short",
+    "q": "List the five purposes of a (paper-based) medical record described in the lecture.",
+    "answer": "1) Recall observations - record history and treatment plans; 2) Inform others - share information with other professionals; 3) Gain knowledge - research, disease patterns, adverse drug reactions; 4) Monitor performance - track drug therapy, lab follow-up, disease progression; 5) Justify interventions - evidence supporting medical decisions.",
+    "keywords": [
+      "recall observations",
+      "inform others",
+      "gain knowledge",
+      "monitor performance",
+      "justify interventions"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Compare EHR with paper-based records: give at least three advantages and three disadvantages of EHR from the lecture.",
+    "answer": "Advantages: comprehensiveness of information (phenotype, behavior, genotype); longer duration of use and retention of data; greater degree of data structure (NLP for free text); serves multiple users/uses at the same time; includes multimedia and is not limited to one place. Disadvantages: initial investment (hardware, software, training, support); takes time to learn; system failures and security risks.",
+    "keywords": [
+      "comprehensiveness",
+      "retention",
+      "structure",
+      "multiple uses",
+      "initial investment",
+      "time to learn",
+      "system failure",
+      "security"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Name the five functional components of an EHR system.",
+    "answer": "1) Patient data capture and review; 2) Computerized provider order entry (CPOE); 3) Clinical decision support system (CDSS); 4) Access to knowledge resources; 5) Integrated communication and reporting support (e.g., patient handoff reports).",
+    "keywords": [
+      "data capture and review",
+      "CPOE",
+      "CDSS",
+      "knowledge resources",
+      "communication and reporting"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Match each type of EHR data to the code standard used for it: disease, medication, laboratory, clinical terms (diagnoses/findings), and imaging. Why are such standards needed?",
+    "answer": "Disease: ICD-10-CM; medication: RxNorm or ATC; laboratory: LOINC; diagnoses, symptoms and findings: SNOMED CT; imaging: DICOM. Standards provide a common language so data from multiple sources can be integrated, exchanged (e.g., via HL7 CDA/FHIR) and aggregated across hospitals for care, CDSS and research.",
+    "keywords": [
+      "ICD-10-CM",
+      "RxNorm",
+      "ATC",
+      "LOINC",
+      "SNOMED CT",
+      "DICOM",
+      "interoperability"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Describe the two general ways data are captured into an EHR, and the three mechanisms by which physicians' notes can be entered.",
+    "answer": "Data capture: (1) electronic interfaces from already-automated systems such as laboratory systems or PharmaCloud; (2) direct manual data entry when no electronic source exists or it cannot be accessed. Physician notes: (1) transcription (e.g., dictation or OCR of forms); (2) clinic staff transfer or coding of data from a paper encounter form; (3) direct data entry by physicians, facilitated by templates or macros.",
+    "keywords": [
+      "electronic interfaces",
+      "manual data entry",
+      "transcription",
+      "paper encounter form",
+      "direct entry",
+      "templates"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "List the four uses of EHR query and surveillance systems and the five challenges ahead for EHRs identified in the lecture.",
+    "answer": "Query/surveillance uses: clinical care (preventive care, recalled drugs), clinical trials (finding eligible patients), quality reporting (internal QI and public reporting, e.g., antibiotic use), and retrospective studies (real-world data such as NHI database, TMUCDR, MIMIC). Challenges: users' information needs/leadership, usability, standards, privacy and security, and costs and benefits.",
+    "keywords": [
+      "clinical care",
+      "clinical trials",
+      "quality reporting",
+      "retrospective studies",
+      "leadership",
+      "usability",
+      "standards",
+      "privacy and security",
+      "costs and benefits"
+    ],
+    "explanation": ""
+  }
+]

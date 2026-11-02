@@ -1,0 +1,357 @@
+[
+  {
+    "type": "mcq",
+    "q": "According to the 7-step neuroprognostication framework (Fischer et al., Nat Rev Neurol 2022) presented in the lecture, what is Step 1?",
+    "options": [
+      "Define good and bad outcomes",
+      "Determine current function",
+      "Establish goals of care",
+      "Communicate with the family"
+    ],
+    "answer": 1,
+    "explanation": "Step 1 is to determine the patient's current neurological function using neurological examination, EEG and fMRI."
+  },
+  {
+    "type": "mcq",
+    "q": "Which methods does the lecture list for determining a patient's current neurological function (Step 1)?",
+    "options": [
+      "Neurological examination, EEG and fMRI",
+      "Blood biomarkers and genetic testing only",
+      "CRS-R and Glasgow Outcome Scale only",
+      "Patient questionnaires and family interviews"
+    ],
+    "answer": 0,
+    "explanation": "Step 1 methods include neurological examination plus EEG and fMRI."
+  },
+  {
+    "type": "mcq",
+    "q": "In Step 2 (Trajectory of Recovery), which of the following is NOT listed as a key factor?",
+    "options": [
+      "Brain structure",
+      "Brain function",
+      "Patient's age and premorbid condition",
+      "Hospital length of stay"
+    ],
+    "answer": 3,
+    "explanation": "Step 2 uses biomarkers and contextual factors: brain structure, brain function, and the patient's age and premorbid condition."
+  },
+  {
+    "type": "mcq",
+    "q": "In the neuroprognostication framework, defining the 'minimum acceptable neurological function' and the 'deadline to achieve it' belongs to which step?",
+    "options": [
+      "Step 2: Trajectory of recovery",
+      "Step 5: Value modifiers",
+      "Step 3: Goals of care",
+      "Step 6: Decision-making"
+    ],
+    "answer": 2,
+    "explanation": "Step 3 (Goals of Care) defines the minimum acceptable function and the deadline, considering patient/surrogate preferences."
+  },
+  {
+    "type": "mcq",
+    "q": "Under the framework, a 'bad outcome' is defined as one in which the patient:",
+    "options": [
+      "Dies within the ICU stay",
+      "Does not meet the goals of care, or meets them too late",
+      "Requires long-term rehabilitation",
+      "Remains in a minimally conscious state for any period"
+    ],
+    "answer": 1,
+    "explanation": "Step 4 defines a bad outcome as not meeting the goals of care or meeting them late; a good outcome meets them within the time frame."
+  },
+  {
+    "type": "mcq",
+    "q": "In Step 6 (Decision-Making), what two inputs are combined to make treatment decisions such as continuing or withdrawing life-sustaining treatment?",
+    "options": [
+      "CT findings combined with continuous EEG findings",
+      "Probabilities of outcomes and value modifiers",
+      "Patient age and admission GCS score",
+      "Cost of care and ICU bed availability"
+    ],
+    "answer": 1,
+    "explanation": "Step 6 uses the probabilities of outcomes together with the value modifiers to decide on life-sustaining treatment."
+  },
+  {
+    "type": "mcq",
+    "q": "In the EEG study on detecting brain activation in unresponsive patients, how many healthy controls and patient subjects were included?",
+    "options": [
+      "3 healthy controls and 5 patients",
+      "10 healthy controls and 10 patients",
+      "5 healthy controls and 3 patients",
+      "5 healthy controls and 5 patients"
+    ],
+    "answer": 2,
+    "explanation": "The study recorded EEG from five healthy controls (HC) and three patient subjects (PS) with severe brain injury."
+  },
+  {
+    "type": "mcq",
+    "q": "Which two types of mental imagery tasks were patients asked to perform in the EEG awareness study?",
+    "options": [
+      "Motor imagery and spatial navigation imagery",
+      "Visual imagery and auditory imagery",
+      "Arithmetic and language tasks",
+      "Facial recognition and memory recall"
+    ],
+    "answer": 0,
+    "explanation": "Subjects performed motor imagery (e.g., 'swimming') and spatial navigation imagery tasks."
+  },
+  {
+    "type": "mcq",
+    "q": "In the EEG study, which technique was used to remove artifacts such as muscle activity and eye movements?",
+    "options": [
+      "Principal component regression (PCR)",
+      "Fast Fourier transform (FFT)",
+      "Independent component analysis (ICA)",
+      "Discrete wavelet denoising"
+    ],
+    "answer": 2,
+    "explanation": "Data were preprocessed with ICA to remove muscle and eye-movement artifacts."
+  },
+  {
+    "type": "mcq",
+    "q": "Spectral analysis in the EEG awareness study was performed over which frequency range?",
+    "options": [
+      "0.5-4 Hz",
+      "4-24 Hz",
+      "8-13 Hz",
+      "30-100 Hz"
+    ],
+    "answer": 1,
+    "explanation": "Multi-taper spectral analysis was performed on frequencies from 4 to 24 Hz."
+  },
+  {
+    "type": "mcq",
+    "q": "What were the results for the patient subjects in the EEG awareness study?",
+    "options": [
+      "All three patients showed task-related patterns identical to those of healthy controls",
+      "None of the patients showed any task-related activity in either imagery task",
+      "Two showed task-related activity with patterns unlike controls; one was inconsistent",
+      "Only the locked-in patient showed activity; the other two showed none at all"
+    ],
+    "answer": 2,
+    "explanation": "Two patient subjects showed evidence of task-related brain activity with spectral patterns different from controls; one showed inconsistent results."
+  },
+  {
+    "type": "mcq",
+    "q": "Which state of consciousness is described as 'wakefulness without awareness, with reflexive responses to stimuli'?",
+    "options": [
+      "Coma",
+      "Minimally conscious state",
+      "Vegetative state",
+      "Locked-in syndrome"
+    ],
+    "answer": 2,
+    "explanation": "The vegetative state (VS) is wakefulness without awareness, with only reflexive responses."
+  },
+  {
+    "type": "mcq",
+    "q": "A patient has full consciousness but cannot move or communicate verbally. According to the lecture, this is:",
+    "options": [
+      "Locked-in syndrome",
+      "Vegetative state",
+      "Brain death",
+      "Coma"
+    ],
+    "answer": 0,
+    "explanation": "Locked-in syndrome (LIS) is full consciousness with inability to move or speak."
+  },
+  {
+    "type": "mcq",
+    "q": "Which state is defined as minimal awareness of self or environment with inconsistent responses to stimuli?",
+    "options": [
+      "Emergence from MCS",
+      "Minimally conscious state (MCS)",
+      "Vegetative state",
+      "Coma"
+    ],
+    "answer": 1,
+    "explanation": "MCS is minimal awareness with inconsistent responses; emergence from MCS involves reliable responses to commands."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the seizure prevalence table in the lecture, the incidence of early seizures in intracerebral hemorrhage (ICH) on continuous EEG monitoring is about:",
+    "options": [
+      "2%",
+      "8-18%",
+      "28-31%",
+      "up to 51%"
+    ],
+    "answer": 2,
+    "explanation": "Early seizures in ICH patients are reported at 28-31% on CEEG monitoring."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT one of the multi-modalities listed for consciousness assessment in the lecture?",
+    "options": [
+      "Task-based EEG",
+      "Functional MRI (fMRI)",
+      "Connectome",
+      "Serum troponin"
+    ],
+    "answer": 3,
+    "explanation": "The multi-modalities slide lists task-based EEG, fMRI and connectome (plus stimulation-based EEG)."
+  },
+  {
+    "type": "mcq",
+    "q": "In the iGuardian EEG data collection protocol, which voice commands were given to patients?",
+    "options": [
+      "Open/close right, left, and both hands, 10 times each",
+      "Blink eyes 5 times and squeeze the examiner's hand 5 times",
+      "Imagine playing tennis and imagine walking through your house",
+      "Say your name aloud and then count from one to ten"
+    ],
+    "answer": 0,
+    "explanation": "Voice commands were right-hand, left-hand and both-hand open/close, each 10 times, recorded into the EEG data."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the CRS-R criteria cited in the lecture, a total score above 10 indicates the patient is in:",
+    "options": [
+      "Coma or vegetative state",
+      "MCS or emergence from MCS (eMCS)",
+      "Brain death",
+      "Locked-in syndrome"
+    ],
+    "answer": 1,
+    "explanation": "Per the CRS-R slide, patients with total scores above 10 are MCS or eMCS."
+  },
+  {
+    "type": "fill",
+    "q": "Step 5 of the neuroprognostication framework, which evaluates how much the patient values achieving a good outcome or avoiding a bad outcome, is called ____.",
+    "answer": [
+      "value modifiers",
+      "value modifier",
+      "outcome value modifiers"
+    ],
+    "explanation": "Step 5 assesses the good-outcome and bad-outcome value modifiers."
+  },
+  {
+    "type": "fill",
+    "q": "Step 7 of the framework emphasizes clear, compassionate communication with family or surrogates using ____ decision-making.",
+    "answer": [
+      "shared",
+      "shared decision-making",
+      "SDM"
+    ],
+    "explanation": "Step 7 (Communication) discusses prognosis and treatment options using shared decision-making."
+  },
+  {
+    "type": "fill",
+    "q": "In the EEG awareness study, statistical significance was determined using a ____ test with p ≤ 0.05.",
+    "answer": [
+      "permutation",
+      "permutation test"
+    ],
+    "explanation": "A permutation test (p ≤ 0.05) with FDR correction was used."
+  },
+  {
+    "type": "fill",
+    "q": "To account for multiple comparisons, the EEG study applied ____ correction.",
+    "answer": [
+      "False Discovery Rate",
+      "FDR",
+      "false discovery rate (FDR)"
+    ],
+    "explanation": "False Discovery Rate (FDR) correction was applied to ensure valid comparisons."
+  },
+  {
+    "type": "fill",
+    "q": "In the EEG study, spectral power was estimated using ____ methods.",
+    "answer": [
+      "multi-taper",
+      "multitaper",
+      "multi taper"
+    ],
+    "explanation": "Spectral analysis used multi-taper methods over 4-24 Hz."
+  },
+  {
+    "type": "fill",
+    "q": "The irreversible loss of all brain function is termed ____.",
+    "answer": [
+      "brain death"
+    ],
+    "explanation": "The lecture defines brain death as irreversible loss of all brain function."
+  },
+  {
+    "type": "fill",
+    "q": "The Coma Recovery Scale-Revised (CRS-R) total score ranges from 0 to ____.",
+    "answer": [
+      "23",
+      "twenty-three"
+    ],
+    "explanation": "CRS-R has six subscales with a total score range of 0-23."
+  },
+  {
+    "type": "fill",
+    "q": "In the iGuardian protocol, the software ____ was used to interpret the event codes of the voice commands embedded in the EEG recordings.",
+    "answer": [
+      "E-Prime",
+      "EPrime",
+      "E Prime"
+    ],
+    "explanation": "EEG data with voice-command records were interpreted using E-Prime event annotation codes."
+  },
+  {
+    "type": "short",
+    "q": "List the 7 steps of the neuroprognostication framework presented in the lecture.",
+    "answer": "1) Determine current function; 2) Predict the trajectory of recovery; 3) Define goals of care; 4) Define good and bad outcomes; 5) Assess value modifiers; 6) Decision-making (e.g., continue or withdraw life-sustaining treatment); 7) Communication with family/surrogates using shared decision-making.",
+    "keywords": [
+      "current function",
+      "trajectory of recovery",
+      "goals of care",
+      "good and bad outcomes",
+      "value modifiers",
+      "decision-making",
+      "communication"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Name the six subscales of the CRS-R and state its main purposes.",
+    "answer": "The six subscales are auditory, visual, motor, verbal (oromotor), communication, and arousal. The CRS-R is used to assist diagnosis and differential diagnosis of the level of consciousness, prognostic assessment, and planning of treatment and nursing care.",
+    "keywords": [
+      "auditory",
+      "visual",
+      "motor",
+      "verbal",
+      "communication",
+      "arousal",
+      "diagnosis",
+      "prognosis"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Why is continuous EEG/consciousness monitoring important in neuro-ICU patients? Support your answer with examples from the lecture's seizure prevalence data.",
+    "answer": "Seizures, often nonconvulsive, are very common in the ICU and can only be detected by EEG monitoring. Examples: early post-traumatic seizures 4-25% (late 9-42%) in TBI; nonconvulsive seizures 8-18% in aneurysmal SAH; early seizures 28-31% in ICH on CEEG; 4-23% in ischemic stroke; up to 27% in meningitis; 15-20% after supratentorial craniotomy. EEG can also detect covert awareness in unresponsive patients, informing prognosis.",
+    "keywords": [
+      "seizure",
+      "nonconvulsive",
+      "TBI",
+      "ICH",
+      "subarachnoid hemorrhage",
+      "continuous EEG",
+      "prevalence"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Describe the patient enrollment workflow and data collected in the iGuardian EEG study at Shuang Ho Hospital (Taipei Neuroscience Institute).",
+    "answer": "Research staff screened the NCU patient list daily for eligible diagnoses, then physicians assessed clinical stability before the study was explained and consent obtained. EEG was deferred until head drains were removed (wound care by nurse practitioners or after suture removal). Patients received voice commands (right, left, both hands open/close, 10 times each) recorded with the EEG, and CRS-R was assessed. Data collected included demographics, diagnosis and medications, discharge disposition, and heart rate, blood pressure and SpO2 before and after EEG; about 100 patients were enrolled (96 Shuang Ho, 4 Hsiao Chung-Cheng).",
+    "keywords": [
+      "NCU",
+      "screening",
+      "physician assessment",
+      "consent",
+      "drain removal",
+      "voice commands",
+      "CRS-R",
+      "vital signs",
+      "100 patients"
+    ],
+    "explanation": ""
+  }
+]

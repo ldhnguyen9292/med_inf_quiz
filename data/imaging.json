@@ -1,0 +1,419 @@
+[
+  {
+    "type": "mcq",
+    "q": "According to the lecture, a digital image is best defined as:",
+    "options": [
+      "A three-dimensional vector field assigning an RGB color to every voxel",
+      "A 2D function f(x,y) giving the intensity (gray level) at each point",
+      "A continuous analog signal recorded on film and scanned for display",
+      "A table of DICOM header attributes describing the acquisition settings"
+    ],
+    "answer": 1,
+    "explanation": "The lecture defines a digital image as a 2D function f that takes spatial coordinates x and y and returns a gray level (intensity) f(x,y)."
+  },
+  {
+    "type": "fill",
+    "q": "Digital images are a discretized partition of spatial images into small cells called ____, short for picture elements.",
+    "answer": [
+      "pixels",
+      "pixel",
+      "pels"
+    ],
+    "explanation": "The lecture states digital images are partitioned into small cells referred to as pixels (picture elements)."
+  },
+  {
+    "type": "mcq",
+    "q": "Converting a continuous image projected onto a sensor array into a digital image involves which two processes?",
+    "options": [
+      "Segmentation and registration",
+      "Compression and encryption",
+      "Sampling and quantization",
+      "Rendering and re-slicing"
+    ],
+    "answer": 2,
+    "explanation": "The slide shows a continuous image on a sensor array and the result of image sampling (spatial) and quantization (intensity)."
+  },
+  {
+    "type": "mcq",
+    "q": "Reducing the number of gray levels of an image from 256 to 8 primarily lowers its:",
+    "options": [
+      "Intensity resolution",
+      "Spatial (pixel) resolution",
+      "Field of view (image extent)",
+      "Number of slices in the volume"
+    ],
+    "answer": 0,
+    "explanation": "The lecture distinguishes image size (spatial resolution) from gray level (intensity resolution), illustrated with 256 down to 2 levels."
+  },
+  {
+    "type": "fill",
+    "q": "In an index file format, color information is stored in a separate color lookup table also called a colormap or ____.",
+    "answer": [
+      "palette",
+      "color palette"
+    ],
+    "explanation": "The lecture states index files keep color in a separate color lookup table (colormap) or palette."
+  },
+  {
+    "type": "mcq",
+    "q": "The index-file technique, in which pixel values point into a color lookup table, is sometimes referred to as:",
+    "options": [
+      "True color (24-bit RGB)",
+      "Direct color mapping",
+      "Lossless palette coding",
+      "Pseudocolor"
+    ],
+    "answer": 3,
+    "explanation": "The lecture notes this technique is sometimes called pseudocolor or indirect color."
+  },
+  {
+    "type": "fill",
+    "q": "Medical images are acquired to obtain information about a patient's anatomy and ____ (function).",
+    "answer": [
+      "physiology",
+      "function",
+      "physiologic function"
+    ],
+    "explanation": "The lecture states images are acquired to get information about Anatomy and Physiology (Function)."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is classified in the lecture as a continuous-time imaging system rather than a slice-like imaging system?",
+    "options": [
+      "Computed Tomography (CT)",
+      "Positron Emission Tomography (PET)",
+      "Magnetic Resonance Imaging (MRI)",
+      "Doppler ultrasound"
+    ],
+    "answer": 3,
+    "explanation": "Slice-like systems: CR, CT, MRI, PET; continuous-time: ultrasonic scanning, Doppler ultrasound, endoscopy."
+  },
+  {
+    "type": "mcq",
+    "q": "Which anatomical plane divides the body into left and right portions?",
+    "options": [
+      "Sagittal plane",
+      "Frontal (coronal) plane",
+      "Horizontal (transverse) plane",
+      "Oblique plane"
+    ],
+    "answer": 0,
+    "explanation": "The lecture shows frontal, horizontal and sagittal views; the sagittal plane separates left from right."
+  },
+  {
+    "type": "mcq",
+    "q": "Conventional X-ray images are formed based on:",
+    "options": [
+      "The mass of hydrogen atoms in each tissue",
+      "The concentration of glucose in tissues",
+      "Different X-ray absorption rates of tissues",
+      "Reflection of ultrasound waves"
+    ],
+    "answer": 2,
+    "explanation": "The lecture states X-ray imaging is based on the different X-ray absorption rates of tissues."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture, digital Computed Radiography (CR) images typically have a resolution of about:",
+    "options": [
+      "64 x 64",
+      "512 x 512",
+      "2k x 2k",
+      "8k x 8k"
+    ],
+    "answer": 2,
+    "explanation": "The X-ray slide notes digital CR (1997) with resolution mostly 2k x 2k, versus CT at mostly 512 x 512."
+  },
+  {
+    "type": "fill",
+    "q": "In CT, an estimate of absolute density is computed at each volume element in the body, called a ____.",
+    "answer": [
+      "voxel",
+      "voxels",
+      "volume element"
+    ],
+    "explanation": "The CT slide states an estimate of absolute density at each point (volume element, or voxel) is computed."
+  },
+  {
+    "type": "mcq",
+    "q": "Which statement about MRI is consistent with the lecture?",
+    "options": [
+      "It images by X-ray absorption and is mainly functional",
+      "It is a silent, continuous-time modality like endoscopy",
+      "It images by glucose concentration in pseudo-color",
+      "It images by the mass of H atoms in a high magnetic field and is noisy"
+    ],
+    "answer": 3,
+    "explanation": "The lecture: MRI images by the mass of H atoms, supports anatomy and functional imaging, high magnetic field, no metal, noisy."
+  },
+  {
+    "type": "mcq",
+    "q": "PET imaging is described in the lecture as imaging by the concentration of glucose and is particularly useful for:",
+    "options": [
+      "Fetal monitoring",
+      "Cancer detection",
+      "Bone fracture assessment",
+      "Retinal screening"
+    ],
+    "answer": 1,
+    "explanation": "PET images glucose concentration, is functional (displayed in pseudo-color), and is useful for cancer detection."
+  },
+  {
+    "type": "fill",
+    "q": "Ultrasound imaging forms images based on ultrasound ____, and is noninvasive.",
+    "answer": [
+      "reflection",
+      "reflections",
+      "echo",
+      "echoes"
+    ],
+    "explanation": "The lecture states ultrasound imaging is by ultrasound reflection and is noninvasive."
+  },
+  {
+    "type": "short",
+    "q": "Compare X-ray/CR, CT, MRI, PET and ultrasound by the physical basis of image formation as presented in the lecture.",
+    "answer": "X-ray/CR: different X-ray absorption rates of tissues. CT: X-ray reconstruction from a circular scan, estimating absolute density at each voxel (typically 512x512). MRI: mass/density of hydrogen atoms in a high magnetic field; anatomical and functional. PET: concentration of glucose (radiotracer); functional, shown in pseudo-color, useful for cancer. Ultrasound: reflection of ultrasound waves; noninvasive, Doppler displayed in pseudo-color.",
+    "keywords": [
+      "absorption",
+      "voxel",
+      "hydrogen",
+      "glucose",
+      "reflection",
+      "functional",
+      "anatomical"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "mcq",
+    "q": "Which is NOT listed in the lecture as an imaging method in other medical domains?",
+    "options": [
+      "Ophthalmologic imaging",
+      "Dermatologic imaging",
+      "Pathology/tissue imaging",
+      "Electrocardiographic imaging"
+    ],
+    "answer": 3,
+    "explanation": "Other domains listed: microscopic/cellular, pathology/tissue, ophthalmologic (eye, retina), and dermatologic (skin) imaging."
+  },
+  {
+    "type": "fill",
+    "q": "The system that provides fast, universal access to diagnostic images and reports anywhere, anytime is called a Picture Archiving and Communication System, abbreviated ____.",
+    "answer": [
+      "PACS"
+    ],
+    "explanation": "The lecture defines PACS as providing fast, easy, universal access to images and reports on-site or remotely."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is one of the three PACS components listed in the lecture?",
+    "options": [
+      "Radiology billing subsystem",
+      "PACS controller and archive subsystem",
+      "Laboratory information subsystem",
+      "Pharmacy dispensing subsystem"
+    ],
+    "answer": 1,
+    "explanation": "PACS components: image and data acquisition subsystem, PACS controller and archive subsystem, and display subsystem."
+  },
+  {
+    "type": "short",
+    "q": "Define DICOM and describe what a single DICOM file contains.",
+    "answer": "DICOM (Digital Imaging and Communications in Medicine) is the standard for storing and communicating medical images. A single DICOM file contains a header storing information such as the patient's name, type of scan, and image dimensions, together with all of the image data, which can be three-dimensional. DICOM supports 12- to 16-bit gray images for more accurate diagnosis.",
+    "keywords": [
+      "Digital Imaging and Communications in Medicine",
+      "header",
+      "patient name",
+      "scan type",
+      "image dimensions",
+      "image data"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "mcq",
+    "q": "DICOM supports gray images with a bit depth of:",
+    "options": [
+      "1 to 2 bits",
+      "8 bits only",
+      "12 to 16 bits",
+      "24 to 32 bits"
+    ],
+    "answer": 2,
+    "explanation": "The lecture states DICOM provides 12-bit to 16-bit gray image format for more accurate diagnosis, requiring special graphics cards and monitors."
+  },
+  {
+    "type": "fill",
+    "q": "A DICOM object used to exchange structured text data such as observations and reports is called a DICOM ____ Report (SR).",
+    "answer": [
+      "Structured",
+      "Structural",
+      "structured report",
+      "SR"
+    ],
+    "explanation": "The lecture describes DICOM SR as a DICOM object used to exchange almost any sort of structured text data, including observations and reports."
+  },
+  {
+    "type": "fill",
+    "q": "The controlled terminology used for knowledge representation of radiology imaging features is ____.",
+    "answer": [
+      "RadLex",
+      "Radlex"
+    ],
+    "explanation": "The lecture lists RadLex as the controlled terminology for representing radiology imaging features."
+  },
+  {
+    "type": "mcq",
+    "q": "In the lecture's classification of image processing operations, segmentation and edge detection are:",
+    "options": [
+      "Low-level operations",
+      "Mid-level operations",
+      "High-level operations",
+      "Acquisition operations"
+    ],
+    "answer": 1,
+    "explanation": "Low level: noise reduction, contrast enhancement, sharpening; mid level: segmentation, edge detection; high level: image understanding, labeling, analysis."
+  },
+  {
+    "type": "short",
+    "q": "Distinguish image enhancement from image restoration as defined in the lecture, giving an example of each.",
+    "answer": "Image enhancement makes an image clearer to the user by emphasizing certain features; it is subjective ('it looks good'), e.g., contrast enhancement or pseudo-color. Image restoration improves the image using objective criteria, e.g., noise removal. Both are steps in the image processing pipeline after acquisition.",
+    "keywords": [
+      "enhancement",
+      "subjective",
+      "restoration",
+      "objective",
+      "noise removal",
+      "contrast"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "mcq",
+    "q": "In color processing, converting from display color space to hardcopy printing space means converting:",
+    "options": [
+      "RGB to CMY",
+      "CMY to RGB",
+      "Gray to RGB",
+      "HSV to grayscale"
+    ],
+    "answer": 0,
+    "explanation": "The lecture gives the example of transforming from display space (red, green, blue) into printing space (cyan, magenta, yellow)."
+  },
+  {
+    "type": "mcq",
+    "q": "Which step in image processing identifies image objects such as the liver, kidneys or spine?",
+    "options": [
+      "Representation",
+      "Compression",
+      "Recognition",
+      "Restoration"
+    ],
+    "answer": 2,
+    "explanation": "The lecture defines recognition as identifying image objects (e.g., liver, kidneys, spine); representation stores extracted features outside the image."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT listed in the lecture as a segmentation approach?",
+    "options": [
+      "Watershed transform",
+      "Histogram thresholding",
+      "Fourier compression",
+      "Knowledge-based"
+    ],
+    "answer": 2,
+    "explanation": "Segmentation methods listed: gradient image, edge detection, histogram, morphological, watershed, knowledge-based."
+  },
+  {
+    "type": "short",
+    "q": "Explain the difference between CADe and CADx.",
+    "answer": "In computer-assisted detection (CADe), the computer locates regions of interest (ROIs) in the image where abnormalities are suspected, and the radiologist must evaluate their medical significance. In computer-assisted diagnosis (CADx), the computer is given an ROI with a suspected abnormality and outputs the likely diagnoses and possibly management recommendations.",
+    "keywords": [
+      "CADe",
+      "detection",
+      "locates ROI",
+      "radiologist evaluates",
+      "CADx",
+      "diagnosis",
+      "likely diagnoses",
+      "management recommendations"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture on the FDA computer-aided device categories, current AI-based medical devices:",
+    "options": [
+      "Can replace radiologists autonomously",
+      "Can only be adjunct devices offering a second opinion",
+      "Are not regulated by the FDA as devices",
+      "Must be built into the PACS hardware of each hospital"
+    ],
+    "answer": 1,
+    "explanation": "The lecture states AI-based devices cannot work autonomously and can only be adjunct or supportive devices giving a second opinion."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is a one-stage object detection model listed in the lecture?",
+    "options": [
+      "U-Net",
+      "Mask R-CNN",
+      "YOLO",
+      "FCN"
+    ],
+    "answer": 2,
+    "explanation": "Object detection models listed: R-CNN family, SSD, and YOLO; U-Net, FCN and Mask R-CNN are listed under segmentation."
+  },
+  {
+    "type": "short",
+    "q": "List the AI computer vision tasks for CAD presented in the lecture and give example models for each.",
+    "answer": "Image classification: Convolutional Neural Networks (CNN), often with transfer learning. Object detection: R-CNN, Fast R-CNN, Faster R-CNN, SSD (Single Shot MultiBox Detector), YOLO (e.g., a YOLOv3-based model for gallstones on CT). Image segmentation: Mask R-CNN, FCN (Fully Convolutional Network), U-Net.",
+    "keywords": [
+      "classification",
+      "CNN",
+      "transfer learning",
+      "object detection",
+      "YOLO",
+      "SSD",
+      "Faster R-CNN",
+      "segmentation",
+      "U-Net",
+      "FCN",
+      "Mask R-CNN"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "mcq",
+    "q": "RapidAI's algorithm for suspected large vessel occlusion in stroke was reported in the lecture to have which performance?",
+    "options": [
+      "Sensitivity 97%, specificity 96%, in as few as 3 minutes",
+      "Sensitivity 80%, specificity 99%, in about one minute",
+      "Sensitivity 90%, specificity 90%, in about one hour",
+      "Sensitivity 99%, specificity 70%, in about ten minutes"
+    ],
+    "answer": 0,
+    "explanation": "The lecture states RapidAI detects suspected LVO in as few as three minutes with 97% sensitivity and 96% specificity."
+  },
+  {
+    "type": "fill",
+    "q": "The AI system that autonomously analyzes retinal fundus images for eye disease and returns results in under 60 seconds is called ____.",
+    "answer": [
+      "EyeArt",
+      "Eye Art"
+    ],
+    "explanation": "The lecture presents EyeArt, which autonomously analyzes fundus camera retinal images in less than 60 seconds."
+  },
+  {
+    "type": "mcq",
+    "q": "Software intended for medical purposes without being part of a hardware medical device is regulated under which FDA concept discussed in the lecture?",
+    "options": [
+      "Electronic Health Record (EHR)",
+      "Software as a Medical Device (SaMD)",
+      "Clinical Decision Support Hardware (CDSH)",
+      "Picture Archiving Software (PAS)"
+    ],
+    "answer": 1,
+    "explanation": "The regulatory policy slide introduces Software as Medical Device (SaMD), with the FDA maintaining a list of AI/ML-enabled devices."
+  }
+]

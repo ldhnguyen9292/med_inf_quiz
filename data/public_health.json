@@ -1,0 +1,458 @@
+[
+  {
+    "type": "mcq",
+    "q": "According to the 2002 definition used in the lecture, public health informatics (PHI) is the systematic application of information and computer science and technology to which of the following?",
+    "options": [
+      "Clinical care of individual patients in hospitals",
+      "Public health practice, research, and learning",
+      "Genomic sequencing and bioinformatics pipelines",
+      "Health insurance billing and reimbursement"
+    ],
+    "answer": 1,
+    "explanation": "The lecture defines PHI as the systematic application of information and computer science and technology to public health practice, research, and learning (Public Health Informatics and Information Systems, 2002)."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT listed in the lecture as one of the core disciplines of the public health domain within PHI?",
+    "options": [
+      "Epidemiology",
+      "Biostatistics",
+      "Environmental science",
+      "Surgical medicine"
+    ],
+    "answer": 3,
+    "explanation": "The public health domain includes epidemiology, biostatistics, social and behavioral sciences, health administration, and environmental science; surgical medicine belongs to clinical medicine."
+  },
+  {
+    "type": "mcq",
+    "q": "In the comparison of clinical medicine and public health, what is the primary focus of public health?",
+    "options": [
+      "Individual patients",
+      "Hospitals and clinics",
+      "Populations",
+      "Insurance payers"
+    ],
+    "answer": 2,
+    "explanation": "Clinical medicine focuses on individuals, whereas public health focuses on the population."
+  },
+  {
+    "type": "mcq",
+    "q": "In the comparison table, which level of public health is responsible for primary outbreak investigations?",
+    "options": [
+      "Local Health Department (LHD)",
+      "Federal level (CDC)",
+      "State Health Department",
+      "Clinical medicine providers"
+    ],
+    "answer": 0,
+    "explanation": "Local health departments conduct primary investigations; the state assists the LHD and the CDC assists if requested, while clinicians report to the health department."
+  },
+  {
+    "type": "mcq",
+    "q": "Which statement correctly describes the reporting role of a State Health Department in the lecture's comparison table?",
+    "options": [
+      "It develops national policy and collects national notifiable data",
+      "It receives and manages reportable data and voluntarily sends notifiable data to the CDC",
+      "It only sends reportable data to clinics",
+      "It conducts payment for services through private insurance"
+    ],
+    "answer": 1,
+    "explanation": "State health departments receive and manage reportable data and voluntarily send notifiable data to the CDC; the federal CDC collects national notifiable data."
+  },
+  {
+    "type": "mcq",
+    "q": "Public Health 1.0 (late 19th to early 20th century) focused mainly on which of the following?",
+    "options": [
+      "Social determinants of health and multi-sector partnerships",
+      "Professionalisation of public health agencies after the IOM report",
+      "Sanitation, infectious disease control, vaccination, and food and water safety",
+      "Real-time analytics and flexible funding"
+    ],
+    "answer": 2,
+    "explanation": "Public Health 1.0 established the basics: sanitation, infectious disease control, vaccination, and food and water safety."
+  },
+  {
+    "type": "mcq",
+    "q": "What was a key limitation of Public Health 1.0?",
+    "options": [
+      "It could not address chronic diseases or social determinants",
+      "It relied too heavily on real-time data",
+      "It lacked any government responsibility for population health",
+      "It produced no gains in life expectancy"
+    ],
+    "answer": 0,
+    "explanation": "Public Health 1.0 brought massive gains in life expectancy but could not address chronic diseases or social determinants of health."
+  },
+  {
+    "type": "mcq",
+    "q": "Which report was the catalyst for Public Health 2.0?",
+    "options": [
+      "The 2016 Public Health 3.0 Call to Action",
+      "The 1988 IOM report 'The Future of Public Health'",
+      "The 2002 Public Health Informatics and Information Systems book",
+      "The WHO 2023 infodemic management advocacy"
+    ],
+    "answer": 1,
+    "explanation": "Public Health 2.0 (mid-to-late 20th century) was catalysed by the 1988 Institute of Medicine report The Future of Public Health."
+  },
+  {
+    "type": "mcq",
+    "q": "Which limitation is attributed to Public Health 2.0 in the lecture?",
+    "options": [
+      "It largely ignored infectious diseases in favor of chronic disease",
+      "It had not yet developed surveillance or data systems",
+      "It stayed siloed, with limited cross-sector collaboration",
+      "It depended mainly on private-sector funding for its programs"
+    ],
+    "answer": 2,
+    "explanation": "Public Health 2.0 built systems and accountability but was still siloed, with limited cross-sector collaboration."
+  },
+  {
+    "type": "mcq",
+    "q": "In Public Health 3.0, what role is envisioned for public health in communities?",
+    "options": [
+      "Primary provider of clinical treatment",
+      "Chief health strategist",
+      "Regulator of health insurance premiums",
+      "Sole funder of hospitals"
+    ],
+    "answer": 1,
+    "explanation": "The Public Health 3.0 vision is public health acting as the chief health strategist for communities."
+  },
+  {
+    "type": "mcq",
+    "q": "Which slogan did the lecture use to summarise the challenge addressed by Public Health 3.0?",
+    "options": [
+      "Better genes lead to better health",
+      "Prevention is cheaper than cure",
+      "Your zip code matters more than your genetic code",
+      "Data is the new oil"
+    ],
+    "answer": 3,
+    "explanation": "Public Health 3.0's challenge was framed as 'Your zip code matters more than your genetic code', meaning that factors like education, housing, and transportation shape health."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT one of the five critical dimensions of Public Health 3.0?",
+    "options": [
+      "Strategic partnerships",
+      "Timely and relevant data",
+      "Flexible and sustainable funding",
+      "Mandatory genomic screening"
+    ],
+    "answer": 3,
+    "explanation": "The five dimensions are strong leadership and workforce, strategic partnerships, flexible and sustainable funding, timely and relevant data, and foundational infrastructure."
+  },
+  {
+    "type": "mcq",
+    "q": "In the Priority Spokane example, data-driven interventions based on data from 7,000 students raised graduation rates from what to what in five years?",
+    "options": [
+      "50% to 70%",
+      "60% to 80%",
+      "70% to 90%",
+      "40% to 60%"
+    ],
+    "answer": 1,
+    "explanation": "Priority Spokane identified three tipping points for dropout and increased graduation rates from 60% to 80% in five years."
+  },
+  {
+    "type": "mcq",
+    "q": "Using hospital and insurance data to identify geographic areas with high healthcare needs for targeted preventive interventions is called:",
+    "options": [
+      "Whole-person view",
+      "Real-time monitoring",
+      "Hot spotting",
+      "Infoveillance"
+    ],
+    "answer": 2,
+    "explanation": "Hot spotting uses hospital and insurance data to locate high-need geographic areas for targeted prevention."
+  },
+  {
+    "type": "mcq",
+    "q": "Which PHI underlying principle refers to operating within a governmental context rather than a private, profit-seeking context?",
+    "options": [
+      "Population health",
+      "Prevention",
+      "Causal chain",
+      "Context"
+    ],
+    "answer": 3,
+    "explanation": "The fourth PHI principle, Context, refers to operating in a governmental rather than private, profit-seeking context."
+  },
+  {
+    "type": "mcq",
+    "q": "In the information system components table, SAS, R, and Python are examples of which component?",
+    "options": [
+      "Input",
+      "Storage",
+      "Processing",
+      "Output"
+    ],
+    "answer": 2,
+    "explanation": "Processing covers information retrieval, data integration, and analysis, with example tools such as SAS, R, Python, Citrix, and web browsers."
+  },
+  {
+    "type": "mcq",
+    "q": "A map of neighborhoods with a high incidence of disease is an example of which component of a public health information system?",
+    "options": [
+      "Output",
+      "Input",
+      "Storage",
+      "Processing"
+    ],
+    "answer": 0,
+    "explanation": "Output is the result of processing, such as a report, graph, chart, table, or map."
+  },
+  {
+    "type": "mcq",
+    "q": "Which level of interoperability ensures that a 'diabetes diagnosis' means the same thing across all systems?",
+    "options": [
+      "Technical",
+      "Syntactic",
+      "Organizational",
+      "Semantic"
+    ],
+    "answer": 3,
+    "explanation": "Semantic interoperability means data meaning is shared and understood; the lecture calls it the critical success factor."
+  },
+  {
+    "type": "mcq",
+    "q": "Which disease surveillance system is run by WHO to monitor influenza activity globally and inform vaccine development?",
+    "options": [
+      "NNDSS",
+      "GISRS",
+      "BRFSS",
+      "PulseNet"
+    ],
+    "answer": 1,
+    "explanation": "The Global Influenza Surveillance and Response System (GISRS) is WHO's network that tracks influenza viral evolution and informs vaccine strategy."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture, by roughly how much did the COVID-19 pandemic accelerate telehealth adoption?",
+    "options": [
+      "Over 300%",
+      "Over 3,000%",
+      "About 50%",
+      "About 30,000%"
+    ],
+    "answer": 1,
+    "explanation": "The lecture states that COVID-19 accelerated telehealth adoption by over 3,000%."
+  },
+  {
+    "type": "mcq",
+    "q": "What does TOCC stand for in the TOCC inquiry on Taiwan's NHI MediCloud during COVID-19?",
+    "options": [
+      "Testing, Outcome, Care, Cost",
+      "Treatment, Observation, Contact, Containment",
+      "Travel, Occupation, Contact, Cluster",
+      "Time, Origin, Case, Control"
+    ],
+    "answer": 2,
+    "explanation": "TOCC stands for Travel, Occupation, Contact, and Cluster history, which could be queried on MediCloud during COVID-19."
+  },
+  {
+    "type": "mcq",
+    "q": "How does the lecture contrast precision medicine with public health in terms of data?",
+    "options": [
+      "Precision medicine: few people providing many types of data; public health: many people providing limited types of data",
+      "Precision medicine: many people providing limited data; public health: few people providing many types of data",
+      "Both use only genomic data",
+      "Both use only population survey data"
+    ],
+    "answer": 0,
+    "explanation": "Precision medicine involves few people with many data types, while public health involves a large number of people with limited data types."
+  },
+  {
+    "type": "mcq",
+    "q": "In 1996 the CDC launched PulseNet. What did it use to detect large, diffuse food-poisoning outbreaks across county and state lines?",
+    "options": [
+      "Search engine query analysis",
+      "DNA fingerprinting of bacteria",
+      "Polygenic risk scores",
+      "GIS mosquito mapping"
+    ],
+    "answer": 1,
+    "explanation": "PulseNet used DNA fingerprinting of food-poisoning bacteria (e.g., Salmonella, Listeria, E. coli) to detect outbreaks that might otherwise have gone unnoticed."
+  },
+  {
+    "type": "mcq",
+    "q": "Which online data limitation is listed under 'Algorithmic Bias and Representation' in digital health surveillance?",
+    "options": [
+      "Online data overrepresents urban, educated, vocal groups",
+      "Online data usually lags behind traditional survey data in timeliness",
+      "Online data cannot be analysed with NLP or machine-learning tools",
+      "Online data is legally barred from use in public health surveillance"
+    ],
+    "answer": 0,
+    "explanation": "Online data often overrepresents urban, educated, and vocal populations, so it may miss the vulnerable communities most at risk."
+  },
+  {
+    "type": "fill",
+    "q": "Public Health 2.0 defined three core functions of public health: assessment, policy development, and ____.",
+    "answer": [
+      "assurance"
+    ],
+    "explanation": "The core functions introduced in Public Health 2.0 are assessment, policy development, and assurance."
+  },
+  {
+    "type": "fill",
+    "q": "The CDC system used to report and monitor notifiable diseases across all US states and territories is abbreviated ____.",
+    "answer": [
+      "NNDSS",
+      "National Notifiable Diseases Surveillance System"
+    ],
+    "explanation": "The CDC National Notifiable Diseases Surveillance System (NNDSS) standardizes notifiable disease reporting in the US."
+  },
+  {
+    "type": "fill",
+    "q": "The modern web-based standard for health information exchange, abbreviated FHIR, stands for Fast Healthcare ____ Resources.",
+    "answer": [
+      "Interoperability"
+    ],
+    "explanation": "FHIR stands for Fast Healthcare Interoperability Resources, a modern web-based exchange standard."
+  },
+  {
+    "type": "fill",
+    "q": "The Applied Public Health Informatics Competency Model was developed by the Public Health Informatics Institute, abbreviated ____.",
+    "answer": [
+      "PHII",
+      "Public Health Informatics Institute"
+    ],
+    "explanation": "The competency model was developed by the Public Health Informatics Institute (PHII)."
+  },
+  {
+    "type": "fill",
+    "q": "Ubiquitous health, the integration of healthcare into daily life through digital systems, is abbreviated ____.",
+    "answer": [
+      "uHealth",
+      "u-Health",
+      "ubiquitous health"
+    ],
+    "explanation": "uHealth (ubiquitous health) is listed with mHealth as a driver of change for PHI."
+  },
+  {
+    "type": "fill",
+    "q": "Smart technologies collecting physical activity, heart rate, and blood pressure generate patient-generated health data, abbreviated ____.",
+    "answer": [
+      "PGHD",
+      "patient-generated health data"
+    ],
+    "explanation": "PGHD, along with EHRs and genomic sequencing, is one of the advances enabling precision public health."
+  },
+  {
+    "type": "fill",
+    "q": "Familial hypercholesterolemia affects about 1 in ____ people.",
+    "answer": [
+      "250"
+    ],
+    "explanation": "FH is a genetic disorder affecting about 1 in 250 people and raising the risk of early coronary heart disease."
+  },
+  {
+    "type": "fill",
+    "q": "Diseases that result from many genomic variants combined with environmental influences are called ____ diseases.",
+    "answer": [
+      "polygenic",
+      "complex"
+    ],
+    "explanation": "Complex diseases are called polygenic ('poly' = many, 'genic' = genes); polygenic risk scores estimate risk from many variants."
+  },
+  {
+    "type": "fill",
+    "q": "The term infodemiology was coined by ____ in 2002.",
+    "answer": [
+      "Eysenbach",
+      "Gunther Eysenbach"
+    ],
+    "explanation": "Infodemiology, which combines informatics and epidemiology, was coined by Eysenbach in 2002."
+  },
+  {
+    "type": "fill",
+    "q": "In 2009, Ginsberg et al. demonstrated influenza surveillance using search query data in a project called Google ____.",
+    "answer": [
+      "Flu Trends",
+      "Flu Trend"
+    ],
+    "explanation": "Google Flu Trends (2009) showed that search queries could predict influenza outbreaks before traditional reporting."
+  },
+  {
+    "type": "short",
+    "q": "List and briefly explain the four underlying principles of public health informatics.",
+    "answer": "1) Population health: applying information science and technology to the health of populations rather than individuals. 2) Prevention: focusing on preventing disease or injury rather than treating existing conditions. 3) Causal chain: targeting points in the causal chain leading to disease, injury, or disability. 4) Context: operating within a governmental rather than a private, profit-seeking context.",
+    "keywords": [
+      "population health",
+      "prevention",
+      "causal chain",
+      "context",
+      "governmental"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Describe the four components of an information system, with one public health example for each.",
+    "answer": "Input: data collected from sources (e.g., population surveys, vaccination records, census or birth certificate data). Storage: a repository for data (e.g., relational database, CSV files, Google Drive). Processing: retrieval, integration, and analysis (e.g., SAS, R, Python). Output: the result of processing as a report, graph, table, or map (e.g., a map of high-incidence neighborhoods or a list of new measles cases).",
+    "keywords": [
+      "input",
+      "storage",
+      "processing",
+      "output"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "List the 5 steps to creating a public health information system.",
+    "answer": "1) Vision and system planning. 2) Health data standards and integration. 3) Data privacy and security. 4) Systems design and implementation. 5) Visualization, analysis, and reporting of health data.",
+    "keywords": [
+      "vision and system planning",
+      "data standards and integration",
+      "privacy and security",
+      "design and implementation",
+      "visualization analysis reporting"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Compare Public Health 1.0, 2.0, and 3.0 in terms of period and main focus.",
+    "answer": "PH 1.0 (late 19th to early 20th century): sanitation, infectious disease control, and vaccination, with a government-led approach; it could not address chronic disease or social determinants. PH 2.0 (mid-to-late 20th century, after the 1988 IOM report): professionalised agencies around core functions (assessment, policy development, assurance) and addressed chronic disease, but remained siloed. PH 3.0 (21st century): public health as chief health strategist, with cross-sector partnerships, social determinants and health equity, real-time data, and flexible funding. Overall the shift is from reactive disease control to proactive, data-driven, equity-focused systems.",
+    "keywords": [
+      "sanitation",
+      "core functions",
+      "IOM 1988",
+      "chief health strategist",
+      "cross-sector",
+      "health equity",
+      "social determinants"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Define infodemiology and give at least three examples of infodemiology/infoveillance applications.",
+    "answer": "Infodemiology is the science of the distribution and determinants of information in an electronic medium, specifically the Internet, or in a population, with the ultimate aim of informing public health and public policy. Examples: analysing search engine queries to predict outbreaks (e.g., Google Flu Trends); mining Twitter or microblogs for syndromic surveillance; monitoring anti-vaccination sites and vaccine sentiment; tracking health marketing campaign effectiveness; extracting user-generated outcomes (e.g., PatientsLikeMe) to monitor drug side effects.",
+    "keywords": [
+      "distribution and determinants of information",
+      "Internet",
+      "search queries",
+      "Twitter",
+      "vaccine sentiment",
+      "Google Flu Trends"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Name the four major implementation challenges facing public health informatics described in the lecture.",
+    "answer": "1) Fragmented data systems (legacy integration, lack of standard protocols, resistance to change). 2) Limited analytics expertise (workforce shortage, competition with the private sector). 3) Data quality and bias (underrepresentation of vulnerable populations, inconsistent collection, historical bias). 4) Funding and resource constraints (high upfront costs, ongoing maintenance).",
+    "keywords": [
+      "fragmented data systems",
+      "analytics expertise",
+      "data quality",
+      "bias",
+      "funding constraints"
+    ],
+    "explanation": ""
+  }
+]

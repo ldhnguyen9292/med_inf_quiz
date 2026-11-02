@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medical Informatics Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a href="#" class="brand" id="homeLink">🩺 Med Informatics Quiz</a>
+    <button class="icon-btn" id="themeBtn" title="Toggle light/dark">◐</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- HOME -->
+  <section id="home" class="view">
+    <h1>Medical Informatics Exam Practice</h1>
+    <p class="muted">Each round draws random questions from the bank. Same formats as the real exam: multiple choice, fill in the blank, short answer.</p>
+
+    <div class="card">
+      <h2>Exam</h2>
+      <div class="seg" id="examSeg">
+        <button data-exam="midterm" class="active">Midterm <small>(weeks 2–8)</small></button>
+        <button data-exam="final">Final <small>(weeks 10–15)</small></button>
+      </div>
+
+      <h2>Lectures</h2>
+      <div id="lectureList" class="checklist"></div>
+      <div class="row-links"><a href="#" id="selAll">Select all</a> · <a href="#" id="selNone">Select none</a></div>
+
+      <h2>Question types</h2>
+      <div class="checklist inline" id="typeList">
+        <label><input type="checkbox" value="mcq" checked> Multiple choice</label>
+        <label><input type="checkbox" value="fill" checked> Fill in the blank</label>
+        <label><input type="checkbox" value="short" checked> Short answer</label>
+      </div>
+
+      <h2>Number of questions</h2>
+      <div class="seg" id="countSeg">
+        <button data-n="10">10</button>
+        <button data-n="30" class="active">30</button>
+        <button data-n="50">50</button>
+        <button data-n="all">All</button>
+      </div>
+
+      <label class="toggle"><input type="checkbox" id="preferUnseen" checked> Prioritize unseen / previously wrong questions</label>
+
+      <div class="actions">
+        <button class="btn primary" id="startBtn">Start</button>
+        <button class="btn" id="wrongBtn">Review mistakes (<span id="wrongCount">0</span>)</button>
+      </div>
+      <p id="poolInfo" class="muted small"></p>
+    </div>
+
+    <div class="card" id="historyCard">
+      <h2>History</h2>
+      <div id="stats" class="stats"></div>
+      <ol id="history" class="history"></ol>
+      <button class="btn ghost small" id="resetBtn">Reset progress</button>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="view hidden">
+    <div class="quiz-head">
+      <span id="qCounter"></span>
+      <span id="qScore" class="muted"></span>
+    </div>
+    <div class="progress"><div id="progressBar"></div></div>
+    <div class="dots" id="dots"></div>
+
+    <article class="card qcard">
+      <div class="qmeta"><span class="tag" id="qType"></span><span class="tag ghost" id="qLecture"></span></div>
+      <p class="qtext" id="qText"></p>
+      <div id="qBody"></div>
+      <div id="feedback" class="feedback hidden"></div>
+    </article>
+
+    <div class="nav">
+      <button class="btn" id="prevBtn">← Previous</button>
+      <button class="btn primary" id="checkBtn">Check</button>
+      <button class="btn primary" id="nextBtn">Next →</button>
+    </div>
+    <div class="nav end"><button class="btn ghost small" id="finishBtn">Finish</button></div>
+  </section>
+
+  <!-- RESULT -->
+  <section id="result" class="view hidden">
+    <div class="card center">
+      <div class="big-score" id="bigScore"></div>
+      <p id="scoreLine" class="muted"></p>
+      <div class="actions center">
+        <button class="btn primary" id="newBtn">New round</button>
+        <button class="btn" id="retryWrongBtn">Retry mistakes</button>
+        <button class="btn ghost" id="backHomeBtn">Home</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>By lecture</h2>
+      <div id="byLecture"></div>
+    </div>
+    <div class="card">
+      <h2>Review</h2>
+      <div id="review"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap muted small foot">Questions are generated from the lecture slides — double-check against the slides if an answer looks off.</footer>
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

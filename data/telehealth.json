@@ -1,0 +1,425 @@
+[
+  {
+    "type": "mcq",
+    "q": "In Dr. Shabbir's lecture, AIoT is defined as the combination of which two technologies?",
+    "options": [
+      "Augmented Reality and Internet of Things",
+      "Artificial Intelligence and Internet of Things",
+      "Automated Imaging and Online Telemedicine",
+      "Artificial Intelligence and Information Technology"
+    ],
+    "answer": 1,
+    "explanation": "The lecture defines AIoT (Artificial Intelligence of Things) as Artificial Intelligence + Internet of Things."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following was NOT listed in the lecture as a benefit of AIoT in healthcare?",
+    "options": [
+      "Improved human-machine interactions",
+      "Enhanced data management and analytics",
+      "Improved clinical decision making",
+      "Elimination of the need for clinicians"
+    ],
+    "answer": 3,
+    "explanation": "The AIoT slide lists improved human-machine interactions, enhanced data management/analytics, and improved clinical decision making; it never claims clinicians are replaced."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the 'Long Road of Digital Technologies' slide, which description matches Web 1.0 of the 1990s?",
+    "options": [
+      "Brochure-ware",
+      "Collaborative",
+      "Social, Mobile, IoT",
+      "AI-driven"
+    ],
+    "answer": 0,
+    "explanation": "Web 1.0 (1990s) was 'brochure-ware', Web 2.0 (2000s) collaborative, and Web 2.0+ (2010s) social, mobile and IoT."
+  },
+  {
+    "type": "mcq",
+    "q": "Which decade is associated with 'Web 2.0+ Social, Mobile, IoT' in the lecture timeline?",
+    "options": [
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "answer": 2,
+    "explanation": "The lecture places Web 2.0+ (social, mobile, IoT) in the 2010s."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following was listed among the changing healthcare needs of the (post-)COVID-19 era?",
+    "options": [
+      "Increasing in-person hospital admissions",
+      "Reducing unnecessary visits and ensuring continuity of care",
+      "Centralizing all care in tertiary hospitals",
+      "Replacing chronic disease care with acute care"
+    ],
+    "answer": 1,
+    "explanation": "The 'Before/After COVID' slide lists reducing unnecessary visits, remote monitoring, long-term chronic care, teleconsultations at home, and continuity of care."
+  },
+  {
+    "type": "mcq",
+    "q": "The 2016 Capgemini/HealthPrize report cited in the lecture estimated annual pharmaceutical revenue losses due to medication nonadherence of approximately:",
+    "options": [
+      "$63.7 billion",
+      "$300 billion",
+      "$1.2 trillion",
+      "$637 billion"
+    ],
+    "answer": 3,
+    "explanation": "The slide quotes 'annual pharmaceutical revenue losses of $637 billion due to medication nonadherence' (Capgemini/HealthPrize 2016)."
+  },
+  {
+    "type": "mcq",
+    "q": "Which organization published 'Adherence to Long-Term Therapies: Evidence for Action' (2003), cited in the lecture?",
+    "options": [
+      "World Health Organization",
+      "Centers for Disease Control and Prevention",
+      "European Commission",
+      "National Institutes of Health"
+    ],
+    "answer": 0,
+    "explanation": "The lecture cites WHO 2003, 'Adherence to long-term therapies: evidence for action', which describes adherence as a complex behavior."
+  },
+  {
+    "type": "mcq",
+    "q": "Who defined persuasive technology as 'any interactive computing system designed to change people's attitudes and/or behaviors'?",
+    "options": [
+      "Hein De Vries",
+      "Rita Orji",
+      "BJ Fogg",
+      "Luis Fernandez-Luque"
+    ],
+    "answer": 2,
+    "explanation": "The definition is from Fogg BJ, Persuasive Technology: Using Computers to Change What We Think and Do (2003)."
+  },
+  {
+    "type": "mcq",
+    "q": "In the study predicting sleep quality from wearable physical-activity data (97 adolescents in Qatar), which model performed best?",
+    "options": [
+      "Logistic regression",
+      "Convolutional neural network (CNN)",
+      "Random forest",
+      "Support vector machine"
+    ],
+    "answer": 1,
+    "explanation": "The CNN had the highest sensitivity and specificity with AUC 0.9449, versus 0.6463 for logistic regression."
+  },
+  {
+    "type": "mcq",
+    "q": "In the Qatar sleep-quality prediction study, the CNN's AUC was 0.9449 compared with logistic regression's 0.6463. Approximately how much better was the CNN reported to be?",
+    "options": [
+      "16%",
+      "30%",
+      "46%",
+      "94%"
+    ],
+    "answer": 2,
+    "explanation": "The slide states the CNN AUC of 0.9449 was 46% better than traditional logistic regression (0.6463)."
+  },
+  {
+    "type": "mcq",
+    "q": "The lecture's example of learning indicators of treatment adherence from an online patient forum used sentiment analysis in which patient population?",
+    "options": [
+      "Breast cancer",
+      "Type 2 diabetes",
+      "Childhood obesity",
+      "COPD"
+    ],
+    "answer": 0,
+    "explanation": "Yin et al. (2017) learned adherence indicators from an online breast cancer forum using sentiment analysis."
+  },
+  {
+    "type": "mcq",
+    "q": "The '360° Quantified Self' data-driven lifestyle monitoring example in the lecture was implemented in which setting?",
+    "options": [
+      "A geriatric home-care program in Taiwan",
+      "A smoking cessation clinic in Spain",
+      "A weight loss camp for childhood obesity in Qatar",
+      "A cancer survivorship program in the EU"
+    ],
+    "answer": 2,
+    "explanation": "Fernandez-Luque et al. (2017) implemented 360° Quantified Self for childhood obesity at a weight loss camp in Qatar."
+  },
+  {
+    "type": "mcq",
+    "q": "SmokeFreeBrain was funded by which programme?",
+    "options": [
+      "NIH R01",
+      "Taiwan Ministry of Science and Technology",
+      "WHO Global Tobacco Initiative",
+      "European Union Horizon 2020"
+    ],
+    "answer": 3,
+    "explanation": "SmokeFreeBrain received funding from the EU Horizon 2020 research and innovation programme (grant No 681120)."
+  },
+  {
+    "type": "mcq",
+    "q": "Which behavioral science model underlies the health recommender system in TMU's 'Quit And Return' smoking-cessation app?",
+    "options": [
+      "Transtheoretical (Stages of Change) model",
+      "I-Change model",
+      "Health Belief Model",
+      "Technology Acceptance Model"
+    ],
+    "answer": 1,
+    "explanation": "The Quit And Return app uses a health recommender system based on the I-Change model (De Vries, University of Maastricht)."
+  },
+  {
+    "type": "mcq",
+    "q": "Which standardized tests were included in the Quit And Return app?",
+    "options": [
+      "Richmond and Fagerström tests",
+      "PHQ-9 and GAD-7",
+      "Mini-Mental State Exam and Barthel Index",
+      "Epworth and Pittsburgh scales"
+    ],
+    "answer": 0,
+    "explanation": "The app included standardized tests such as the Richmond (motivation) and Fagerström (nicotine dependence) tests."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture, how many different messages (and variations) did the Quit And Return app contain?",
+    "options": [
+      "60 messages with 133 variations",
+      "100 messages with 200 variations",
+      "330 messages with 133 variations",
+      "133 messages with 330 variations"
+    ],
+    "answer": 3,
+    "explanation": "The slide lists 133 different messages with 330 variations, plus about 60 questionnaire questions."
+  },
+  {
+    "type": "mcq",
+    "q": "In the Digiquit personalized messaging system, what did the AI recommender algorithms learn automatically about each user?",
+    "options": [
+      "Their genetic risk profile and list of existing comorbidities",
+      "Their preferred message type and the best time to send it",
+      "Their medication dosage and preferred pharmacy location",
+      "Their facial expressions and tone of voice during calls"
+    ],
+    "answer": 1,
+    "explanation": "Algorithms learned user preferences automatically: the favorite type of behavioral messages and the time to send the messages."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is an EXTENDED (not basic) meta-feature used for users in the Digiquit recommender system?",
+    "options": [
+      "Quitting date",
+      "Richmond test result",
+      "Living companions",
+      "Weekly average expenditure on cigarettes"
+    ],
+    "answer": 2,
+    "explanation": "Basic features were gender, age, quitting date, Richmond result, cigarette consumption and expenditure; extended features included comorbidities, living companions, physical activity and I-Change factors."
+  },
+  {
+    "type": "mcq",
+    "q": "Wysa, cited in the lecture as a smart chatbot for patient support, is best described as:",
+    "options": [
+      "An empathy-driven conversational AI agent for mental well-being",
+      "A rule-based chatbot that schedules and reminds patients of appointments",
+      "A symptom-checker chatbot that triages patients to emergency care",
+      "A pharmacy chatbot that dispenses and refills medications automatically"
+    ],
+    "answer": 0,
+    "explanation": "Inkster et al. (2018) evaluated Wysa, an empathy-driven conversational AI agent for digital mental well-being."
+  },
+  {
+    "type": "mcq",
+    "q": "Which statement correctly describes consumer wearables (e.g., Fitbit) for research according to the lecture?",
+    "options": [
+      "They are clinically validated medical devices",
+      "They work on their own and do not require a smartphone",
+      "They are best for real-time, long-term and heart-rate monitoring",
+      "They are easy to compare with studies using medical devices"
+    ],
+    "answer": 2,
+    "explanation": "Consumer wearables are best for real-time and long-term monitoring and heart rate, but require a smartphone, are not medical devices and are hard to compare with medical-device studies."
+  },
+  {
+    "type": "mcq",
+    "q": "Which is listed as a DISADVANTAGE of clinical wearables such as the Actigraph?",
+    "options": [
+      "Software changes during the study",
+      "Not designed for long periods or real-time sync",
+      "Greater privacy concerns",
+      "Not clinically validated"
+    ],
+    "answer": 1,
+    "explanation": "Clinical wearables are robust and validated with fewer privacy concerns, but are expensive, not designed for long periods or real-time sync, need more logistics, and may be disliked by users."
+  },
+  {
+    "type": "fill",
+    "q": "AIoT stands for Artificial Intelligence of ____.",
+    "answer": [
+      "Things",
+      "Thing"
+    ],
+    "explanation": "AIoT = Artificial Intelligence + Internet of Things."
+  },
+  {
+    "type": "fill",
+    "q": "Persuasive technology is any interactive computing system designed to change people's attitudes and/or ____.",
+    "answer": [
+      "behaviors",
+      "behaviours",
+      "behavior",
+      "behaviour"
+    ],
+    "explanation": "Fogg's definition: systems designed to change people's attitudes and/or behaviors."
+  },
+  {
+    "type": "fill",
+    "q": "The WHO 2003 report emphasized that adherence to long-term therapies is a ____ behavior.",
+    "answer": [
+      "complex",
+      "multifactorial"
+    ],
+    "explanation": "The lecture states 'Adherence is a complex behavior' (WHO 2003)."
+  },
+  {
+    "type": "fill",
+    "q": "The smoking-cessation recommender system in the Digiquit / Quit And Return solution was based on the ____ model from the University of Maastricht.",
+    "answer": [
+      "I-Change",
+      "I Change",
+      "IChange",
+      "Integrated Change"
+    ],
+    "explanation": "The design was based on the I-CHANGE model (De Vries, University of Maastricht)."
+  },
+  {
+    "type": "fill",
+    "q": "To improve user retention, the Digiquit dashboard incorporated ____ elements, such as goals and rewards.",
+    "answer": [
+      "gamification",
+      "game",
+      "gamified"
+    ],
+    "explanation": "The dashboard used gamification elements for user retention."
+  },
+  {
+    "type": "fill",
+    "q": "The Fagerström test included in the Quit And Return app assesses nicotine ____.",
+    "answer": [
+      "dependence",
+      "addiction"
+    ],
+    "explanation": "The app included standardized tests such as Richmond and Fagerström; the Fagerström test measures nicotine dependence."
+  },
+  {
+    "type": "fill",
+    "q": "Medical-grade actigraphy devices are suitable for short monitoring periods of about ____ and require trained personnel for data collection.",
+    "answer": [
+      "1-2 weeks",
+      "1 to 2 weeks",
+      "one to two weeks",
+      "2 weeks"
+    ],
+    "explanation": "Actigraphy is good for short periods (e.g., 1-2 weeks), needs trained personnel, and is more regulatory-friendly."
+  },
+  {
+    "type": "fill",
+    "q": "In TMU's iHelp contribution, AI and deep learning were applied to EHR data to predict high-risk individuals for pancreatic and ____ cancer.",
+    "answer": [
+      "liver",
+      "hepatic",
+      "hepatocellular"
+    ],
+    "explanation": "TMU's iHelp role focused on predicting high-risk individuals for pancreatic and liver cancer."
+  },
+  {
+    "type": "fill",
+    "q": "The lecture states that patients are the most under-used resource of information in ____ studies.",
+    "answer": [
+      "observational",
+      "observation"
+    ],
+    "explanation": "The 'Digital Health Data Enhancing the Observational Study' slide makes this point."
+  },
+  {
+    "type": "short",
+    "q": "List the four 'take home messages' from Dr. Shabbir's lecture on AIoT wearables for telemedicine and homecare.",
+    "answer": "1) Focus on the needs/problem, not on technology. 2) Consider technology as a tool, not as a solution. 3) Focus on prevention and early detection. 4) Use technology to empower and engage patients.",
+    "keywords": [
+      "needs/problem not technology",
+      "tool not solution",
+      "preventive",
+      "early detection",
+      "empower",
+      "engage patients"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Compare consumer wearables (e.g., Fitbit) and clinical wearables (e.g., Actigraph) for monitoring physical activity and sleep in clinical studies. Give at least two advantages and two disadvantages of each.",
+    "answer": "Consumer wearables: best for real-time and long-term monitoring and heart rate, cheaper and acceptable to users; but they require a smartphone, are not medical devices with accuracy concerns, may send data to servers outside the EU, and are hard to compare with medical-device studies. Clinical wearables: robust, clinically validated, comparable across studies, no software changes, fewer privacy concerns; but expensive, not designed for long periods or real-time sync, more logistic work (charging, syncing), and unattractive to users.",
+    "keywords": [
+      "real-time",
+      "long-term",
+      "heart rate",
+      "smartphone",
+      "not a medical device",
+      "accuracy",
+      "clinically validated",
+      "comparable",
+      "expensive",
+      "privacy",
+      "logistics",
+      "real-time sync"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Name the four pillars combined in the Digiquit mobile adherence solution and briefly explain how AI personalization works in it.",
+    "answer": "The four pillars are behavioral change (I-Change model), artificial intelligence personalization, validated clinical content, and digital engagement (e.g., gamification). AI personalization uses recommender-system technology that learns each user's preferred type of motivational message and the best time to send it, using user and message meta-features such as age, gender, quitting date, Richmond score and I-Change factors.",
+    "keywords": [
+      "behavioral change",
+      "I-Change",
+      "artificial intelligence personalization",
+      "validated clinical content",
+      "digital engagement",
+      "recommender system",
+      "message type",
+      "timing"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Describe TMU's three contributions to the iHelp H2020 project (2021-2024).",
+    "answer": "1) Applying data analytics, AI and deep learning to EHR data to predict individuals at high risk of pancreatic and liver cancer for early-stage management. 2) Conducting digital trials of mobile apps and wearable-device monitoring for personalized healthcare and improved quality of life among high-risk individuals. 3) Evaluating these digital solutions in pancreatic and liver cancer patients.",
+    "keywords": [
+      "EHR",
+      "AI/deep learning",
+      "predict high risk",
+      "pancreatic cancer",
+      "liver cancer",
+      "digital trials",
+      "wearables",
+      "quality of life",
+      "evaluation"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "The lecture raised key open questions about expanding the point of care to the home via technology and about real-world data algorithms. State at least three of these questions.",
+    "answer": "Point of care at home: Will there be a new doctor-patient relationship? How should the clinical workflow be? Are EHRs ready? Real-world data algorithms: Can we trust them, and are they biased? Who designs and evaluates them? Design for adherence: Should clinicians wait for technology maturity or shape its design, and how can they make decisions about fast-evolving technologies?",
+    "keywords": [
+      "doctor-patient relationship",
+      "clinical workflow",
+      "EHR ready",
+      "trust",
+      "data bias",
+      "who designs and evaluates",
+      "clinicians shape design"
+    ],
+    "explanation": ""
+  }
+]

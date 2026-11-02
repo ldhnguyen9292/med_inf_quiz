@@ -1,0 +1,417 @@
+[
+  {
+    "type": "mcq",
+    "q": "According to the lecture, cognitive science is best defined as the study of:",
+    "options": [
+      "Computer hardware architectures that mimic the structure and firing of biological neurons",
+      "The mind and brain, focusing on how knowledge is represented and manipulated",
+      "Social behavior of patients and staff in hospital settings and how it shapes care",
+      "Statistical methods for analyzing clinical data and drawing inferences about populations"
+    ],
+    "answer": 1,
+    "explanation": "The lecture defines cognitive science as the study of the human mind and brain, focusing on how knowledge is represented and manipulated and how this is realized in the brain."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is the lecture's example for the 'Behavior' aspect of what cognitive science seeks to understand?",
+    "options": [
+      "Dopamine makes you feel happy",
+      "Artificial neural networks",
+      "Pavlov's dog",
+      "The Tower of Hanoi"
+    ],
+    "answer": 2,
+    "explanation": "Behavior explains why and how humans or animals act during events; Pavlov's dog and irrational behaviors were the examples."
+  },
+  {
+    "type": "mcq",
+    "q": "Which discipline was NOT listed in the lecture as part of the multidisciplinary field of cognitive science?",
+    "options": [
+      "Linguistics",
+      "Anthropology",
+      "Economics",
+      "Education"
+    ],
+    "answer": 2,
+    "explanation": "The listed fields were neuroscience, psychology, philosophy, anthropology, linguistics, education, and computer science (AI)."
+  },
+  {
+    "type": "mcq",
+    "q": "Which historical idea about neural connections and circuit formation in the brain inspired artificial neural networks?",
+    "options": [
+      "Behaviorism",
+      "Connectionism",
+      "Hypothetico-deductive reasoning",
+      "Distributed cognition"
+    ],
+    "answer": 1,
+    "explanation": "Connectionism describes neural connection and circuit formation enabling higher thought, and it inspired artificial neural networks."
+  },
+  {
+    "type": "mcq",
+    "q": "In studies of the Tower of Hanoi, problem solving was observed to have three elements. Which of the following is NOT one of them?",
+    "options": [
+      "An initial state",
+      "A feedback signal",
+      "A goal state",
+      "A set of operations"
+    ],
+    "answer": 1,
+    "explanation": "Problem solving consists of an initial state, a goal state, and a set of operations."
+  },
+  {
+    "type": "mcq",
+    "q": "A usability team asks first-time users of a new EHR to verbalize everything they are thinking while completing tasks. This method is called:",
+    "options": [
+      "Cognitive walkthrough",
+      "Think-aloud protocol",
+      "Heuristic evaluation",
+      "Eye tracking"
+    ],
+    "answer": 1,
+    "explanation": "In the think-aloud protocol, first-time users literally talk about what is on their mind while using the system, revealing product problems."
+  },
+  {
+    "type": "mcq",
+    "q": "Which is the correct order of the four stages of knowledge organization presented in the lecture?",
+    "options": [
+      "Schemata, proposition, mental model, mental image",
+      "Proposition, schemata, mental image, mental model",
+      "Mental image, proposition, schemata, mental model",
+      "Proposition, mental model, schemata, mental image"
+    ],
+    "answer": 1,
+    "explanation": "The lecture lists proposition, schemata, mental image, and mental model as the four stages."
+  },
+  {
+    "type": "mcq",
+    "q": "A clinician recognizes that 'chest pain' and 'sweating' are symptoms belonging to heart attack by referring to a higher-level, generic knowledge structure that classifies concepts. This structure is a:",
+    "options": [
+      "Proposition",
+      "Mental image",
+      "Procedural rule",
+      "Schema"
+    ],
+    "answer": 3,
+    "explanation": "Schemata are higher-level knowledge structures forming classifications/hierarchies of concepts; clinicians use them to link symptoms to diseases."
+  },
+  {
+    "type": "mcq",
+    "q": "Seeing someone come upstairs with a wet umbrella and immediately picturing rain is an example of a:",
+    "options": [
+      "Mental image",
+      "Mental model",
+      "Proposition",
+      "Schema"
+    ],
+    "answer": 0,
+    "explanation": "A mental image is an internal representation capturing information from the surroundings, combining propositions and schemata into an image."
+  },
+  {
+    "type": "mcq",
+    "q": "Anticipating how you will get cash from an ATM before acting illustrates which knowledge structure, which provides 'prediction' and 'explanation' capabilities?",
+    "options": [
+      "Schema",
+      "Proposition",
+      "Mental model",
+      "Mental image"
+    ],
+    "answer": 2,
+    "explanation": "A mental model lets you plan in your head before acting and provides prediction and explanation of how a physical system works."
+  },
+  {
+    "type": "mcq",
+    "q": "Knowing the actual sequence of steps (step 1, step 2, step 3) to record information in an EHR system is an example of:",
+    "options": [
+      "Procedural knowledge",
+      "Conceptual knowledge",
+      "Declarative schemata",
+      "Epistemological knowledge"
+    ],
+    "answer": 0,
+    "explanation": "Procedural knowledge is the procedures to perform activities for a task, e.g., steps to record data in an EHR; in ML it can be formulated as rules."
+  },
+  {
+    "type": "mcq",
+    "q": "In the chess-board reconstruction experiment, what happened when the board positions were purely random?",
+    "options": [
+      "Experts recalled about 90% and novices 20%",
+      "Novices clearly outperformed the experts",
+      "Novices and experts performed about the same",
+      "Experts reconstructed the whole board"
+    ],
+    "answer": 2,
+    "explanation": "With meaningful positions experts recalled ~90% vs novices ~20%, but with purely random boards their performance was about the same."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture, how do experts compare with novices in problem solving?",
+    "options": [
+      "Experts solve problems in about 1/4 of the time and work forward",
+      "Experts take twice as long but are more accurate",
+      "Experts solve problems in about 1/2 of the time and work backward",
+      "Experts and novices take the same time but differ in direction"
+    ],
+    "answer": 0,
+    "explanation": "Experts solve problems in about one-quarter of the time of novices; experts work forward while novices work backward."
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following tasks was NOT listed as a complex task in which the intermediate effect is usually seen?",
+    "options": [
+      "Doctor-patient communication",
+      "Recall and explanation of lab data",
+      "Generation of diagnostic hypotheses",
+      "Filling in a patient registration form"
+    ],
+    "answer": 3,
+    "explanation": "The intermediate effect is seen in complex tasks such as doctor-patient communication, recall/explanation of lab data, and diagnostic hypothesis generation."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture, what is the main cause of the intermediate effect?",
+    "options": [
+      "They rely on simple textbook reasoning patterns and largely ignore the patient data",
+      "They have a smaller long-term memory capacity than both novices and experts",
+      "They use purely data-driven reasoning and do not generate diagnostic hypotheses",
+      "They draw too many unnecessary inferences and can't separate relevant from irrelevant"
+    ],
+    "answer": 3,
+    "explanation": "Intermediates show somewhat complex reasoning with too many unnecessary links, having difficulty separating relevant from irrelevant information."
+  },
+  {
+    "type": "mcq",
+    "q": "In the hypothetico-deductive reasoning process, what do physicians do after generating a set of hypotheses from early data?",
+    "options": [
+      "Order every available test to avoid missing anything",
+      "Discard the hypotheses and start with a clean slate",
+      "Refer the case to a specialist for a second opinion",
+      "Select and focus on the data relevant to their hypotheses"
+    ],
+    "answer": 3,
+    "explanation": "Physicians generate hypotheses from early data, then select and focus on only relevant data to test them for diagnosis and decision making."
+  },
+  {
+    "type": "mcq",
+    "q": "According to Norman's design principles discussed in the lecture, a door that leaves you unsure whether to push or pull is:",
+    "options": [
+      "A badly-designed door",
+      "A well-designed door because it offers flexibility",
+      "An example of distributed cognition",
+      "An example of a latent failure only"
+    ],
+    "answer": 0,
+    "explanation": "Norman's door principle: things should be so straightforward there are no other possibilities; if you can't tell push vs pull, the door is badly designed."
+  },
+  {
+    "type": "mcq",
+    "q": "In the pop-up (mega-dropdown) website menu example, what design principle makes it a good design?",
+    "options": [
+      "The submenu closes immediately when the cursor leaves the parent item",
+      "The submenu opens only after a deliberate double click",
+      "The submenu is always displayed, so no hovering is needed",
+      "The submenu stays open while the cursor moves through a triangle toward it"
+    ],
+    "answer": 3,
+    "explanation": "Good design keeps the submenu open while the cursor moves within the (blue) triangle toward it, anticipating user intent."
+  },
+  {
+    "type": "mcq",
+    "q": "A cognitive walkthrough primarily focuses on which type of user?",
+    "options": [
+      "Expert power users",
+      "System administrators",
+      "First-time users",
+      "Clinical managers"
+    ],
+    "answer": 2,
+    "explanation": "Cognitive walkthrough is a structured approach to evaluating usability that focuses on first-time users."
+  },
+  {
+    "type": "mcq",
+    "q": "A physician prescribes the correct drug, but the handwriting is so sloppy that the pharmacy dispenses a different drug. This error is classified as a:",
+    "options": [
+      "Mistake",
+      "Latent failure",
+      "Slip",
+      "Hindsight bias"
+    ],
+    "answer": 2,
+    "explanation": "A slip is when the appropriate action was chosen but executed badly; a mistake is choosing an inappropriate action."
+  },
+  {
+    "type": "mcq",
+    "q": "Koppel et al. (2005, JAMA) described 22 types of medication errors associated with bad system design. Which pair correctly names the two categories?",
+    "options": [
+      "Information errors and human-machine interface flaws",
+      "Slips and lapses (execution) and mistakes (planning)",
+      "Active failures by users and latent failures in the organization",
+      "Hardware malfunctions and software coding errors"
+    ],
+    "answer": 0,
+    "explanation": "Koppel et al. grouped the errors into information (integration) errors and HCI flaws reflecting machine rules that do not correspond to usual behavior."
+  },
+  {
+    "type": "fill",
+    "q": "Miller's famous paper proposed that the average capacity of short-term memory is the 'magical number' ____.",
+    "answer": [
+      "7",
+      "seven",
+      "seven plus or minus two",
+      "7±2"
+    ],
+    "explanation": "Miller proposed short-term memory capacity is limited, averaging about 7 items (the lecture says five to ten chunks)."
+  },
+  {
+    "type": "fill",
+    "q": "The psychologist ____ proposed theories about how machines could 'replicate' human cognition, linking psychology to artificial intelligence.",
+    "answer": [
+      "Herbert A. Simon",
+      "Herbert Simon",
+      "Simon",
+      "Herbert A Simon"
+    ],
+    "explanation": "The lecture credits Herbert A. Simon with theories on machines replicating human cognition (AI)."
+  },
+  {
+    "type": "fill",
+    "q": "Short-term/working memory is limited to about five to ten ____ of information.",
+    "answer": [
+      "chunks",
+      "chunk"
+    ],
+    "explanation": "Working memory holds about five to ten chunks, consistent with Miller's magic number seven."
+  },
+  {
+    "type": "fill",
+    "q": "A ____ is a form of natural language representation that captures the essence of an idea; e.g., 'Hey', 'Hi', and 'Good morning' all convey 'greeting'.",
+    "answer": [
+      "proposition",
+      "propositions"
+    ],
+    "explanation": "Propositions capture the essence of an idea; experts extract relevant keywords better than non-experts."
+  },
+  {
+    "type": "fill",
+    "q": "One's overall understanding of domain-specific concepts, such as why certain symptoms occur in a disease or how a drug works, is called ____ knowledge.",
+    "answer": [
+      "conceptual"
+    ],
+    "explanation": "Conceptual knowledge is overall understanding of domain concepts, contrasted with procedural knowledge."
+  },
+  {
+    "type": "fill",
+    "q": "The phenomenon in which performance decreases somewhat before increasing again as one moves from novice toward expert is called the ____.",
+    "answer": [
+      "intermediate effect",
+      "intermediate-effect"
+    ],
+    "explanation": "The intermediate effect: intermediates may perform worse than novices because they struggle to separate relevant from irrelevant information."
+  },
+  {
+    "type": "fill",
+    "q": "Data-driven reasoning proceeds in the forward direction, whereas hypothesis-driven reasoning proceeds in the ____ direction.",
+    "answer": [
+      "backward",
+      "backwards"
+    ],
+    "explanation": "The lecture labels data-driven reasoning as forward and hypothesis-driven reasoning as backward."
+  },
+  {
+    "type": "fill",
+    "q": "Hindsight bias, a cause of human error, is also called the '____' phenomenon.",
+    "answer": [
+      "knew-it-all-along",
+      "knew it all along",
+      "I-knew-it-all-along"
+    ],
+    "explanation": "Hindsight bias is known as the knew-it-all-along phenomenon."
+  },
+  {
+    "type": "fill",
+    "q": "Cognition carried out by a group of people, emphasizing its social and collaborative nature and often achieved through technology such as the EHR, is called ____.",
+    "answer": [
+      "distributed cognition"
+    ],
+    "explanation": "Distributed cognition is cognition done by a group; the EHR achieves it as everyone records information in a shared system."
+  },
+  {
+    "type": "short",
+    "q": "Describe the three things cognitive science seeks to understand (brain, behavior, computation), giving the lecture's example for each.",
+    "answer": "Brain: understanding neurological processes, e.g., dopamine makes you feel happy. Behavior: explaining why and how humans or animals act during certain events, e.g., Pavlov's dog or irrational behaviors. Computation: simulating brain processes, e.g., artificial intelligence/artificial neural networks.",
+    "keywords": [
+      "brain",
+      "neurological processes",
+      "dopamine",
+      "behavior",
+      "Pavlov's dog",
+      "computation",
+      "artificial intelligence",
+      "neural network"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Distinguish between active failure and latent failure as causes of medical error, with an example of each.",
+    "answer": "Active failure is an error made directly by the front-line person, e.g., a nurse or physician giving the wrong drug dose. Latent failure is an enduring systemic problem that may not be evident for some time, e.g., poor system design, communication breakdown, or inadequate training.",
+    "keywords": [
+      "active failure",
+      "front-line",
+      "wrong dose",
+      "latent failure",
+      "systemic",
+      "poor system design",
+      "communication breakdown",
+      "inadequate training"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "List the five processes of a cognitive walkthrough, and state two of the questions the evaluator tries to answer while observing users.",
+    "answer": "Processes: (1) determine the function of the system; (2) list possible actions; (3) identify and carry out appropriate actions; (4) perceive and interpret what happened; (5) evaluate progress toward the goal. Questions include: Will users try to achieve the right outcome? Will they notice the correct action is available? Will they associate the correct action with the expected outcome? If the correct action is performed, will they see progress toward their outcome?",
+    "keywords": [
+      "determine function",
+      "list possible actions",
+      "carry out actions",
+      "perceive and interpret",
+      "evaluate progress",
+      "notice correct action",
+      "associate action with outcome",
+      "first-time users"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Summarize Lin et al. (1998) on reducing medical errors through HCI design, including the problem identified and the quantitative results after redesign.",
+    "answer": "Lin et al. found that medical device complexity increases error rates; a simple procedure could require up to 25 steps because of a complicated interface. By redesigning the interface to reduce the necessary steps, the new interface was on average 15% faster, workload was cut in half, and average errors fell from 20 to 10.",
+    "keywords": [
+      "device complexity",
+      "25 steps",
+      "complicated interface",
+      "15% faster",
+      "workload halved",
+      "errors 20 to 10"
+    ],
+    "explanation": ""
+  },
+  {
+    "type": "short",
+    "q": "Give two examples of HCI flaws or HCI-based solutions related to patient safety from the lecture, and explain how information visualization can reduce cognitive load in clinical care.",
+    "answer": "HCI flaw: when the system freezes, doctors click 'prescribe' multiple times, causing duplicate orders or excessive doses; long patient names can lead to selecting the wrong patient. Solution: Sopan et al. (2014) built a system that warns clinicians when selecting patients with similar names; TMU faculty (Li and Yang) built alerts for look-alike/sound-alike medications. Visualization converts messy data into information quickly and correctly, e.g., the Echo system summarizes ICU patient status at a glance, reducing cognitive load.",
+    "keywords": [
+      "multiple clicks",
+      "prescribe",
+      "wrong patient",
+      "similar names warning",
+      "look-alike sound-alike",
+      "visualization",
+      "Echo",
+      "ICU",
+      "cognitive load"
+    ],
+    "explanation": ""
+  }
+]
