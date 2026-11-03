@@ -6,49 +6,49 @@ window.QUESTION_BANK = {
    "week": 2,
    "title": "Electronic Health Record Systems",
    "exam": "midterm",
-   "count": 40
+   "count": 54
   },
   {
    "slug": "cognitive",
    "week": 3,
    "title": "Cognitive Science & Biomedical Informatics",
    "exam": "midterm",
-   "count": 35
+   "count": 50
   },
   {
    "slug": "imaging",
    "week": 4,
    "title": "Biomedical Imaging Informatics",
    "exam": "midterm",
-   "count": 35
+   "count": 44
   },
   {
    "slug": "monitoring",
    "week": 5,
    "title": "Patient Monitoring System (iGuardian)",
    "exam": "midterm",
-   "count": 30
+   "count": 43
   },
   {
    "slug": "public_health",
    "week": 6,
    "title": "Public Health Informatics",
    "exam": "midterm",
-   "count": 40
+   "count": 57
   },
   {
    "slug": "cdss",
    "week": 7,
    "title": "Clinical Decision-Support Systems",
    "exam": "midterm",
-   "count": 50
+   "count": 85
   },
   {
    "slug": "telehealth",
    "week": 8,
    "title": "Telehealth & Wearables",
    "exam": "midterm",
-   "count": 35
+   "count": 47
   }
  ],
  "questions": [
@@ -105,6 +105,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "The lecture lists three problems of paper records: limited access, huge storage space, and lack of multimedia information such as radiology images (MRI).",
+   "star": true,
    "id": "ehr-004",
    "lecture": "ehr"
   },
@@ -119,6 +120,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The EHR is defined as a digital record shared across departments, with a scope spanning different healthcare organizations.",
+   "star": true,
    "id": "ehr-005",
    "lecture": "ehr"
   },
@@ -133,6 +135,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "The EHR system includes the active tools used to manage information (e.g., visualization, decision support); the two terms are often used interchangeably.",
+   "star": true,
    "id": "ehr-006",
    "lecture": "ehr"
   },
@@ -147,6 +150,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "The lecture shows four EHR data types (images/videos, bio-signals, free text, coded data); ICD codes like 250 and 401.9 are coded data.",
+   "star": true,
    "id": "ehr-007",
    "lecture": "ehr"
   },
@@ -161,6 +165,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "Disadvantages listed are initial investment, time to learn, and system failures/security; the other options are advantages.",
+   "star": true,
    "id": "ehr-008",
    "lecture": "ehr"
   },
@@ -175,6 +180,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The case study reports annual savings of about 8M NTD; 2.2M NTD was the reduced paper/printing cost.",
+   "star": true,
    "id": "ehr-009",
    "lecture": "ehr"
   },
@@ -503,8 +509,8 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "List the five purposes of a (paper-based) medical record described in the lecture.",
-   "answer": "1) Recall observations - record history and treatment plans; 2) Inform others - share information with other professionals; 3) Gain knowledge - research, disease patterns, adverse drug reactions; 4) Monitor performance - track drug therapy, lab follow-up, disease progression; 5) Justify interventions - evidence supporting medical decisions.",
+   "q": "Name the five purposes of a paper-based medical record.",
+   "answer": "1. Recall observations\n2. Inform others\n3. Gain knowledge\n4. Monitor performance\n5. Justify interventions",
    "keywords": [
     "recall observations",
     "inform others",
@@ -512,93 +518,280 @@ window.QUESTION_BANK = {
     "monitor performance",
     "justify interventions"
    ],
-   "explanation": "",
+   "explanation": "Slides 'Purpose of Paper-based Medical Record' at the start of the lecture.",
    "id": "ehr-035",
    "lecture": "ehr"
   },
   {
    "type": "short",
-   "q": "Compare EHR with paper-based records: give at least three advantages and three disadvantages of EHR from the lecture.",
-   "answer": "Advantages: comprehensiveness of information (phenotype, behavior, genotype); longer duration of use and retention of data; greater degree of data structure (NLP for free text); serves multiple users/uses at the same time; includes multimedia and is not limited to one place. Disadvantages: initial investment (hardware, software, training, support); takes time to learn; system failures and security risks.",
+   "q": "Name three advantages of an EHR compared with paper-based records.",
+   "answer": "1. Comprehensiveness of information (phenotype, behavior, genotype)\n2. Longer duration of use and retention of data\n3. Greater degree of data structure\n4. Serves multiple uses at the same time",
    "keywords": [
     "comprehensiveness",
     "retention",
     "structure",
-    "multiple uses",
-    "initial investment",
-    "time to learn",
-    "system failure",
-    "security"
+    "multiple uses"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Recap: EHR VS Paper-based' (advantages); any three are enough.",
+   "star": true,
    "id": "ehr-036",
    "lecture": "ehr"
   },
   {
    "type": "short",
    "q": "Name the five functional components of an EHR system.",
-   "answer": "1) Patient data capture and review; 2) Computerized provider order entry (CPOE); 3) Clinical decision support system (CDSS); 4) Access to knowledge resources; 5) Integrated communication and reporting support (e.g., patient handoff reports).",
+   "answer": "1. Patient data capture and review\n2. Computerized provider order entry (CPOE)\n3. Clinical decision support system (CDSS)\n4. Access to knowledge resources\n5. Integrated communication and reporting support",
    "keywords": [
-    "data capture and review",
+    "data capture",
     "CPOE",
     "CDSS",
     "knowledge resources",
     "communication and reporting"
    ],
-   "explanation": "",
+   "explanation": "Section II 'Functional Components of an Electronic Health Record System'.",
    "id": "ehr-037",
    "lecture": "ehr"
   },
   {
    "type": "short",
-   "q": "Match each type of EHR data to the code standard used for it: disease, medication, laboratory, clinical terms (diagnoses/findings), and imaging. Why are such standards needed?",
-   "answer": "Disease: ICD-10-CM; medication: RxNorm or ATC; laboratory: LOINC; diagnoses, symptoms and findings: SNOMED CT; imaging: DICOM. Standards provide a common language so data from multiple sources can be integrated, exchanged (e.g., via HL7 CDA/FHIR) and aggregated across hospitals for care, CDSS and research.",
+   "q": "Which code standard does an EHR use for each of these data types: diseases, medications, laboratory tests, and images?",
+   "answer": "Diseases: ICD-10-CM\nMedications: RxNorm or ATC\nLaboratory tests: LOINC\nImages: DICOM",
    "keywords": [
     "ICD-10-CM",
-    "RxNorm",
     "ATC",
     "LOINC",
-    "SNOMED CT",
-    "DICOM",
-    "interoperability"
+    "DICOM"
    ],
-   "explanation": "",
+   "explanation": "Slides 'Adopt code standards' and the multiple-source-data block diagram.",
+   "star": true,
    "id": "ehr-038",
    "lecture": "ehr"
   },
   {
    "type": "short",
-   "q": "Describe the two general ways data are captured into an EHR, and the three mechanisms by which physicians' notes can be entered.",
-   "answer": "Data capture: (1) electronic interfaces from already-automated systems such as laboratory systems or PharmaCloud; (2) direct manual data entry when no electronic source exists or it cannot be accessed. Physician notes: (1) transcription (e.g., dictation or OCR of forms); (2) clinic staff transfer or coding of data from a paper encounter form; (3) direct data entry by physicians, facilitated by templates or macros.",
+   "q": "Name the two general ways data are captured into an EHR.",
+   "answer": "1. Electronic interfaces from systems that are already automated (e.g., laboratory systems, PharmaCloud)\n2. Direct manual data entry when no electronic source exists or it cannot be accessed",
    "keywords": [
     "electronic interfaces",
-    "manual data entry",
-    "transcription",
-    "paper encounter form",
-    "direct entry",
-    "templates"
+    "manual data entry"
    ],
-   "explanation": "",
+   "explanation": "Section III 'Fundamental Issues', slide 'Data Capture'.",
    "id": "ehr-039",
    "lecture": "ehr"
   },
   {
    "type": "short",
-   "q": "List the four uses of EHR query and surveillance systems and the five challenges ahead for EHRs identified in the lecture.",
-   "answer": "Query/surveillance uses: clinical care (preventive care, recalled drugs), clinical trials (finding eligible patients), quality reporting (internal QI and public reporting, e.g., antibiotic use), and retrospective studies (real-world data such as NHI database, TMUCDR, MIMIC). Challenges: users' information needs/leadership, usability, standards, privacy and security, and costs and benefits.",
+   "q": "Name the four uses of EHR query and surveillance systems.",
+   "answer": "1. Clinical care\n2. Clinical trials\n3. Quality reporting\n4. Retrospective studies",
    "keywords": [
     "clinical care",
     "clinical trials",
     "quality reporting",
-    "retrospective studies",
+    "retrospective studies"
+   ],
+   "explanation": "Section IV 'Query and Surveillance Systems'.",
+   "id": "ehr-040",
+   "lecture": "ehr"
+  },
+  {
+   "type": "short",
+   "q": "Name three disadvantages of an EHR compared with paper-based records.",
+   "answer": "1. Initial investment (hardware, software, training, support)\n2. Takes time to learn\n3. System failures\n4. Security risks",
+   "keywords": [
+    "initial investment",
+    "time to learn",
+    "system failures",
+    "security"
+   ],
+   "explanation": "Slide 'Recap: EHR VS Paper-based' (disadvantages).",
+   "star": true,
+   "id": "ehr-041",
+   "lecture": "ehr"
+  },
+  {
+   "type": "short",
+   "q": "Name three of the five challenges ahead for EHRs identified in the lecture.",
+   "answer": "1. Users' information needs / leadership\n2. Usability\n3. Standards\n4. Privacy and security\n5. Costs and benefits",
+   "keywords": [
     "leadership",
     "usability",
     "standards",
     "privacy and security",
     "costs and benefits"
    ],
-   "explanation": "",
-   "id": "ehr-040",
+   "explanation": "Section V 'Challenges Ahead'; any three are enough.",
+   "id": "ehr-042",
+   "lecture": "ehr"
+  },
+  {
+   "type": "short",
+   "q": "Name three types of data validation checks used when entering data into an EHR.",
+   "answer": "1. Range checks (e.g., serum potassium 3.5-5)\n2. Pattern checks (e.g., telephone number)\n3. Consistency checks (e.g., prostate cancer in a female)\n4. Spelling checks",
+   "keywords": [
+    "range checks",
+    "pattern checks",
+    "consistency checks",
+    "spelling checks"
+   ],
+   "explanation": "Slide 'Data Validation' in the Data Capture section.",
+   "id": "ehr-043",
+   "lecture": "ehr"
+  },
+  {
+   "type": "short",
+   "q": "Name three problems of paper-based medical records that the EHR addresses.",
+   "answer": "Limited access: only in one place, used by one person at a time\nRequire huge storage space (medical records room)\nLack multimedia information such as MRI/radiology images",
+   "keywords": [
+    "limited access",
+    "space",
+    "multimedia"
+   ],
+   "explanation": "Slides 'Problem of Paper record' list limited access, huge space and lack of multimedia.",
+   "star": true,
+   "id": "ehr-044",
+   "lecture": "ehr"
+  },
+  {
+   "type": "mcq",
+   "q": "Which of the following is listed in the lecture as an ADVANTAGE of an EHR over paper-based records?",
+   "options": [
+    "Lower initial investment in hardware and training",
+    "Serving multiple uses at the same time",
+    "No time needed to learn the new system",
+    "Freedom from system failures and security risks"
+   ],
+   "answer": 1,
+   "explanation": "The recap lists 'serve multiple uses at the same time' as an advantage; cost, learning time and failures/security are disadvantages.",
+   "star": true,
+   "id": "ehr-045",
+   "lecture": "ehr"
+  },
+  {
+   "type": "short",
+   "q": "Define an electronic health record (EHR) as presented in the lecture.",
+   "answer": "A digital medical record that can be shared across departments\nUsed across different healthcare organizations\nHolds comprehensive health information: history, allergies, immunizations, labs, radiology images",
+   "keywords": [
+    "digital",
+    "shared",
+    "healthcare organizations",
+    "comprehensive"
+   ],
+   "explanation": "Slide 'What is an Electronic Health Record (EHR)?' gives definition, scope, function and focus.",
+   "star": true,
+   "id": "ehr-046",
+   "lecture": "ehr"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the lecture's EHR definition slide, what is the 'focus' of an EHR?",
+   "options": [
+    "Billing and insurance claims for a single clinic",
+    "Patient-managed storage of personal fitness data",
+    "Comprehensive health management by different healthcare professionals",
+    "Archiving radiology images for one department"
+   ],
+   "answer": 2,
+   "explanation": "The EHR's focus is comprehensive health management from different healthcare professionals.",
+   "star": true,
+   "id": "ehr-047",
+   "lecture": "ehr"
+  },
+  {
+   "type": "fill",
+   "q": "Compared with an EHR, an 'EHR system' also includes the active ____ used to manage the information, such as visualization and decision support.",
+   "answer": [
+    "tools",
+    "active tools"
+   ],
+   "explanation": "The term EHR system includes the active tools (visualization, decision support) used to manage the information.",
+   "star": true,
+   "id": "ehr-048",
+   "lecture": "ehr"
+  },
+  {
+   "type": "short",
+   "q": "Name the four types of data shown in the lecture's example of an electronic health record.",
+   "answer": "Images/videos\nBio-signals\nFree text\nCoded data (e.g., 250: Diabetes)",
+   "keywords": [
+    "images",
+    "bio-signals",
+    "free text",
+    "coded"
+   ],
+   "explanation": "The 'Example of an electronic health record' slide labels images/videos, bio-signals, free text and coded data.",
+   "star": true,
+   "id": "ehr-049",
+   "lecture": "ehr"
+  },
+  {
+   "type": "mcq",
+   "q": "Which EHR data type most needs natural language processing (NLP) before it can be used as structured data?",
+   "options": [
+    "Coded diagnoses such as ICD codes",
+    "Laboratory values coded in LOINC",
+    "Bio-signals such as ECG waveforms",
+    "Free-text clinical notes"
+   ],
+   "answer": 3,
+   "explanation": "The recap lists 'degree of structure of data (NLP for free text)', since free text is unstructured.",
+   "star": true,
+   "id": "ehr-050",
+   "lecture": "ehr"
+  },
+  {
+   "type": "mcq",
+   "q": "Which of the following is NOT listed in the lecture as an input saved to the medical record?",
+   "options": [
+    "Nurse care records",
+    "Staff payroll records",
+    "Laboratory results",
+    "Personal information"
+   ],
+   "answer": 1,
+   "explanation": "Inputs to the medical record are personal information, lab results, treatment, nurse care, disease and medication.",
+   "star": true,
+   "id": "ehr-051",
+   "lecture": "ehr"
+  },
+  {
+   "type": "mcq",
+   "q": "In the southern Taiwan medical center case study, about how many staff positions could be downsized by no longer printing, storing and sending paper records?",
+   "options": [
+    "About 3",
+    "About 13",
+    "About 30",
+    "About 130"
+   ],
+   "answer": 1,
+   "explanation": "About 25,000 person-hours saved per year converts to roughly 13 staff.",
+   "star": true,
+   "id": "ehr-052",
+   "lecture": "ehr"
+  },
+  {
+   "type": "short",
+   "q": "Describe the benefits reported when a ~1,400-bed southern Taiwan medical center abolished paper records.",
+   "answer": "Paper and printing costs reduced by about NT$2.2M\nAbout 25,000 person-hours saved per year (~13 staff)\nClinic nursing staff save 18 hours (2.25 people)\nTotal savings about NT$8M per year",
+   "keywords": [
+    "2.2M",
+    "25,000",
+    "13 staff",
+    "8M"
+   ],
+   "explanation": "Slide 'Benefit - A case study from medical center'.",
+   "star": true,
+   "id": "ehr-053",
+   "lecture": "ehr"
+  },
+  {
+   "type": "fill",
+   "q": "The EHR advantage 'duration of use and ____ of data' means health data can be kept and used over the long term.",
+   "answer": [
+    "retention"
+   ],
+   "explanation": "The recap lists 'duration of use and retention of data' among EHR advantages.",
+   "star": true,
+   "id": "ehr-054",
    "lecture": "ehr"
   },
   {
@@ -612,6 +805,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The lecture defines cognitive science as the study of the human mind and brain, focusing on how knowledge is represented and manipulated and how this is realized in the brain.",
+   "star": true,
    "id": "cognitive-001",
    "lecture": "cognitive"
   },
@@ -640,6 +834,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "The listed fields were neuroscience, psychology, philosophy, anthropology, linguistics, education, and computer science (AI).",
+   "star": true,
    "id": "cognitive-003",
    "lecture": "cognitive"
   },
@@ -836,6 +1031,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "Norman's door principle: things should be so straightforward there are no other possibilities; if you can't tell push vs pull, the door is badly designed.",
+   "star": true,
    "id": "cognitive-017",
    "lecture": "cognitive"
   },
@@ -850,6 +1046,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "Good design keeps the submenu open while the cursor moves within the (blue) triangle toward it, anticipating user intent.",
+   "star": true,
    "id": "cognitive-018",
    "lecture": "cognitive"
   },
@@ -892,6 +1089,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "Koppel et al. grouped the errors into information (integration) errors and HCI flaws reflecting machine rules that do not correspond to usual behavior.",
+   "star": true,
    "id": "cognitive-021",
    "lecture": "cognitive"
   },
@@ -999,91 +1197,284 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "Describe the three things cognitive science seeks to understand (brain, behavior, computation), giving the lecture's example for each.",
-   "answer": "Brain: understanding neurological processes, e.g., dopamine makes you feel happy. Behavior: explaining why and how humans or animals act during certain events, e.g., Pavlov's dog or irrational behaviors. Computation: simulating brain processes, e.g., artificial intelligence/artificial neural networks.",
+   "q": "Name the three things cognitive science seeks to understand.",
+   "answer": "1. Brain - neurological processes (e.g., dopamine)\n2. Behavior - why and how humans or animals act (e.g., Pavlov's dog)\n3. Computation - simulating brain processes (e.g., artificial neural networks)",
    "keywords": [
     "brain",
-    "neurological processes",
-    "dopamine",
     "behavior",
-    "Pavlov's dog",
-    "computation",
-    "artificial intelligence",
-    "neural network"
+    "computation"
    ],
-   "explanation": "",
+   "explanation": "Slide 'So what cognitive science is seeking?'.",
    "id": "cognitive-031",
    "lecture": "cognitive"
   },
   {
    "type": "short",
-   "q": "Distinguish between active failure and latent failure as causes of medical error, with an example of each.",
-   "answer": "Active failure is an error made directly by the front-line person, e.g., a nurse or physician giving the wrong drug dose. Latent failure is an enduring systemic problem that may not be evident for some time, e.g., poor system design, communication breakdown, or inadequate training.",
+   "q": "Distinguish active failure from latent failure as causes of medical error.",
+   "answer": "Active failure: an error made directly by the front-line person (e.g., a nurse gives the wrong drug dose).\nLatent failure: an enduring systemic problem not evident for some time (e.g., poor system design, inadequate training).",
    "keywords": [
     "active failure",
     "front-line",
-    "wrong dose",
     "latent failure",
-    "systemic",
-    "poor system design",
-    "communication breakdown",
-    "inadequate training"
+    "systemic"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Cause of human error (cont.)'.",
    "id": "cognitive-032",
    "lecture": "cognitive"
   },
   {
    "type": "short",
-   "q": "List the five processes of a cognitive walkthrough, and state two of the questions the evaluator tries to answer while observing users.",
-   "answer": "Processes: (1) determine the function of the system; (2) list possible actions; (3) identify and carry out appropriate actions; (4) perceive and interpret what happened; (5) evaluate progress toward the goal. Questions include: Will users try to achieve the right outcome? Will they notice the correct action is available? Will they associate the correct action with the expected outcome? If the correct action is performed, will they see progress toward their outcome?",
+   "q": "Name the five processes of a cognitive walkthrough.",
+   "answer": "1. Determine the function of the system\n2. List possible actions\n3. Identify and carry out appropriate actions\n4. Perceive and interpret what happened\n5. Evaluate progress toward the goal",
    "keywords": [
-    "determine function",
-    "list possible actions",
-    "carry out actions",
-    "perceive and interpret",
-    "evaluate progress",
-    "notice correct action",
-    "associate action with outcome",
-    "first-time users"
+    "function",
+    "possible actions",
+    "carry out",
+    "interpret",
+    "evaluate progress"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Cognitive walkthrough processes'.",
    "id": "cognitive-033",
    "lecture": "cognitive"
   },
   {
-   "type": "short",
-   "q": "Summarize Lin et al. (1998) on reducing medical errors through HCI design, including the problem identified and the quantitative results after redesign.",
-   "answer": "Lin et al. found that medical device complexity increases error rates; a simple procedure could require up to 25 steps because of a complicated interface. By redesigning the interface to reduce the necessary steps, the new interface was on average 15% faster, workload was cut in half, and average errors fell from 20 to 10.",
-   "keywords": [
-    "device complexity",
-    "25 steps",
-    "complicated interface",
-    "15% faster",
-    "workload halved",
-    "errors 20 to 10"
+   "type": "mcq",
+   "q": "Lin et al. (1998) redesigned a complex medical device interface to reduce the number of steps. What did the redesign achieve?",
+   "options": [
+    "About 50% faster on average, workload unchanged, errors reduced from 25 to 5",
+    "About 25% faster on average, workload cut by a third, errors reduced from 15 to 10",
+    "About 15% faster on average, workload cut in half, errors reduced from 20 to 10",
+    "About 15% slower on average, workload cut in half, errors reduced from 20 to 2"
    ],
-   "explanation": "",
+   "answer": 2,
+   "explanation": "Slide 'Reducing medical errors with HCI design': a simple procedure could need up to 25 steps; the new interface was 15% faster, halved workload, and cut errors from 20 to 10.",
+   "star": true,
    "id": "cognitive-034",
    "lecture": "cognitive"
   },
   {
    "type": "short",
-   "q": "Give two examples of HCI flaws or HCI-based solutions related to patient safety from the lecture, and explain how information visualization can reduce cognitive load in clinical care.",
-   "answer": "HCI flaw: when the system freezes, doctors click 'prescribe' multiple times, causing duplicate orders or excessive doses; long patient names can lead to selecting the wrong patient. Solution: Sopan et al. (2014) built a system that warns clinicians when selecting patients with similar names; TMU faculty (Li and Yang) built alerts for look-alike/sound-alike medications. Visualization converts messy data into information quickly and correctly, e.g., the Echo system summarizes ICU patient status at a glance, reducing cognitive load.",
+   "q": "How can information visualization reduce cognitive load in clinical care? Give one example from the lecture.",
+   "answer": "Visualization converts messy data into information, so clinicians find the key message quickly and correctly.\nExample: Echo summarizes ICU patients' status at a glance.",
    "keywords": [
-    "multiple clicks",
-    "prescribe",
-    "wrong patient",
-    "similar names warning",
-    "look-alike sound-alike",
     "visualization",
+    "information",
+    "quickly",
     "Echo",
-    "ICU",
-    "cognitive load"
+    "ICU"
    ],
-   "explanation": "",
+   "explanation": "Slides 'Information visualization' and 'Using visualization to reduce cognitive load'.",
+   "star": true,
    "id": "cognitive-035",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "Distinguish a slip from a mistake.",
+   "answer": "Slip: the appropriate action was chosen but executed badly (e.g., correct drug, sloppy handwriting).\nMistake: an inappropriate action was chosen (e.g., prescribing the wrong drug).",
+   "keywords": [
+    "slip",
+    "executed badly",
+    "mistake",
+    "inappropriate action"
+   ],
+   "explanation": "Slide 'Error categories'.",
+   "id": "cognitive-036",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "State two differences between novices and experts in problem solving.",
+   "answer": "1. Experts solve problems in about 1/4 of the novices' time\n2. Novices work backward (symptoms to disease); experts work forward (disease to symptoms)\n3. Experts keep only relevant information",
+   "keywords": [
+    "1/4",
+    "backward",
+    "forward",
+    "relevant information"
+   ],
+   "explanation": "Slides 'Differences between novices and experts' and 'Decision directions?'.",
+   "id": "cognitive-037",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "What is the think-aloud protocol?",
+   "answer": "A user test in which first-time users say aloud what they are thinking while using a system, so observers can find problems in the product (e.g., an EHR).",
+   "keywords": [
+    "first-time users",
+    "aloud",
+    "find problems"
+   ],
+   "explanation": "Slides 'Think-aloud protocol for problem solving'.",
+   "id": "cognitive-038",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "Name the two categories of medication errors caused by bad system design (Koppel et al., 2005).",
+   "answer": "1. Information (integration) errors - fragmented data, systems not integrated\n2. HCI flaws - machine rules that do not match usual behavior",
+   "keywords": [
+    "information",
+    "integration",
+    "HCI flaws"
+   ],
+   "explanation": "Slide 'Goal of HCI - error prevention' (22 error types in 2 categories).",
+   "star": true,
+   "id": "cognitive-039",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "What is the intermediate effect?",
+   "answer": "Performance may temporarily decrease before it increases again with experience, because intermediates have trouble distinguishing important from unimportant information (too many unnecessary links).",
+   "keywords": [
+    "decrease",
+    "intermediates",
+    "important",
+    "unnecessary"
+   ],
+   "explanation": "Slides 'Intermediate effect' and 'Problem-solving (intermediates)'.",
+   "id": "cognitive-040",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "Define cognitive science as presented in the lecture.",
+   "answer": "The study of the human mind and brain\nFocuses on how the mind represents and manipulates knowledge\nand how mental representations and processes are realized in the brain",
+   "keywords": [
+    "mind",
+    "brain",
+    "represents",
+    "knowledge"
+   ],
+   "explanation": "Opening slide 'Cognitive Science - Definition'.",
+   "star": true,
+   "id": "cognitive-041",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "mcq",
+   "q": "Which of the following was NOT given in the lecture as a reason to care about cognitive science in the health industry?",
+   "options": [
+    "To design better healthcare systems",
+    "To prevent more medical errors",
+    "To replace clinicians with autonomous AI",
+    "To make patient education more profound"
+   ],
+   "answer": 2,
+   "explanation": "The slide lists better system design, patient education, error prevention, digitizing handwritten records and making images 'talk'.",
+   "star": true,
+   "id": "cognitive-042",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "Give three reasons why cognitive science matters to biomedical informatics.",
+   "answer": "Design better healthcare systems\nMake more profound patient education\nPrevent more medical errors\nDigitalize hand-written records\nMake medical images 'talk'",
+   "keywords": [
+    "design",
+    "patient education",
+    "medical errors"
+   ],
+   "explanation": "Slide 'Biomedical Informatics and cognitive science'; any three are enough.",
+   "star": true,
+   "id": "cognitive-043",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "fill",
+   "q": "According to the lecture, applying cognitive science in health care lets us design better systems, improve patient education and prevent more medical ____.",
+   "answer": [
+    "errors",
+    "error"
+   ],
+   "explanation": "Preventing medical errors is one of the listed reasons cognitive science matters to biomedical informatics.",
+   "star": true,
+   "id": "cognitive-044",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "State the two fundamental principles of 'design' from the lecture.",
+   "answer": "The object should be usable even without thinking\nThe object should provide feedback so you know you used it",
+   "keywords": [
+    "without thinking",
+    "feedback"
+   ],
+   "explanation": "Slide 'Fundamental principles of design' (Norman's door video).",
+   "star": true,
+   "id": "cognitive-045",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "mcq",
+   "q": "A system freezes and a doctor clicks 'prescribe' several times, creating duplicate drug orders. Under Koppel et al.'s categories this is:",
+   "options": [
+    "An information integration error from data fragmentation",
+    "A latent failure caused by inadequate staff training",
+    "A slip caused by sloppy handwriting",
+    "An HCI flaw where machine rules do not fit usual behavior"
+   ],
+   "answer": 3,
+   "explanation": "The repeated-click example is the lecture's illustration of Category 2, HCI flaws.",
+   "star": true,
+   "id": "cognitive-046",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "mcq",
+   "q": "Sopan et al. (2014) used HCI design to prevent which type of error?",
+   "options": [
+    "Selecting the wrong patient with a similar name",
+    "Dispensing look-alike or sound-alike drugs",
+    "Overriding drug-allergy alerts too often",
+    "Entering out-of-range laboratory values"
+   ],
+   "answer": 0,
+   "explanation": "Their system warns clinicians who try to pick a patient whose name is similar to another patient's.",
+   "star": true,
+   "id": "cognitive-047",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the lecture, the goal of information visualization is to:",
+   "options": [
+    "Store raw data compactly for long-term archiving",
+    "Find messages in messy information swiftly and correctly",
+    "Replace statistical analysis with artistic graphics",
+    "Encrypt clinical data before it is shared"
+   ],
+   "answer": 1,
+   "explanation": "Information visualization aims to find messages from messy information swiftly and correctly, converting data into information.",
+   "star": true,
+   "id": "cognitive-048",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "fill",
+   "q": "Information visualization aids in converting data into ____.",
+   "answer": [
+    "information"
+   ],
+   "explanation": "The lecture states visualization aids in converting data into information.",
+   "star": true,
+   "id": "cognitive-049",
+   "lecture": "cognitive"
+  },
+  {
+   "type": "short",
+   "q": "Give two examples of information visualization from the lecture.",
+   "answer": "Hans Rosling's animated world data\nGraph of medical expenditure rising worldwide even after correcting for GNP\nEcho summarizing ICU patient status\nVisualization to check whether hospital alerts work",
+   "keywords": [
+    "Rosling",
+    "expenditure",
+    "Echo",
+    "alerts"
+   ],
+   "explanation": "Information visualization slides; any two are enough.",
+   "star": true,
+   "id": "cognitive-050",
    "lecture": "cognitive"
   },
   {
@@ -1097,6 +1488,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The lecture defines a digital image as a 2D function f that takes spatial coordinates x and y and returns a gray level (intensity) f(x,y).",
+   "star": true,
    "id": "imaging-001",
    "lecture": "imaging"
   },
@@ -1174,6 +1566,7 @@ window.QUESTION_BANK = {
     "physiologic function"
    ],
    "explanation": "The lecture states images are acquired to get information about Anatomy and Physiology (Function).",
+   "star": true,
    "id": "imaging-007",
    "lecture": "imaging"
   },
@@ -1288,18 +1681,16 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "Compare X-ray/CR, CT, MRI, PET and ultrasound by the physical basis of image formation as presented in the lecture.",
-   "answer": "X-ray/CR: different X-ray absorption rates of tissues. CT: X-ray reconstruction from a circular scan, estimating absolute density at each voxel (typically 512x512). MRI: mass/density of hydrogen atoms in a high magnetic field; anatomical and functional. PET: concentration of glucose (radiotracer); functional, shown in pseudo-color, useful for cancer. Ultrasound: reflection of ultrasound waves; noninvasive, Doppler displayed in pseudo-color.",
+   "q": "State what the image is based on for each modality: X-ray, MRI, PET, and ultrasound.",
+   "answer": "X-ray: different X-ray absorption rates of tissues\nMRI: hydrogen atoms in a strong magnetic field\nPET: concentration of glucose (functional)\nUltrasound: reflection of ultrasound waves",
    "keywords": [
     "absorption",
-    "voxel",
     "hydrogen",
     "glucose",
-    "reflection",
-    "functional",
-    "anatomical"
+    "reflection"
    ],
-   "explanation": "",
+   "explanation": "Section 9.2 slides on each imaging modality.",
+   "star": true,
    "id": "imaging-016",
    "lecture": "imaging"
   },
@@ -1343,17 +1734,15 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "Define DICOM and describe what a single DICOM file contains.",
-   "answer": "DICOM (Digital Imaging and Communications in Medicine) is the standard for storing and communicating medical images. A single DICOM file contains a header storing information such as the patient's name, type of scan, and image dimensions, together with all of the image data, which can be three-dimensional. DICOM supports 12- to 16-bit gray images for more accurate diagnosis.",
+   "q": "What does a single DICOM file contain?",
+   "answer": "1. A header - patient's name, type of scan, image dimensions, etc.\n2. All of the image data (can be three-dimensional)",
    "keywords": [
-    "Digital Imaging and Communications in Medicine",
     "header",
-    "patient name",
-    "scan type",
-    "image dimensions",
+    "patient's name",
+    "type of scan",
     "image data"
    ],
-   "explanation": "",
+   "explanation": "Section 9.3, slide 'PACS and DICOM'.",
    "id": "imaging-020",
    "lecture": "imaging"
   },
@@ -1406,22 +1795,23 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "Low level: noise reduction, contrast enhancement, sharpening; mid level: segmentation, edge detection; high level: image understanding, labeling, analysis.",
+   "star": true,
    "id": "imaging-024",
    "lecture": "imaging"
   },
   {
    "type": "short",
-   "q": "Distinguish image enhancement from image restoration as defined in the lecture, giving an example of each.",
-   "answer": "Image enhancement makes an image clearer to the user by emphasizing certain features; it is subjective ('it looks good'), e.g., contrast enhancement or pseudo-color. Image restoration improves the image using objective criteria, e.g., noise removal. Both are steps in the image processing pipeline after acquisition.",
+   "q": "Distinguish image enhancement from image restoration.",
+   "answer": "Enhancement: makes the image clearer to the user by emphasizing features; subjective (e.g., contrast enhancement).\nRestoration: improves the image by objective criteria (e.g., noise removal).",
    "keywords": [
     "enhancement",
     "subjective",
     "restoration",
     "objective",
-    "noise removal",
-    "contrast"
+    "noise removal"
    ],
-   "explanation": "",
+   "explanation": "Section 9.4, slides 'Steps in Image Processing'.",
+   "star": true,
    "id": "imaging-025",
    "lecture": "imaging"
   },
@@ -1450,6 +1840,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "The lecture defines recognition as identifying image objects (e.g., liver, kidneys, spine); representation stores extracted features outside the image.",
+   "star": true,
    "id": "imaging-027",
    "lecture": "imaging"
   },
@@ -1470,18 +1861,16 @@ window.QUESTION_BANK = {
   {
    "type": "short",
    "q": "Explain the difference between CADe and CADx.",
-   "answer": "In computer-assisted detection (CADe), the computer locates regions of interest (ROIs) in the image where abnormalities are suspected, and the radiologist must evaluate their medical significance. In computer-assisted diagnosis (CADx), the computer is given an ROI with a suspected abnormality and outputs the likely diagnoses and possibly management recommendations.",
+   "answer": "CADe (detection): the computer locates suspicious regions of interest (ROIs); the radiologist evaluates them.\nCADx (diagnosis): given an ROI, the computer outputs likely diagnoses and possibly management recommendations.",
    "keywords": [
     "CADe",
     "detection",
-    "locates ROI",
-    "radiologist evaluates",
+    "ROI",
     "CADx",
-    "diagnosis",
-    "likely diagnoses",
-    "management recommendations"
+    "diagnosis"
    ],
-   "explanation": "",
+   "explanation": "Section 9.5, slide on CADe and CADx.",
+   "star": true,
    "id": "imaging-029",
    "lecture": "imaging"
   },
@@ -1496,6 +1885,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The lecture states AI-based devices cannot work autonomously and can only be adjunct or supportive devices giving a second opinion.",
+   "star": true,
    "id": "imaging-030",
    "lecture": "imaging"
   },
@@ -1515,22 +1905,18 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "List the AI computer vision tasks for CAD presented in the lecture and give example models for each.",
-   "answer": "Image classification: Convolutional Neural Networks (CNN), often with transfer learning. Object detection: R-CNN, Fast R-CNN, Faster R-CNN, SSD (Single Shot MultiBox Detector), YOLO (e.g., a YOLOv3-based model for gallstones on CT). Image segmentation: Mask R-CNN, FCN (Fully Convolutional Network), U-Net.",
+   "q": "Name the three computer vision tasks used for AI-based CAD, with one example model for each.",
+   "answer": "1. Image classification - CNN\n2. Object detection - YOLO (or SSD, Faster R-CNN)\n3. Image segmentation - U-Net (or FCN, Mask R-CNN)",
    "keywords": [
     "classification",
     "CNN",
-    "transfer learning",
-    "object detection",
+    "detection",
     "YOLO",
-    "SSD",
-    "Faster R-CNN",
     "segmentation",
-    "U-Net",
-    "FCN",
-    "Mask R-CNN"
+    "U-Net"
    ],
-   "explanation": "",
+   "explanation": "Section 9.5, slides 'Computer vision for CAD application using AI'.",
+   "star": true,
    "id": "imaging-032",
    "lecture": "imaging"
   },
@@ -1571,6 +1957,138 @@ window.QUESTION_BANK = {
    "answer": 1,
    "explanation": "The regulatory policy slide introduces Software as Medical Device (SaMD), with the FDA maintaining a list of AI/ML-enabled devices.",
    "id": "imaging-035",
+   "lecture": "imaging"
+  },
+  {
+   "type": "short",
+   "q": "Define a digital image.",
+   "answer": "A two-dimensional function f(x,y) that returns the gray level (intensity) at each spatial coordinate; it is divided into small cells called pixels.",
+   "keywords": [
+    "f(x,y)",
+    "gray level",
+    "intensity",
+    "pixels"
+   ],
+   "explanation": "Section 9.1, slide 'Digital Image'.",
+   "star": true,
+   "id": "imaging-036",
+   "lecture": "imaging"
+  },
+  {
+   "type": "short",
+   "q": "What is PACS, and what are its three subsystems?",
+   "answer": "Picture Archiving and Communication System: gives fast access to images and reports anywhere, anytime.\n1. Image and data acquisition\n2. PACS controller and archive\n3. Display",
+   "keywords": [
+    "Picture Archiving and Communication System",
+    "acquisition",
+    "archive",
+    "display"
+   ],
+   "explanation": "Section 9.3, slides 'PACS and DICOM' and 'PACS Components'.",
+   "id": "imaging-037",
+   "lecture": "imaging"
+  },
+  {
+   "type": "short",
+   "q": "Name the three levels of image processing operations, with one example of each.",
+   "answer": "1. Low level - noise reduction, contrast enhancement\n2. Mid level - segmentation, edge detection\n3. High level - image understanding/analysis",
+   "keywords": [
+    "low level",
+    "noise reduction",
+    "mid level",
+    "segmentation",
+    "high level",
+    "image understanding"
+   ],
+   "explanation": "Section 9.4, slides 'Image Processing Operations'.",
+   "star": true,
+   "id": "imaging-038",
+   "lecture": "imaging"
+  },
+  {
+   "type": "short",
+   "q": "What is medical imaging, according to the lecture?",
+   "answer": "A field developing tools to acquire, manipulate and archive digital images\nused by the medical profession to give patients better care\nImages give information on anatomy and physiology (function)",
+   "keywords": [
+    "acquire",
+    "archive",
+    "anatomy",
+    "physiology"
+   ],
+   "explanation": "Slide 'What is medical imaging?'.",
+   "star": true,
+   "id": "imaging-039",
+   "lecture": "imaging"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the lecture, most medical images are:",
+   "options": [
+    "Color photographs of visible-light intensity",
+    "Vector drawings storing shapes, not pixels",
+    "Gray-level images of a physical energy's intensity",
+    "Binary images with only black and white pixels"
+   ],
+   "answer": 2,
+   "explanation": "Most medical images are gray-level images representing the intensity of a specific physical energy, not colored light.",
+   "star": true,
+   "id": "imaging-040",
+   "lecture": "imaging"
+  },
+  {
+   "type": "short",
+   "q": "State the two purposes of digital image processing.",
+   "answer": "Improve pictorial information for human interpretation\nProcess image data for storage, retrieval, transmission and representation for autonomous machine perception",
+   "keywords": [
+    "pictorial information",
+    "storage",
+    "machine perception"
+   ],
+   "explanation": "Slide 'Purpose of Digital Image Processing'.",
+   "star": true,
+   "id": "imaging-041",
+   "lecture": "imaging"
+  },
+  {
+   "type": "mcq",
+   "q": "Aligning an anatomical CT image with a functional PET image of the same patient is an example of:",
+   "options": [
+    "Image segmentation",
+    "Image registration",
+    "Image compression",
+    "Color processing"
+   ],
+   "answer": 1,
+   "explanation": "Image registration combines anatomical and functional images such as CT-PET or MRI-PET.",
+   "star": true,
+   "id": "imaging-042",
+   "lecture": "imaging"
+  },
+  {
+   "type": "mcq",
+   "q": "A system is given an ROI of a suspected lesion and outputs the likely diagnoses and management recommendations. This is:",
+   "options": [
+    "CADe (computer-assisted detection)",
+    "A PACS display subsystem",
+    "A DICOM structured report",
+    "CADx (computer-assisted diagnosis)"
+   ],
+   "answer": 3,
+   "explanation": "In CADx the computer is given an ROI and outputs likely diagnoses; in CADe it locates suspicious ROIs.",
+   "star": true,
+   "id": "imaging-043",
+   "lecture": "imaging"
+  },
+  {
+   "type": "fill",
+   "q": "U-Net, FCN and Mask R-CNN are AI models used for image ____ in computer-aided diagnosis.",
+   "answer": [
+    "segmentation",
+    "image segmentation"
+   ],
+   "explanation": "The lecture lists Mask R-CNN, FCN and U-Net under image segmentation.",
+   "star": true,
+   "id": "imaging-044",
    "lecture": "imaging"
   },
   {
@@ -1794,6 +2312,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "The multi-modalities slide lists task-based EEG, fMRI and connectome (plus stimulation-based EEG).",
+   "star": true,
    "id": "monitoring-016",
    "lecture": "monitoring"
   },
@@ -1919,73 +2438,240 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "List the 7 steps of the neuroprognostication framework presented in the lecture.",
-   "answer": "1) Determine current function; 2) Predict the trajectory of recovery; 3) Define goals of care; 4) Define good and bad outcomes; 5) Assess value modifiers; 6) Decision-making (e.g., continue or withdraw life-sustaining treatment); 7) Communication with family/surrogates using shared decision-making.",
+   "q": "List the seven steps of the neuroprognostication framework.",
+   "answer": "1. Determine current function\n2. Trajectory of recovery\n3. Goals of care\n4. Define good and bad outcomes\n5. Value modifiers\n6. Decision-making\n7. Communication",
    "keywords": [
     "current function",
     "trajectory of recovery",
     "goals of care",
-    "good and bad outcomes",
+    "outcomes",
     "value modifiers",
-    "decision-making",
     "communication"
    ],
-   "explanation": "",
+   "explanation": "Slides '7-Step Framework for Neuroprognostication' (Fischer et al. 2022).",
+   "star": true,
    "id": "monitoring-027",
    "lecture": "monitoring"
   },
   {
    "type": "short",
-   "q": "Name the six subscales of the CRS-R and state its main purposes.",
-   "answer": "The six subscales are auditory, visual, motor, verbal (oromotor), communication, and arousal. The CRS-R is used to assist diagnosis and differential diagnosis of the level of consciousness, prognostic assessment, and planning of treatment and nursing care.",
+   "q": "Name the six subscales of the CRS-R.",
+   "answer": "1. Auditory\n2. Visual\n3. Motor\n4. Verbal (oromotor)\n5. Communication\n6. Arousal",
    "keywords": [
     "auditory",
     "visual",
     "motor",
     "verbal",
     "communication",
-    "arousal",
-    "diagnosis",
-    "prognosis"
+    "arousal"
    ],
-   "explanation": "",
+   "explanation": "CRS-R slide in the iGuardian workflow section (total score 0-23).",
    "id": "monitoring-028",
    "lecture": "monitoring"
   },
   {
    "type": "short",
-   "q": "Why is continuous EEG/consciousness monitoring important in neuro-ICU patients? Support your answer with examples from the lecture's seizure prevalence data.",
-   "answer": "Seizures, often nonconvulsive, are very common in the ICU and can only be detected by EEG monitoring. Examples: early post-traumatic seizures 4-25% (late 9-42%) in TBI; nonconvulsive seizures 8-18% in aneurysmal SAH; early seizures 28-31% in ICH on CEEG; 4-23% in ischemic stroke; up to 27% in meningitis; 15-20% after supratentorial craniotomy. EEG can also detect covert awareness in unresponsive patients, informing prognosis.",
+   "q": "Why is continuous EEG monitoring important in neuro-ICU patients?",
+   "answer": "Seizures are very common in the ICU (e.g., 28-31% early seizures in ICH)\nMany are nonconvulsive\nNonconvulsive seizures can only be detected by EEG",
    "keywords": [
-    "seizure",
+    "seizures",
+    "common",
     "nonconvulsive",
-    "TBI",
-    "ICH",
-    "subarachnoid hemorrhage",
-    "continuous EEG",
-    "prevalence"
+    "EEG"
    ],
-   "explanation": "",
+   "explanation": "Slide 'The prevalence of seizure is very high in the ICU'.",
    "id": "monitoring-029",
    "lecture": "monitoring"
   },
   {
-   "type": "short",
-   "q": "Describe the patient enrollment workflow and data collected in the iGuardian EEG study at Shuang Ho Hospital (Taipei Neuroscience Institute).",
-   "answer": "Research staff screened the NCU patient list daily for eligible diagnoses, then physicians assessed clinical stability before the study was explained and consent obtained. EEG was deferred until head drains were removed (wound care by nurse practitioners or after suture removal). Patients received voice commands (right, left, both hands open/close, 10 times each) recorded with the EEG, and CRS-R was assessed. Data collected included demographics, diagnosis and medications, discharge disposition, and heart rate, blood pressure and SpO2 before and after EEG; about 100 patients were enrolled (96 Shuang Ho, 4 Hsiao Chung-Cheng).",
-   "keywords": [
-    "NCU",
-    "screening",
-    "physician assessment",
-    "consent",
-    "drain removal",
-    "voice commands",
-    "CRS-R",
-    "vital signs",
-    "100 patients"
+   "type": "mcq",
+   "q": "In the iGuardian EEG study, which voice commands were given to patients during EEG recording?",
+   "options": [
+    "Raise the right arm, left arm, then both arms (5 times each)",
+    "Open and close the right hand, left hand, then both hands (10 times each)",
+    "Blink the eyes, move the tongue, then nod the head (10 times each)",
+    "Imagine swimming, then imagine walking through the house (20 times each)"
    ],
-   "explanation": "",
+   "answer": 1,
+   "explanation": "iGuardian enrollment workflow slides: commands were right-hand, left-hand and both-hands open/close, ten times each, recorded with the EEG.",
    "id": "monitoring-030",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "short",
+   "q": "Distinguish a vegetative state from a minimally conscious state (MCS).",
+   "answer": "Vegetative state: wakefulness without awareness; only reflexive responses to stimuli.\nMCS: minimal awareness of self or environment, with inconsistent responses to stimuli.",
+   "keywords": [
+    "wakefulness without awareness",
+    "reflexive",
+    "minimal awareness",
+    "inconsistent"
+   ],
+   "explanation": "Slide 'States of Consciousness'.",
+   "id": "monitoring-031",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "short",
+   "q": "Name three purposes of the CRS-R.",
+   "answer": "1. Diagnosis of the level of consciousness\n2. Differential diagnosis\n3. Prognostic assessment\n4. Planning treatment and nursing care",
+   "keywords": [
+    "diagnosis",
+    "differential diagnosis",
+    "prognostic",
+    "treatment"
+   ],
+   "explanation": "CRS-R slide in the iGuardian section.",
+   "id": "monitoring-032",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "short",
+   "q": "What tasks were patients asked to perform so that EEG could detect awareness in unresponsive patients?",
+   "answer": "1. Motor imagery tasks (e.g., imagining swimming)\n2. Spatial navigation imagery tasks",
+   "keywords": [
+    "motor imagery",
+    "swimming",
+    "spatial navigation"
+   ],
+   "explanation": "Slides 'Detection of Brain Activation in Unresponsive Patients Using EEG Analysis'.",
+   "id": "monitoring-033",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "short",
+   "q": "In neuroprognostication, how are a 'good outcome' and a 'bad outcome' defined?",
+   "answer": "Good outcome: the patient meets the goals of care within the time frame.\nBad outcome: the patient does not meet the goals of care, or meets them too late.",
+   "keywords": [
+    "good outcome",
+    "goals of care",
+    "time frame",
+    "bad outcome"
+   ],
+   "explanation": "Step 4 of the 7-step neuroprognostication framework.",
+   "id": "monitoring-034",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the title of Dr. Lin's lecture, multimodality machine learning is used to:",
+   "options": [
+    "Automate billing for neuro-ICU admissions",
+    "Replace the neurological examination with fMRI",
+    "Predict the prognosis of brain injury patients",
+    "Schedule EEG technicians across hospitals"
+   ],
+   "answer": 2,
+   "explanation": "The lecture is titled 'Using multimodalities machine learning to predict the prognosis of brain injury patients'.",
+   "star": true,
+   "id": "monitoring-035",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "short",
+   "q": "According to the lecture, how can AI/machine learning help in monitoring brain injury patients?",
+   "answer": "Predict prognosis (coma or recovery: how long, how well, how much)\nCombine multimodal data: task-based EEG, fMRI, connectome\nEEG spectral analysis to detect awareness in unresponsive patients",
+   "keywords": [
+    "prognosis",
+    "multimodal",
+    "EEG",
+    "awareness"
+   ],
+   "explanation": "Title slide, 'Coma or Recovery?', multi-modalities slide and the EEG awareness study.",
+   "star": true,
+   "id": "monitoring-036",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "fill",
+   "q": "The lecture opens brain-injury prognosis with the question 'Coma or ____?' (how long, how well, how much).",
+   "answer": [
+    "Recovery"
+   ],
+   "explanation": "The 'Coma or Recovery?' slide frames the prognosis questions machine learning aims to answer.",
+   "star": true,
+   "id": "monitoring-037",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "mcq",
+   "q": "The MOST-funded smart-healthcare alliance project led by Prof. Yu-Chuan Li aimed to build:",
+   "options": [
+    "A national EHR for all outpatient clinics",
+    "The first transnational open consciousness-monitoring platform",
+    "A wearable BioPatch registry for cancer patients",
+    "A single-hospital PACS for neurosurgery images"
+   ],
+   "answer": 1,
+   "explanation": "The project set out to establish the first transnational open consciousness-monitoring platform system.",
+   "star": true,
+   "id": "monitoring-038",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "mcq",
+   "q": "In the multi-center consciousness-monitoring data collection, how many patients were enrolled and where were most recruited?",
+   "options": [
+    "96 in total, split evenly between two hospitals",
+    "400 in total, mostly at Taipei Medical University Hospital",
+    "100 in total, 96 at Shuang-Ho Hospital",
+    "100 in total, 96 at Wan Fang Hospital"
+   ],
+   "answer": 2,
+   "explanation": "Shuang-Ho Hospital enrolled 96 patients and Hsiao Chung-Cheng Hospital 4, for 100 in total.",
+   "star": true,
+   "id": "monitoring-039",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "short",
+   "q": "Name four kinds of data collected for each case in the multi-center consciousness-monitoring datamart.",
+   "answer": "Demographics: name, sex, birth date, age, chart number\nAdmission/discharge dates and discharge destination\nResponsible physician, diagnosis and medications\nHeart rate, blood pressure, SpO2 before and after EEG\nEEG data",
+   "keywords": [
+    "diagnosis",
+    "medications",
+    "blood pressure",
+    "EEG"
+   ],
+   "explanation": "Case data slide (個案資料收集) and EEG data slide; any four are enough.",
+   "star": true,
+   "id": "monitoring-040",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "fill",
+   "q": "For the multi-center EEG study, research staff screened the ____ (neuro critical care unit) patient list every day for eligible cases.",
+   "answer": [
+    "NCU",
+    "neuro critical care unit"
+   ],
+   "explanation": "The enrollment workflow begins with a daily review of the NCU patient list.",
+   "star": true,
+   "id": "monitoring-041",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the lecture's seizure prevalence table, seizures occur in up to what proportion of patients with meningitis?",
+   "options": [
+    "7%",
+    "17%",
+    "27%",
+    "47%"
+   ],
+   "answer": 2,
+   "explanation": "The table reports seizures in up to 27% of patients with meningitis.",
+   "id": "monitoring-042",
+   "lecture": "monitoring"
+  },
+  {
+   "type": "fill",
+   "q": "Nonconvulsive seizures in aneurysmal subarachnoid hemorrhage are reported in about 8 to ____% of patients.",
+   "answer": [
+    "18"
+   ],
+   "explanation": "The seizure prevalence table gives 8-18% for nonconvulsive seizures in aSAH.",
+   "id": "monitoring-043",
    "lecture": "monitoring"
   },
   {
@@ -1999,6 +2685,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The lecture defines PHI as the systematic application of information and computer science and technology to public health practice, research, and learning (Public Health Informatics and Information Systems, 2002).",
+   "star": true,
    "id": "public_health-001",
    "lecture": "public_health"
   },
@@ -2013,6 +2700,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "The public health domain includes epidemiology, biostatistics, social and behavioral sciences, health administration, and environmental science; surgical medicine belongs to clinical medicine.",
+   "star": true,
    "id": "public_health-002",
    "lecture": "public_health"
   },
@@ -2069,6 +2757,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "Public Health 1.0 established the basics: sanitation, infectious disease control, vaccination, and food and water safety.",
+   "star": true,
    "id": "public_health-006",
    "lecture": "public_health"
   },
@@ -2097,6 +2786,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "Public Health 2.0 (mid-to-late 20th century) was catalysed by the 1988 Institute of Medicine report The Future of Public Health.",
+   "star": true,
    "id": "public_health-008",
    "lecture": "public_health"
   },
@@ -2195,6 +2885,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "The fourth PHI principle, Context, refers to operating in a governmental rather than private, profit-seeking context.",
+   "star": true,
    "id": "public_health-015",
    "lecture": "public_health"
   },
@@ -2209,6 +2900,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "Processing covers information retrieval, data integration, and analysis, with example tools such as SAS, R, Python, Citrix, and web browsers.",
+   "star": true,
    "id": "public_health-016",
    "lecture": "public_health"
   },
@@ -2223,6 +2915,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "Output is the result of processing, such as a report, graph, chart, table, or map.",
+   "star": true,
    "id": "public_health-017",
    "lecture": "public_health"
   },
@@ -2375,6 +3068,7 @@ window.QUESTION_BANK = {
     "ubiquitous health"
    ],
    "explanation": "uHealth (ubiquitous health) is listed with mHealth as a driver of change for PHI.",
+   "star": true,
    "id": "public_health-029",
    "lecture": "public_health"
   },
@@ -2434,94 +3128,332 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "List and briefly explain the four underlying principles of public health informatics.",
-   "answer": "1) Population health: applying information science and technology to the health of populations rather than individuals. 2) Prevention: focusing on preventing disease or injury rather than treating existing conditions. 3) Causal chain: targeting points in the causal chain leading to disease, injury, or disability. 4) Context: operating within a governmental rather than a private, profit-seeking context.",
+   "q": "Name the four underlying principles of public health informatics.",
+   "answer": "1. Population health\n2. Prevention\n3. Causal chain\n4. (Governmental) context",
    "keywords": [
     "population health",
     "prevention",
     "causal chain",
-    "context",
-    "governmental"
+    "context"
    ],
-   "explanation": "",
+   "explanation": "Slide 'PHI underlying principles'.",
+   "star": true,
    "id": "public_health-035",
    "lecture": "public_health"
   },
   {
    "type": "short",
-   "q": "Describe the four components of an information system, with one public health example for each.",
-   "answer": "Input: data collected from sources (e.g., population surveys, vaccination records, census or birth certificate data). Storage: a repository for data (e.g., relational database, CSV files, Google Drive). Processing: retrieval, integration, and analysis (e.g., SAS, R, Python). Output: the result of processing as a report, graph, table, or map (e.g., a map of high-incidence neighborhoods or a list of new measles cases).",
+   "q": "Name the four components of an information system.",
+   "answer": "1. Input (e.g., vaccination records)\n2. Storage (e.g., relational database)\n3. Processing (e.g., SAS, R, Python)\n4. Output (e.g., disease map, report)",
    "keywords": [
     "input",
     "storage",
     "processing",
     "output"
    ],
-   "explanation": "",
+   "explanation": "Table 'Components of an information system, illustrated with examples from public health'.",
+   "star": true,
    "id": "public_health-036",
    "lecture": "public_health"
   },
   {
    "type": "short",
-   "q": "List the 5 steps to creating a public health information system.",
-   "answer": "1) Vision and system planning. 2) Health data standards and integration. 3) Data privacy and security. 4) Systems design and implementation. 5) Visualization, analysis, and reporting of health data.",
+   "q": "List the five steps to creating a public health information system.",
+   "answer": "1. Vision and system planning\n2. Health data standards and integration\n3. Data privacy and security\n4. Systems design and implementation\n5. Visualization, analysis, and reporting",
    "keywords": [
-    "vision and system planning",
-    "data standards and integration",
+    "vision",
+    "standards",
     "privacy and security",
     "design and implementation",
-    "visualization analysis reporting"
+    "visualization"
    ],
-   "explanation": "",
+   "explanation": "Slides '5 Steps to Creating a Public Health Information System'.",
    "id": "public_health-037",
    "lecture": "public_health"
   },
   {
    "type": "short",
-   "q": "Compare Public Health 1.0, 2.0, and 3.0 in terms of period and main focus.",
-   "answer": "PH 1.0 (late 19th to early 20th century): sanitation, infectious disease control, and vaccination, with a government-led approach; it could not address chronic disease or social determinants. PH 2.0 (mid-to-late 20th century, after the 1988 IOM report): professionalised agencies around core functions (assessment, policy development, assurance) and addressed chronic disease, but remained siloed. PH 3.0 (21st century): public health as chief health strategist, with cross-sector partnerships, social determinants and health equity, real-time data, and flexible funding. Overall the shift is from reactive disease control to proactive, data-driven, equity-focused systems.",
+   "q": "State the main focus of Public Health 1.0, 2.0, and 3.0.",
+   "answer": "PH 1.0: sanitation and infectious disease control (government-led)\nPH 2.0: core functions and standards, structured agencies\nPH 3.0: health equity and cross-sector collaboration with real-time data",
    "keywords": [
     "sanitation",
+    "infectious disease",
     "core functions",
-    "IOM 1988",
-    "chief health strategist",
-    "cross-sector",
     "health equity",
-    "social determinants"
+    "cross-sector"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Public Health 1.0 -> 3.0: Key Differences'.",
+   "star": true,
    "id": "public_health-038",
    "lecture": "public_health"
   },
   {
    "type": "short",
-   "q": "Define infodemiology and give at least three examples of infodemiology/infoveillance applications.",
-   "answer": "Infodemiology is the science of the distribution and determinants of information in an electronic medium, specifically the Internet, or in a population, with the ultimate aim of informing public health and public policy. Examples: analysing search engine queries to predict outbreaks (e.g., Google Flu Trends); mining Twitter or microblogs for syndromic surveillance; monitoring anti-vaccination sites and vaccine sentiment; tracking health marketing campaign effectiveness; extracting user-generated outcomes (e.g., PatientsLikeMe) to monitor drug side effects.",
+   "q": "Define infodemiology.",
+   "answer": "The science of the distribution and determinants of information in an electronic medium (specifically the Internet) or in a population, with the aim of informing public health and public policy.",
    "keywords": [
-    "distribution and determinants of information",
+    "distribution and determinants",
+    "information",
     "Internet",
-    "search queries",
-    "Twitter",
-    "vaccine sentiment",
-    "Google Flu Trends"
+    "public health"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Infodemiology and infoveillance' (term coined by Eysenbach).",
    "id": "public_health-039",
    "lecture": "public_health"
   },
   {
    "type": "short",
-   "q": "Name the four major implementation challenges facing public health informatics described in the lecture.",
-   "answer": "1) Fragmented data systems (legacy integration, lack of standard protocols, resistance to change). 2) Limited analytics expertise (workforce shortage, competition with the private sector). 3) Data quality and bias (underrepresentation of vulnerable populations, inconsistent collection, historical bias). 4) Funding and resource constraints (high upfront costs, ongoing maintenance).",
+   "q": "Name the four major implementation challenges facing public health informatics.",
+   "answer": "1. Fragmented data systems\n2. Limited analytics expertise\n3. Data quality and bias\n4. Funding and resource constraints",
    "keywords": [
     "fragmented data systems",
     "analytics expertise",
     "data quality",
-    "bias",
-    "funding constraints"
+    "funding"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Implementation Challenges' near the end of the lecture.",
    "id": "public_health-040",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "Define public health informatics.",
+   "answer": "The systematic application of information and computer science and technology to public health practice, research, and learning.",
+   "keywords": [
+    "systematic application",
+    "computer science",
+    "public health practice"
+   ],
+   "explanation": "Opening definition slide 'Public Health Informatics (PHI)'.",
+   "star": true,
+   "id": "public_health-041",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "Compare clinical medicine and public health in terms of focus and goal.",
+   "answer": "Clinical medicine: focuses on individuals; goal is treatment of disease, injury, disability.\nPublic health: focuses on the population; goal is prevention of disease, injury, disability.",
+   "keywords": [
+    "individuals",
+    "treatment",
+    "population",
+    "prevention"
+   ],
+   "explanation": "Table 'Comparison of clinical medicine and levels of public health'.",
+   "id": "public_health-042",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "Give three examples of infodemiology or infoveillance applications.",
+   "answer": "1. Analysing search engine queries to predict outbreaks (Google Flu Trends)\n2. Mining Twitter posts for syndromic surveillance\n3. Monitoring vaccine sentiment / anti-vaccination sites\n4. Tracking health marketing campaigns",
+   "keywords": [
+    "search engine queries",
+    "Twitter",
+    "vaccine sentiment",
+    "marketing campaigns"
+   ],
+   "explanation": "Slides 'Infoveillance Success Stories' and 'Examples of infodemiology applications'.",
+   "id": "public_health-043",
+   "lecture": "public_health"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the lecture's 'business of public health' diagram, PHI practice mainly involves:",
+   "options": [
+    "Evaluating the impact of public health information systems",
+    "Design, implementation and operation of PH information systems",
+    "Treatment of individual patients in clinical settings",
+    "Developing new drugs for population-level diseases"
+   ],
+   "answer": 1,
+   "explanation": "PHI practice is design, implementation and operation of PH information systems; evaluating their impact is PHI research.",
+   "star": true,
+   "id": "public_health-044",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "Explain the role of PHI in public health practice (the 'business of public health').",
+   "answer": "Data and information feed PH information systems\nwhich support PH business processes (assessment, assurance, policy)\nto improve population health outcomes",
+   "keywords": [
+    "information systems",
+    "assessment",
+    "population health outcomes"
+   ],
+   "explanation": "Slide 'Public health informatics aims to advance the business of public health'.",
+   "star": true,
+   "id": "public_health-045",
+   "lecture": "public_health"
+  },
+  {
+   "type": "mcq",
+   "q": "In the lecture's diagram, public health informatics lies at the overlap of public health, information science and technology, and which third domain?",
+   "options": [
+    "Clinical medicine and surgery",
+    "Genomics and molecular biology",
+    "Health insurance and finance",
+    "Leadership, communication and professionalism"
+   ],
+   "answer": 3,
+   "explanation": "The PHI diagram combines public health, information science & technology, and leadership, communication and professionalism.",
+   "star": true,
+   "id": "public_health-046",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "Describe the origins of public health informatics as presented in the lecture.",
+   "answer": "Public health evolved: 1.0 sanitation, 2.0 core functions, 3.0 cross-sector real-time data\nInformatics brings methods from computer science and information science\nPHI (2002): applying them to PH practice",
+   "keywords": [
+    "1.0",
+    "computer science",
+    "information science",
+    "2002"
+   ],
+   "explanation": "PH 1.0-3.0 slides, the 'Interdisciplinary nature' slide and the 2002 PHI definition.",
+   "star": true,
+   "id": "public_health-047",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "List the drivers of change for public health informatics and information systems.",
+   "answer": "Electronic health records and National Health Insurance data\nPrecision public health\nmHealth and uHealth\nPublic Health 3.0",
+   "keywords": [
+    "electronic health records",
+    "precision public health",
+    "mHealth",
+    "Public Health 3.0"
+   ],
+   "explanation": "Slide 'Drivers of change for PHI and information systems'.",
+   "star": true,
+   "id": "public_health-048",
+   "lecture": "public_health"
+  },
+  {
+   "type": "mcq",
+   "q": "Which of the following is NOT listed in the lecture as a driver of change for PHI and information systems?",
+   "options": [
+    "Paper-based disease registries",
+    "Precision public health",
+    "mHealth and uHealth",
+    "Public Health 3.0"
+   ],
+   "answer": 0,
+   "explanation": "The drivers are EHR/NHI data, precision public health, mHealth/uHealth and Public Health 3.0.",
+   "star": true,
+   "id": "public_health-049",
+   "lecture": "public_health"
+  },
+  {
+   "type": "fill",
+   "q": "____ health, abbreviated mHealth, is listed alongside uHealth as a driver of public health informatics.",
+   "answer": [
+    "Mobile"
+   ],
+   "explanation": "mHealth (mobile health) and uHealth (ubiquitous health) are listed drivers of PHI.",
+   "star": true,
+   "id": "public_health-050",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "List the disciplines that contribute knowledge and methods to public health informatics.",
+   "answer": "Public health: epidemiology, biostatistics, social and behavioral sciences, health administration, environmental science\nInformatics: computer science and information science",
+   "keywords": [
+    "epidemiology",
+    "biostatistics",
+    "computer science",
+    "information science"
+   ],
+   "explanation": "Slide 'Interdisciplinary nature' of PHI.",
+   "star": true,
+   "id": "public_health-051",
+   "lecture": "public_health"
+  },
+  {
+   "type": "fill",
+   "q": "Informatics brings methods, knowledge and theories from computer science and ____ science to support public health.",
+   "answer": [
+    "information"
+   ],
+   "explanation": "The 'Interdisciplinary nature' slide names computer science and information science as informatics' sources.",
+   "star": true,
+   "id": "public_health-052",
+   "lecture": "public_health"
+  },
+  {
+   "type": "mcq",
+   "q": "Within PHI, which contribution does the lecture attribute to computer science?",
+   "options": [
+    "Measuring disease frequency and determinants in populations",
+    "Assessing air quality and water contamination risks",
+    "Methods to store, manipulate, transform and display data",
+    "Managing health agency budgets and personnel"
+   ],
+   "answer": 2,
+   "explanation": "Computer science supplies methods and techniques to store, manipulate, transform and display data and information.",
+   "star": true,
+   "id": "public_health-053",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "Define a public health information system.",
+   "answer": "Technical components used to support the business of public health organizations\nAn information system is a collection of computer-based tools to collect, store and process information",
+   "keywords": [
+    "technical components",
+    "business of public health",
+    "collect",
+    "process"
+   ],
+   "explanation": "Slide 'Public health information systems'.",
+   "star": true,
+   "id": "public_health-054",
+   "lecture": "public_health"
+  },
+  {
+   "type": "mcq",
+   "q": "Which pair does the lecture give as examples of information systems used in public health?",
+   "options": [
+    "PACS and DICOM structured reporting",
+    "BRFSS and Taiwan's Nationwide Cancer Registry System",
+    "CPOE and the Antibiotic Assistant program",
+    "Quit And Return and Digiquit apps"
+   ],
+   "answer": 1,
+   "explanation": "The lecture cites the Behavioral Risk Factor Surveillance System and Taiwan's Nationwide Cancer Registry System.",
+   "star": true,
+   "id": "public_health-055",
+   "lecture": "public_health"
+  },
+  {
+   "type": "short",
+   "q": "Define precision public health.",
+   "answer": "Applying and combining new and existing technologies to describe and analyze individuals and their environment over the life course\nto tailor preventive interventions for at-risk groups and improve population health",
+   "keywords": [
+    "technologies",
+    "environment",
+    "tailor",
+    "at-risk groups"
+   ],
+   "explanation": "Frontiers in Public Health definition on the 'Precision public health' slide.",
+   "id": "public_health-056",
+   "lecture": "public_health"
+  },
+  {
+   "type": "mcq",
+   "q": "Which three advances in health data collection does the lecture cite as enabling precision public health?",
+   "options": [
+    "Paper surveys, census data and death certificates",
+    "PACS, DICOM and radiology reports",
+    "Search queries, tweets and news articles",
+    "PGHD from smart technologies, EHRs and genomic sequencing"
+   ],
+   "answer": 3,
+   "explanation": "Precision public health is enabled by patient-generated health data, EHRs and genomic sequencing.",
+   "id": "public_health-057",
    "lecture": "public_health"
   },
   {
@@ -2563,6 +3495,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "The three categories are (1) context-based retrieval of documents (infobuttons), (2) patient-specific alerts/reminders/recommendations, and (3) systems that organize and present information (dashboards, templates, order sets).",
+   "star": true,
    "id": "cdss-003",
    "lecture": "cdss"
   },
@@ -2577,6 +3510,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "Order sets give actionable recommendations, act as a mnemonic/checklist, and speed selection of a group of relevant activities.",
+   "star": true,
    "id": "cdss-004",
    "lecture": "cdss"
   },
@@ -2591,6 +3525,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The lecture lists accurate data, pertinent knowledge, and appropriate problem-solving skills; a CDS program needs the same three.",
+   "star": true,
    "id": "cdss-005",
    "lecture": "cdss"
   },
@@ -2605,6 +3540,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "The four reasons are physician information needs, ubiquity of EHRs, personalized/precision medicine, and evidence that CDS improves quality and reduces cost.",
+   "star": true,
    "id": "cdss-006",
    "lecture": "cdss"
   },
@@ -2619,6 +3555,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "Up to 81% of ambulatory encounters lacked critical information, with an average of four missing items per case.",
+   "star": true,
    "id": "cdss-007",
    "lecture": "cdss"
   },
@@ -2675,6 +3612,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "The lecture lists proprietary nature, lack of data/knowledge interoperability, workflow mismatch, and usability concerns.",
+   "star": true,
    "id": "cdss-011",
    "lecture": "cdss"
   },
@@ -2773,6 +3711,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "The posterior after each finding becomes the prior for the next application of Bayes' rule; the approach was used for congenital heart disease (Gorry and Barnett 1968).",
+   "star": true,
    "id": "cdss-018",
    "lecture": "cdss"
   },
@@ -2787,6 +3726,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "Associations learned from data are not inspectable, so outputs must be taken at face value and dataset biases may be hidden.",
+   "star": true,
    "id": "cdss-019",
    "lecture": "cdss"
   },
@@ -2815,6 +3755,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "MYCIN used backward chaining, looking for rules that could conclude a premise; most contemporary rule systems use forward chaining.",
+   "star": true,
    "id": "cdss-021",
    "lecture": "cdss"
   },
@@ -2829,6 +3770,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "The evoke slot defines the trigger, the logic slot encodes decision logic, the action slot defines what to do, and the data slot defines variables.",
+   "star": true,
    "id": "cdss-022",
    "lecture": "cdss"
   },
@@ -2843,6 +3785,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "Arden Syntax is only a syntax; local queries for variables must be written inside curly braces for each EHR, limiting sharing.",
+   "star": true,
    "id": "cdss-023",
    "lecture": "cdss"
   },
@@ -2885,6 +3828,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "GEM is an ANSI XML mark-up standard for demarcating guideline actions and eligibility criteria but provides no execution mechanism.",
+   "star": true,
    "id": "cdss-026",
    "lecture": "cdss"
   },
@@ -2913,6 +3857,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "SMART apps use standard API methods to access EHR data, compute externally, and return results in an iFrame, web page, or standalone app.",
+   "star": true,
    "id": "cdss-028",
    "lecture": "cdss"
   },
@@ -2941,6 +3886,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 0,
    "explanation": "Excessive alert fatigue undermines CDS efficacy in CPOE and leads to very high user override rates.",
+   "star": true,
    "id": "cdss-030",
    "lecture": "cdss"
   },
@@ -3000,6 +3946,7 @@ window.QUESTION_BANK = {
     "rule engine"
    ],
    "explanation": "Rule-based systems need a formal rule language plus an interpreter, i.e., an inference engine.",
+   "star": true,
    "id": "cdss-035",
    "lecture": "cdss"
   },
@@ -3012,6 +3959,7 @@ window.QUESTION_BANK = {
     "event condition action"
    ],
    "explanation": "ECA rules trigger individual alerts or reminders when data change, time passes, or actions occur.",
+   "star": true,
    "id": "cdss-036",
    "lecture": "cdss"
   },
@@ -3023,6 +3971,7 @@ window.QUESTION_BANK = {
     "MLM"
    ],
    "explanation": "Arden Syntax became an HL7/ANSI standard for MLMs in 1999.",
+   "star": true,
    "id": "cdss-037",
    "lecture": "cdss"
   },
@@ -3034,6 +3983,7 @@ window.QUESTION_BANK = {
     "ontologies"
    ],
    "explanation": "SNOMED CT and the NCI Thesaurus are terminologies represented as knowledge graphs, making them ontologies.",
+   "star": true,
    "id": "cdss-038",
    "lecture": "cdss"
   },
@@ -3045,6 +3995,7 @@ window.QUESTION_BANK = {
     "Protege"
    ],
    "explanation": "Protégé was used to create the guideline ontology and to generate knowledge-acquisition tools.",
+   "star": true,
    "id": "cdss-039",
    "lecture": "cdss"
   },
@@ -3083,134 +4034,630 @@ window.QUESTION_BANK = {
    "lecture": "cdss"
   },
   {
-   "type": "short",
-   "q": "List the five aspects (components) of CDS in Greenes' conceptual model (Fig. 24.1).",
-   "answer": "(1) Method of computation/inferencing (execution of the CDS function); (2) knowledge needed to carry out the function; (3) information model governing how data are provided to the CDSS; (4) type of recommendation provided (prediction, action, classification, citations); (5) how the process interacts with the application environment, i.e., how it is invoked and how data and recommendations are communicated.",
-   "keywords": [
-    "inferencing",
-    "knowledge",
-    "information model",
-    "recommendation",
-    "application environment",
-    "invoked"
+   "type": "mcq",
+   "q": "Which of the following is NOT one of the five aspects of CDS in Greenes' conceptual model (Fig. 24.1)?",
+   "options": [
+    "The method of computation or inferencing",
+    "The information model for the input data",
+    "The type of recommendation to be provided",
+    "The vendor license model of the host EHR"
    ],
-   "explanation": "",
+   "answer": 3,
+   "explanation": "Fig. 24.1: (1) computation/inferencing, (2) knowledge, (3) information model, (4) type of recommendation, (5) interaction with the application environment.",
    "id": "cdss-043",
    "lecture": "cdss"
   },
   {
    "type": "short",
-   "q": "Explain the difference between forward chaining and backward chaining in rule-based systems, and state which one MYCIN used.",
-   "answer": "In backward chaining, when the system does not know whether a rule's premise is true, it looks backward for other rules that could conclude that premise (goal-driven). In forward chaining, when a rule fires and its conclusion becomes true, the system looks forward for other rules whose premises use that conclusion (data-driven). MYCIN used backward chaining; most contemporary rule-based systems use forward chaining.",
+   "q": "Explain the difference between backward chaining and forward chaining. Which did MYCIN use?",
+   "answer": "Backward chaining: if a rule's premise is unknown, look back for rules that could conclude it (goal-driven).\nForward chaining: when a rule fires, look forward for rules that use its conclusion.\nMYCIN used backward chaining.",
    "keywords": [
     "backward chaining",
-    "forward chaining",
     "premise",
-    "conclusion",
+    "forward chaining",
     "fires",
     "MYCIN"
    ],
-   "explanation": "",
+   "explanation": "Section 'Rule-Based Approaches' describing MYCIN.",
+   "star": true,
    "id": "cdss-044",
    "lecture": "cdss"
   },
   {
    "type": "short",
-   "q": "Why is Arden Syntax rule sharing across institutions difficult? Describe the 'curly braces problem' with an example.",
-   "answer": "Arden Syntax standardizes only syntax, not the semantics of the data. The database queries that bind variables to patient data must be written inside curly braces in the data slot and depend on each local EHR's schema and coding, so each MLM must be rewritten per site. Semantic ambiguities add to this: e.g., an MLM about serum potassium must decide whether to use a hemolyzed specimen, a whole-blood potassium value, or last night's value.",
+   "q": "Why is it difficult to share Arden Syntax rules (MLMs) between institutions?",
+   "answer": "Arden Syntax standardizes only syntax, not data semantics.\nDatabase queries go in 'curly braces' in the data slot and depend on each local EHR schema, so they must be rewritten for each site.",
    "keywords": [
     "syntax",
     "semantics",
     "curly braces",
-    "data slot",
-    "local database",
-    "query",
-    "potassium"
+    "local"
    ],
-   "explanation": "",
+   "explanation": "Discussion of Arden Syntax and Medical Logic Modules (the 'curly braces problem').",
+   "star": true,
    "id": "cdss-045",
    "lecture": "cdss"
   },
   {
-   "type": "short",
-   "q": "Why are belief networks, influence diagrams, and rule bases described as 'declarative' knowledge representations, and how does this contrast with hardcoded algorithms and machine learning?",
-   "answer": "In declarative representations, the knowledge is an explicit, inspectable, and editable model (e.g., adding an edge to a belief network or adding/removing rules) that directly changes system behavior and communicates what the system 'knows'. In hardcoded algorithms, knowledge is buried in program code that must be reprogrammed, and in machine-learning systems, learned associations are not readily inspectable or editable.",
-   "keywords": [
-    "inspectable",
-    "editable",
-    "explicit model",
-    "transparent",
-    "hardcoded",
-    "machine learning"
+   "type": "mcq",
+   "q": "Why are belief networks and rule bases called 'declarative' knowledge representations?",
+   "options": [
+    "The knowledge is learned automatically from large EHR datasets",
+    "The knowledge is hardcoded inside the program's procedural logic",
+    "The knowledge is an explicit model that can be inspected and edited directly",
+    "The knowledge is declared by law and endorsed by HL7 and ANSI"
    ],
-   "explanation": "",
+   "answer": 2,
+   "explanation": "Section 24.3.2.5: declarative models are examinable and editable; in hardcoded algorithms or machine learning the knowledge is not readily inspectable.",
+   "star": true,
    "id": "cdss-046",
    "lecture": "cdss"
   },
   {
    "type": "short",
-   "q": "Describe the ontology-driven, component-based approach of ATHENA-CDS and its advantages.",
-   "answer": "ATHENA-CDS separates static domain knowledge (a generic guideline ontology with eligibility criteria, clinical algorithm, guideline drugs) from problem-solving knowledge. Knowledge bases for specific guidelines (hypertension, CHF, chronic pain, diabetes, hyperlipidemia, CKD) are created by instantiating the ontology in Protégé, and they can be mapped to different problem solvers (therapy planning, eligibility determination). This 'mix and match' allows reuse and easy updating; the EON infrastructure drives it with VistA patient data.",
+   "q": "What are the 'five rights' of clinical decision support?",
+   "answer": "Provide:\n1. The right information\n2. To the right person\n3. In the right format\n4. Through the right channel\n5. At the right point in workflow",
    "keywords": [
-    "ontology",
-    "static knowledge",
-    "problem-solving",
-    "Protégé",
-    "knowledge base",
-    "reuse",
-    "guideline"
+    "right information",
+    "right person",
+    "right format",
+    "right channel",
+    "workflow"
    ],
-   "explanation": "",
+   "explanation": "Chapter introduction (Osheroff et al. 2012).",
    "id": "cdss-047",
    "lecture": "cdss"
   },
   {
-   "type": "short",
-   "q": "Explain how CDS Hooks and SMART on FHIR work together for externalized CDS, and state the main downside the lecture notes.",
-   "answer": "SMART apps use standard FHIR APIs to access EHR data, perform inferences outside the EHR, and return results. CDS Hooks lets an event in the host EHR (e.g., starting to write an order) programmatically invoke an external decision-support service, which returns a 'card' displayed in the EHR, possibly with a link to a SMART app. The downside is that there are no constraints on what happens inside the apps or links to native EHR workflows, which can lead to a proliferation of apps/hooks of limited utility that are hard to manage and update.",
-   "keywords": [
-    "CDS Hooks",
-    "SMART",
-    "FHIR",
-    "event",
-    "card",
-    "external service",
-    "proliferation"
+   "type": "mcq",
+   "q": "With CDS Hooks, an event in the EHR (e.g., starting an order) invokes an external service. In what form does the service return its advice for display in the EHR?",
+   "options": [
+    "A Medical Logic Module",
+    "A 'card'",
+    "A FHIR resource bundle",
+    "An infobutton link"
    ],
-   "explanation": "",
+   "answer": 1,
+   "explanation": "Section 24.5.4 'Externalizing CDS': the service returns a card (text with an assessment or suggested action), possibly with a link to a SMART app.",
    "id": "cdss-048",
    "lecture": "cdss"
   },
   {
    "type": "short",
-   "q": "Give the main usability-related concerns about CDS raised in the lecture and what the 'five rights' recommend.",
-   "answer": "Health IT and CDS are double-edged swords: poorly designed systems cause unintended consequences and new errors, often from mismatches between the user's mental model and the application's design or workflow. Interruptive pop-ups cause alert fatigue and very high override rates. Human-factors issues (colors, layout, choosing medications from long lists) and efficient structured data capture are also concerns. CDS should deliver the right information to the right person in the right format through the right channel at the right point in workflow.",
+   "q": "What is alert fatigue, and why is it a problem for CDS?",
+   "answer": "Clinicians receive so many (often interruptive) alerts that they start ignoring them.\nThis leads to very high override rates and undermines the efficacy of CDS.",
    "keywords": [
-    "alert fatigue",
-    "override",
-    "unintended consequences",
-    "mental model",
-    "workflow",
-    "human factors",
-    "five rights"
+    "alerts",
+    "ignoring",
+    "override rates",
+    "efficacy"
    ],
-   "explanation": "",
+   "explanation": "Section 24.5.5 'Usability Research and CDS'.",
+   "star": true,
    "id": "cdss-049",
    "lecture": "cdss"
   },
   {
    "type": "short",
-   "q": "According to the conclusions, why will human clinicians and informaticians always be needed alongside CDS tools?",
-   "answer": "There is no evidence that machines will equal humans in handling unexpected situations, integrating visual and auditory subtleties of a patient's problem, incorporating patient values and priorities into care plans, or dealing with social and ethical issues. Practitioners also have information meaningless to the machine, so health-care workers should retain discretion in using decision-support tools, and trained informaticians are needed to foster cooperation between physicians and computer tools.",
+   "q": "Why will human clinicians always be needed alongside CDS tools? Give three reasons.",
+   "answer": "Machines are not shown to equal humans in:\n1. Dealing with unexpected situations\n2. Integrating visual and auditory subtleties of a patient\n3. Incorporating patient values and priorities\n4. Handling social and ethical issues",
    "keywords": [
     "unexpected situations",
+    "visual and auditory",
     "patient values",
-    "social and ethical",
-    "discretion",
-    "cooperative relationship"
+    "social and ethical"
    ],
-   "explanation": "",
+   "explanation": "Section 24.6 'Conclusions'.",
+   "star": true,
    "id": "cdss-050",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "Why is the word 'support' important in 'clinical decision support'?",
+   "answer": "CDS systems do not make the clinical decision themselves; they provide relevant knowledge and analyses so that clinicians, patients, and organizations can make more informed judgments.",
+   "keywords": [
+    "do not make",
+    "knowledge",
+    "clinicians",
+    "informed judgments"
+   ],
+   "explanation": "Chapter introduction, before the five rights.",
+   "star": true,
+   "id": "cdss-051",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "Name the three basic categories of CDS systems.",
+   "answer": "1. Retrieve relevant documents using the clinical context (e.g., infobuttons)\n2. Patient-specific alerts, reminders, order sets, recommendations\n3. Organize and present information (e.g., dashboards, templates)",
+   "keywords": [
+    "infobuttons",
+    "alerts",
+    "reminders",
+    "dashboards"
+   ],
+   "explanation": "Chapter introduction and start of Section 24.3 'Methods of CDS'.",
+   "star": true,
+   "id": "cdss-052",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "Name the three requirements for excellent clinical decision-making.",
+   "answer": "1. Accurate data\n2. Pertinent knowledge\n3. Appropriate problem-solving (clinical reasoning) skills",
+   "keywords": [
+    "accurate data",
+    "pertinent knowledge",
+    "problem-solving"
+   ],
+   "explanation": "Section 24.1 'The Nature of Clinical Decision Making'.",
+   "star": true,
+   "id": "cdss-053",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "What is the main criticism of CDS based on machine learning?",
+   "answer": "Lack of transparency: the system cannot explain why it reached a conclusion, so its output must be accepted at face value and hidden biases in the training data cannot be detected.",
+   "keywords": [
+    "transparency",
+    "explain",
+    "face value",
+    "biases"
+   ],
+   "explanation": "Section 24.3.2.4 'Learning from Data', machine learning subsection.",
+   "id": "cdss-054",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "Name the three 'naive' Bayesian assumptions made by de Dombal's abdominal pain system.",
+   "answer": "1. Conditional independence of the findings\n2. Mutual exclusivity of the diagnoses\n3. Exhaustiveness of the seven diagnoses",
+   "keywords": [
+    "conditional independence",
+    "mutual exclusivity",
+    "exhaustiveness"
+   ],
+   "explanation": "Section 24.3.2.4, de Dombal's Bayesian system for acute abdominal pain.",
+   "id": "cdss-055",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "In the long-running debate between structured/coded data entry and free-text entry with NLP, what was the professor's conclusion?",
+   "options": [
+    "Structured coded entry has clearly won, so free text should be removed from the EHR",
+    "Free text plus modern NLP has made coded data entry unnecessary for CDS",
+    "It is 'A plus B': use coded structured data and also apply NLP to free text",
+    "Neither works, so CDS should rely only on data typed directly into alerts"
+   ],
+   "answer": 2,
+   "explanation": "He stressed it is not 'A versus B' but 'A plus B': coded data and NLP of free text together (emphasized in class).",
+   "star": true,
+   "id": "cdss-056",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Why did the traditional side of the debate insist that clinical data be structured and coded as much as possible?",
+   "options": [
+    "Coded data are machine-executable, so computers can recognize and use them",
+    "Coded data take clinicians less time to enter than writing free-text notes",
+    "Coded data are required by law before any record can be stored in the EHR",
+    "Coded data preserve the nuance and hedging of the clinician's own wording"
+   ],
+   "answer": 0,
+   "explanation": "Structured, coded data are easy for the machine to recognize and act on, whereas clinicians find structured forms restrictive (emphasized in class).",
+   "star": true,
+   "id": "cdss-057",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the professor, what problem with free text remains even with large language models?",
+   "options": [
+    "Free text cannot be stored in a relational database or sent between hospitals",
+    "Hedges like 'not uncommon' are ambiguous and map to no definite probability",
+    "LLMs can only read free text that has first been coded in ICD-10 format",
+    "Free text is always too short to describe a patient's history of present illness"
+   ],
+   "answer": 1,
+   "explanation": "Humans inject uncertainty into free text ('not uncommon', 'likely'), so its meaning cannot be quantified precisely (emphasized in class).",
+   "star": true,
+   "id": "cdss-058",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "In the professor's hospital, urologists often ordered an intravenous pyelogram (IVP) without first checking kidney function. What CDS was built in response?",
+   "options": [
+    "A monthly report sent to radiologists listing every IVP performed in the hospital",
+    "A rule that silently blocked all IVP orders for patients older than 65 years",
+    "An NLP tool that summarized the radiology report after each IVP was done",
+    "It showed recent renal function with a risk rating and offered to cancel the IVP"
+   ],
+   "answer": 3,
+   "explanation": "The system displayed recent kidney function (creatinine/BUN) with a risk rating and could cancel the IVP and order a renal test first; doctors liked it (emphasized in class).",
+   "star": true,
+   "id": "cdss-059",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "In the professor's statin example, what did the CDS do when a doctor prescribed a statin?",
+   "options": [
+    "It showed the patient's lipid profile and asked for one to be checked first if none existed",
+    "It automatically doubled the dose when LDL was above target",
+    "It replaced the statin with a cheaper generic drug from the formulary",
+    "It sent the prescription to the NHI for prior authorization"
+   ],
+   "answer": 0,
+   "explanation": "Prescribing a statin without a lipid profile led to NHI non-payment plus fines, so the CDS showed or requested the lipid profile (emphasized in class).",
+   "star": true,
+   "id": "cdss-060",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "What was the key idea Thomas Bayes added to classical probability, as told in class?",
+   "options": [
+    "Probabilities are fixed numbers that never change, like drawing from a deck of cards",
+    "Probabilities can only be estimated by expert opinion, never by data",
+    "Probabilities can be updated as new evidence (conditions) arrives",
+    "Probabilities apply only to gambling and not to medical diagnosis"
+   ],
+   "answer": 2,
+   "explanation": "In the wet-road example, a street-washing truck changes the chance it rained last night: conditional, updatable probability (emphasized in class).",
+   "star": true,
+   "id": "cdss-061",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Backward chaining relies on the logical equivalence that 'If P then Q' is the same as:",
+   "options": [
+    "If Q then P",
+    "If not P then not Q",
+    "If P then not Q",
+    "If not Q then not P"
+   ],
+   "answer": 3,
+   "explanation": "The contrapositive (not Q -> not P) is equivalent to P -> Q; forward chaining goes from facts to conclusions, backward chaining from a goal back to facts (emphasized in class).",
+   "star": true,
+   "id": "cdss-062",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Consider the rule: 'When a penicillin order is entered, if the patient has a documented penicillin allergy, display an alert.' In ECA terms, the allergy check is the:",
+   "options": [
+    "Condition",
+    "Event",
+    "Action",
+    "Evoke slot"
+   ],
+   "answer": 0,
+   "explanation": "Event = order entered, Condition = documented allergy, Action = alert; his recurring example of a simple ECA rule (emphasized in class).",
+   "star": true,
+   "id": "cdss-063",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Why did the professor call the Glasgow Coma Scale and APGAR score 'ad hoc' scoring systems?",
+   "options": [
+    "They are derived exactly from Bayes' theorem",
+    "Their points are experience-based, not mathematics",
+    "They can only be calculated by a computer",
+    "They are no longer used in clinical practice"
+   ],
+   "answer": 1,
+   "explanation": "Once certainty or points are attached to rules by experience (as with certainty factors), it is ad hoc, not mathematics (emphasized in class).",
+   "star": true,
+   "id": "cdss-064",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "What does the '7' in HL7 refer to?",
+   "options": [
+    "The seventh version of the HL7 standard",
+    "The seven founding member countries of HL7 International",
+    "Layer 7, the application layer, of the ISO OSI model",
+    "The seven resource types defined by FHIR"
+   ],
+   "answer": 2,
+   "explanation": "HL7 works at layer 7 (application) of the OSI model; mnemonic 'Please Do Not Trust Salesman's Advice' (emphasized in class).",
+   "star": true,
+   "id": "cdss-065",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "In SMART on FHIR, where does the decision logic (the knowledge) reside, and why does this matter?",
+   "options": [
+    "In the FHIR resources themselves, so each hospital must edit its own FHIR server",
+    "In the SMART app, so the same logic can be reused across hospitals",
+    "In the HL7 v2 messages, so it travels with every lab result",
+    "In the OSI network layer, so routers can apply it to traffic"
+   ],
+   "answer": 1,
+   "explanation": "FHIR only defines data and how to retrieve it; SMART handles login, authorization and patient context, and the reusable logic sits in the app (emphasized in class).",
+   "star": true,
+   "id": "cdss-066",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "According to the professor, an ontology is especially useful when:",
+   "options": [
+    "A drug must be ordered faster than the pharmacy can dispense it",
+    "A hospital needs to encrypt patient data before sending it",
+    "A rule fires too often and causes alert fatigue",
+    "One concept has many names, e.g., shortness of breath, SOB and dyspnea"
+   ],
+   "answer": 3,
+   "explanation": "An ontology stores concepts, their synonyms and links (dyspnea -> breathing -> inspiration/expiration) (emphasized in class).",
+   "star": true,
+   "id": "cdss-067",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "YouTube researchers let a machine learn from many videos without labels, and it discovered a consistent object that turned out to be cats. This illustrates:",
+   "options": [
+    "Unsupervised learning, which finds patterns or clusters without given answers",
+    "Supervised learning, which trains on labeled ground-truth examples",
+    "Rule-based reasoning using event-condition-action rules",
+    "Backward chaining from a goal toward supporting facts"
+   ],
+   "answer": 0,
+   "explanation": "Supervised learning needs labels (ground truth); unsupervised learning, like data mining, discovers clusters with no labels (emphasized in class).",
+   "star": true,
+   "id": "cdss-068",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "The professor said a model output of one million tokens corresponds to roughly how many English words?",
+   "options": [
+    "About 100,000 words, since each word uses ten tokens",
+    "Exactly one million words, since one token equals one word",
+    "About 750,000 words, since some words split into several tokens",
+    "About two million words, since tokens bundle several words"
+   ],
+   "answer": 2,
+   "explanation": "Common words are one token, but longer words like 'suspicious' split into several, so 1M tokens is about 750,000 words (emphasized in class).",
+   "star": true,
+   "id": "cdss-069",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Why did Epic's ICU sepsis prediction CDS fall from about 67% to about 30% accuracy during COVID-19?",
+   "options": [
+    "The hospital switched off the alert during the pandemic",
+    "The ICU patient mix changed, so its prior probabilities were no longer valid",
+    "Physicians began entering sepsis data only as free text",
+    "The FHIR standard was replaced in the middle of the pandemic"
+   ],
+   "answer": 1,
+   "explanation": "The ICU population changed, so the model's priors were wrong; CDS must be monitored, not 'shoot and forget' (emphasized in class).",
+   "star": true,
+   "id": "cdss-070",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Who bears liability when a physician follows or rejects a CDS/AI recommendation, according to the professor?",
+   "options": [
+    "The software vendor, in every case",
+    "The hospital IT department that installed the system",
+    "The government agency that certified the system",
+    "Whoever makes the final decision, normally the physician"
+   ],
+   "answer": 3,
+   "explanation": "The decision-maker is liable; as in self-driving levels 4-5, liability shifts to a company only if it takes the decision and insures it (emphasized in class).",
+   "star": true,
+   "id": "cdss-071",
+   "lecture": "cdss"
+  },
+  {
+   "type": "fill",
+   "q": "Injecting contrast media into a patient with impaired kidney function can cause contrast-induced ____, which may require emergency dialysis.",
+   "answer": [
+    "nephropathy",
+    "nephropathy (CIN)",
+    "CIN",
+    "acute kidney injury",
+    "AKI"
+   ],
+   "explanation": "This is why renal function must be checked before ordering an IVP (emphasized in class).",
+   "star": true,
+   "id": "cdss-072",
+   "lecture": "cdss"
+  },
+  {
+   "type": "fill",
+   "q": "The professor's one-word answer to 'why are transformers such a big deal?' is ____.",
+   "answer": [
+    "attention",
+    "attention mechanism",
+    "self-attention"
+   ],
+   "explanation": "From the paper 'Attention Is All You Need'; models evolved LSTM -> BERT -> GPT (generative pre-trained transformer) (emphasized in class).",
+   "star": true,
+   "id": "cdss-073",
+   "lecture": "cdss"
+  },
+  {
+   "type": "fill",
+   "q": "In the OSI mnemonic 'Please Do Not Trust Salesman's Advice', the 'D' stands for the ____ layer.",
+   "answer": [
+    "data link",
+    "data-link",
+    "datalink"
+   ],
+   "explanation": "Physical, Data link, Network, Transport, Session, Presentation, Application; Ethernet cards handle layers 1-2 and TCP/IP layers 3-4 (emphasized in class).",
+   "star": true,
+   "id": "cdss-074",
+   "lecture": "cdss"
+  },
+  {
+   "type": "fill",
+   "q": "The ontology modeling language invented for Tim Berners-Lee's Semantic Web vision is ____.",
+   "answer": [
+    "OWL",
+    "Web Ontology Language"
+   ],
+   "explanation": "Berners-Lee invented the WWW and HTML, then proposed the Semantic Web (ontologies on the internet), which did not take off (emphasized in class).",
+   "star": true,
+   "id": "cdss-075",
+   "lecture": "cdss"
+  },
+  {
+   "type": "fill",
+   "q": "AI that does things for you, not just answers questions, is called ____ AI (after perception AI and generative AI, before physical AI).",
+   "answer": [
+    "agentic",
+    "agent",
+    "agent-based"
+   ],
+   "explanation": "The four waves of AI are perception, generative, agentic and physical; robots need not be humanoid, e.g. a Roomba (emphasized in class).",
+   "star": true,
+   "id": "cdss-076",
+   "lecture": "cdss"
+  },
+  {
+   "type": "fill",
+   "q": "The most common neural-network topology, the MLP, stands for multilayer ____.",
+   "answer": [
+    "perceptron",
+    "perceptrons"
+   ],
+   "explanation": "During training, machine learning updates the model's parameters (connection weights) rather than staying fixed (emphasized in class).",
+   "star": true,
+   "id": "cdss-077",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "How should a CDS choose between conflicting guidelines or rules for the same problem?",
+   "answer": "Choose the guideline with the strongest evidence (clinical trial data)\nIf all are opinion-based, follow the most authoritative organization (e.g., AHA, WHO)\nA knowledge engineer resolves rule conflicts before execution",
+   "keywords": [
+    "evidence",
+    "clinical trial",
+    "authoritative organization",
+    "knowledge engineer"
+   ],
+   "explanation": "Conflict resolution comes before the rule engine runs, and he called it more a physician problem than a computer problem (emphasized in class).",
+   "star": true,
+   "id": "cdss-078",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "Compare structured/coded data entry with free text for CDS, and state the professor's conclusion.",
+   "answer": "Coded data: machine-executable but restrictive for clinicians\nFree text: expressive but ambiguous and uncertain\nNLP/LLMs now extract information from free text\nConclusion: A plus B, not A versus B",
+   "keywords": [
+    "machine-executable",
+    "restrictive",
+    "ambiguous",
+    "NLP",
+    "A plus B"
+   ],
+   "explanation": "For 30-40 years coded entry 'won'; NLP has now caught up, so both are used together (emphasized in class).",
+   "star": true,
+   "id": "cdss-079",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "Why must a CDS system be monitored after deployment? Give an example from class.",
+   "answer": "Monitor it; do not 'shoot and forget': accuracy and usefulness change over time\nDrug-drug interaction reminders: only 3 per 1,000 accepted, so alert fatigue\nEpic sepsis model fell from 67% to 30% during COVID as the patient mix changed",
+   "keywords": [
+    "shoot and forget",
+    "alert fatigue",
+    "sepsis",
+    "monitor"
+   ],
+   "explanation": "Monitor usage and accuracy regularly and revise or retire alerts (emphasized in class).",
+   "star": true,
+   "id": "cdss-080",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "Describe the Learning Health System cycle (Charles Friedman) and the role of CDS in it.",
+   "answer": "Data -> Knowledge (analytics, machine learning)\nKnowledge -> Practice: CDS applies the knowledge\nPractice -> new Data: monitor responses to CDS\nThen the cycle repeats",
+   "keywords": [
+    "data",
+    "knowledge",
+    "practice",
+    "CDS",
+    "cycle"
+   ],
+   "explanation": "D->K, K->P, P->D; CDS is the step that puts knowledge into practice (emphasized in class).",
+   "star": true,
+   "id": "cdss-081",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Today, with near-ubiquitous EHRs, what information problem motivates CDS according to the chapter?",
+   "options": [
+    "EHRs now hold too little data to support any clinical decision",
+    "Overabundant EHR data cause 'information chaos', hiding what is relevant",
+    "EHR data can no longer be exchanged because FHIR was withdrawn",
+    "Clinicians now have more time per visit than they can use well"
+   ],
+   "answer": 1,
+   "explanation": "Knowledge and data keep expanding while visit time shrinks; the excess of EHR data ('information chaos') is a key motivation for CDS (course learning objective).",
+   "star": true,
+   "id": "cdss-082",
+   "lecture": "cdss"
+  },
+  {
+   "type": "mcq",
+   "q": "Which pairing correctly matches a class example to a key motivation for CDS?",
+   "options": [
+    "IVP renal-function check -> reducing costs; statin lipid check -> genomics",
+    "Statin lipid-profile check -> precision medicine based on the patient's genome",
+    "IVP check -> patient safety; statin check -> avoiding NHI fines",
+    "Ontology of synonyms -> reducing NHI fines for missing laboratory tests"
+   ],
+   "answer": 2,
+   "explanation": "The IVP alert prevents contrast-induced nephropathy (safety/quality) and the statin alert avoided costly NHI fines (cost), two motivations for CDS (course learning objective).",
+   "star": true,
+   "id": "cdss-083",
+   "lecture": "cdss"
+  },
+  {
+   "type": "fill",
+   "q": "The motivation to deliver care tailored to each patient's preferences and individual genome is called personalized or ____ medicine.",
+   "answer": [
+    "precision"
+   ],
+   "explanation": "Precision medicine is one of the four reasons CDS has become urgent in the 21st century (course learning objective).",
+   "star": true,
+   "id": "cdss-084",
+   "lecture": "cdss"
+  },
+  {
+   "type": "short",
+   "q": "What are the four key motivations for computer-based clinical decision support?",
+   "answer": "Growing physician information needs: expanding knowledge, less time\nUbiquitous EHRs: integrate and use the data\nPersonalized (precision) care: preferences, genome\nEvidence that CDS improves quality and reduces cost",
+   "keywords": [
+    "information needs",
+    "EHR",
+    "precision",
+    "quality",
+    "cost"
+   ],
+   "explanation": "These are the four reasons in section 24.2; this is the week-7 learning objective in the course outline.",
+   "star": true,
+   "id": "cdss-085",
    "lecture": "cdss"
   },
   {
@@ -3224,6 +4671,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The lecture defines AIoT (Artificial Intelligence of Things) as Artificial Intelligence + Internet of Things.",
+   "star": true,
    "id": "telehealth-001",
    "lecture": "telehealth"
   },
@@ -3238,6 +4686,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 3,
    "explanation": "The AIoT slide lists improved human-machine interactions, enhanced data management/analytics, and improved clinical decision making; it never claims clinicians are replaced.",
+   "star": true,
    "id": "telehealth-002",
    "lecture": "telehealth"
   },
@@ -3280,6 +4729,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "The 'Before/After COVID' slide lists reducing unnecessary visits, remote monitoring, long-term chronic care, teleconsultations at home, and continuity of care.",
+   "star": true,
    "id": "telehealth-005",
    "lecture": "telehealth"
   },
@@ -3490,6 +4940,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 2,
    "explanation": "Consumer wearables are best for real-time and long-term monitoring and heart rate, but require a smartphone, are not medical devices and are hard to compare with medical-device studies.",
+   "star": true,
    "id": "telehealth-020",
    "lecture": "telehealth"
   },
@@ -3504,6 +4955,7 @@ window.QUESTION_BANK = {
    ],
    "answer": 1,
    "explanation": "Clinical wearables are robust and validated with fewer privacy concerns, but are expensive, not designed for long periods or real-time sync, need more logistics, and may be disliked by users.",
+   "star": true,
    "id": "telehealth-021",
    "lecture": "telehealth"
   },
@@ -3515,6 +4967,7 @@ window.QUESTION_BANK = {
     "Thing"
    ],
    "explanation": "AIoT = Artificial Intelligence + Internet of Things.",
+   "star": true,
    "id": "telehealth-022",
    "lecture": "telehealth"
   },
@@ -3616,94 +5069,243 @@ window.QUESTION_BANK = {
   },
   {
    "type": "short",
-   "q": "List the four 'take home messages' from Dr. Shabbir's lecture on AIoT wearables for telemedicine and homecare.",
-   "answer": "1) Focus on the needs/problem, not on technology. 2) Consider technology as a tool, not as a solution. 3) Focus on prevention and early detection. 4) Use technology to empower and engage patients.",
+   "q": "List the four take-home messages of the lecture on AIoT wearables for telemedicine.",
+   "answer": "1. Focus on the needs/problem, not on technology\n2. Technology is a tool, not a solution\n3. Focus on prevention and early detection\n4. Use technology to empower and engage patients",
    "keywords": [
-    "needs/problem not technology",
-    "tool not solution",
-    "preventive",
+    "needs",
+    "tool",
+    "prevention",
     "early detection",
-    "empower",
-    "engage patients"
+    "empower"
    ],
-   "explanation": "",
+   "explanation": "Final 'Take home message' slide.",
    "id": "telehealth-031",
    "lecture": "telehealth"
   },
   {
    "type": "short",
-   "q": "Compare consumer wearables (e.g., Fitbit) and clinical wearables (e.g., Actigraph) for monitoring physical activity and sleep in clinical studies. Give at least two advantages and two disadvantages of each.",
-   "answer": "Consumer wearables: best for real-time and long-term monitoring and heart rate, cheaper and acceptable to users; but they require a smartphone, are not medical devices with accuracy concerns, may send data to servers outside the EU, and are hard to compare with medical-device studies. Clinical wearables: robust, clinically validated, comparable across studies, no software changes, fewer privacy concerns; but expensive, not designed for long periods or real-time sync, more logistic work (charging, syncing), and unattractive to users.",
+   "q": "Name three disadvantages of consumer wearables (e.g., Fitbit) for clinical studies.",
+   "answer": "1. Require a smartphone\n2. Not a medical device; accuracy concerns\n3. Data sent to servers outside the EU\n4. Hard to compare with studies using medical devices",
    "keywords": [
-    "real-time",
-    "long-term",
-    "heart rate",
     "smartphone",
     "not a medical device",
     "accuracy",
-    "clinically validated",
-    "comparable",
-    "expensive",
-    "privacy",
-    "logistics",
-    "real-time sync"
+    "servers",
+    "compare"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Consumer Wearables (i.e. Fitbit)'.",
+   "star": true,
    "id": "telehealth-032",
    "lecture": "telehealth"
   },
   {
    "type": "short",
-   "q": "Name the four pillars combined in the Digiquit mobile adherence solution and briefly explain how AI personalization works in it.",
-   "answer": "The four pillars are behavioral change (I-Change model), artificial intelligence personalization, validated clinical content, and digital engagement (e.g., gamification). AI personalization uses recommender-system technology that learns each user's preferred type of motivational message and the best time to send it, using user and message meta-features such as age, gender, quitting date, Richmond score and I-Change factors.",
+   "q": "Name the four pillars of the Digiquit mobile adherence solution.",
+   "answer": "1. Behavioral change (I-Change model)\n2. Artificial intelligence personalization\n3. Validated clinical content\n4. Digital engagement (e.g., gamification)",
    "keywords": [
     "behavioral change",
-    "I-Change",
-    "artificial intelligence personalization",
+    "personalization",
     "validated clinical content",
-    "digital engagement",
-    "recommender system",
-    "message type",
-    "timing"
+    "digital engagement"
    ],
-   "explanation": "",
+   "explanation": "Slides 'Digiquit - Mobile Adherence Solution'.",
    "id": "telehealth-033",
    "lecture": "telehealth"
   },
   {
-   "type": "short",
-   "q": "Describe TMU's three contributions to the iHelp H2020 project (2021-2024).",
-   "answer": "1) Applying data analytics, AI and deep learning to EHR data to predict individuals at high risk of pancreatic and liver cancer for early-stage management. 2) Conducting digital trials of mobile apps and wearable-device monitoring for personalized healthcare and improved quality of life among high-risk individuals. 3) Evaluating these digital solutions in pancreatic and liver cancer patients.",
-   "keywords": [
-    "EHR",
-    "AI/deep learning",
-    "predict high risk",
-    "pancreatic cancer",
-    "liver cancer",
-    "digital trials",
-    "wearables",
-    "quality of life",
-    "evaluation"
+   "type": "mcq",
+   "q": "In the iHelp H2020 project, TMU applied AI to EHR data to predict high-risk individuals for which cancers?",
+   "options": [
+    "Lung and breast cancer",
+    "Colorectal and gastric cancer",
+    "Prostate and bladder cancer",
+    "Pancreatic and liver cancer"
    ],
-   "explanation": "",
+   "answer": 3,
+   "explanation": "Slide 'Contribution of TMU' in the iHelp section.",
    "id": "telehealth-034",
    "lecture": "telehealth"
   },
   {
    "type": "short",
-   "q": "The lecture raised key open questions about expanding the point of care to the home via technology and about real-world data algorithms. State at least three of these questions.",
-   "answer": "Point of care at home: Will there be a new doctor-patient relationship? How should the clinical workflow be? Are EHRs ready? Real-world data algorithms: Can we trust them, and are they biased? Who designs and evaluates them? Design for adherence: Should clinicians wait for technology maturity or shape its design, and how can they make decisions about fast-evolving technologies?",
+   "q": "Name three benefits of AIoT (Artificial Intelligence of Things) in healthcare.",
+   "answer": "1. Improved human-machine interactions\n2. Enhanced data management and analytics\n3. Improved clinical decision making",
    "keywords": [
-    "doctor-patient relationship",
-    "clinical workflow",
-    "EHR ready",
-    "trust",
-    "data bias",
-    "who designs and evaluates",
-    "clinicians shape design"
+    "human-machine interactions",
+    "data management",
+    "analytics",
+    "clinical decision making"
    ],
-   "explanation": "",
+   "explanation": "Slide 'Artificial Intelligence of Things (AIoT)'.",
+   "star": true,
    "id": "telehealth-035",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "short",
+   "q": "Name three advantages of clinical wearables (e.g., Actigraph) over consumer wearables.",
+   "answer": "1. Robust and clinically validated\n2. Comparable with multiple studies\n3. No software changes during the study\n4. Fewer privacy concerns",
+   "keywords": [
+    "clinically validated",
+    "comparable",
+    "software",
+    "privacy"
+   ],
+   "explanation": "Slide 'Clinical Wearables (i.e. Actigraph)'.",
+   "star": true,
+   "id": "telehealth-036",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "short",
+   "q": "Define persuasive technology.",
+   "answer": "Any interactive computing system designed to change people's attitudes and/or behaviors (Fogg, 2003).",
+   "keywords": [
+    "interactive computing system",
+    "attitudes",
+    "behaviors"
+   ],
+   "explanation": "Slide 'Persuasive Technology & Adherence'.",
+   "id": "telehealth-037",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "short",
+   "q": "How does AI personalize messages in the Digiquit / Quit And Return app?",
+   "answer": "A recommender system learns each user's preferences automatically:\n1. Favorite type of motivational message\n2. Best time to send messages",
+   "keywords": [
+    "recommender system",
+    "preferences",
+    "type",
+    "time"
+   ],
+   "explanation": "Slide 'Behavioral Design AI-Based Personalised Messages'.",
+   "id": "telehealth-038",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "short",
+   "q": "Name three changing healthcare needs in the post-COVID era that telehealth addresses.",
+   "answer": "1. Reduce unnecessary visits\n2. Remotely monitor and interpret patient data\n3. Long-term care for chronic disease\n4. Tele-consultations at home\n5. Continuity of care",
+   "keywords": [
+    "unnecessary visits",
+    "remotely monitor",
+    "chronic disease",
+    "tele-consultations",
+    "continuity of care"
+   ],
+   "explanation": "Slide 'Life: Before COVID - After COVID'.",
+   "star": true,
+   "id": "telehealth-039",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "fill",
+   "q": "One changing healthcare need of the (post-)COVID-19 era is ensuring ____ of care.",
+   "answer": [
+    "continuity"
+   ],
+   "explanation": "The 'Before COVID - After COVID' slide lists ensuring continuity of care.",
+   "star": true,
+   "id": "telehealth-040",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "mcq",
+   "q": "Which of the following was NOT listed as a changing healthcare need in the (post-)COVID-19 era?",
+   "options": [
+    "Increasing routine in-person follow-up visits",
+    "Tele-consultations for patients at home",
+    "Remote monitoring and interpretation of patient data",
+    "Long-term care for chronic disease management"
+   ],
+   "answer": 0,
+   "explanation": "The slide lists reducing (not increasing) unnecessary visits, alongside teleconsultation, remote monitoring and chronic care.",
+   "star": true,
+   "id": "telehealth-041",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "short",
+   "q": "Give two examples of data-driven adherence support with AI from the lecture.",
+   "answer": "360° Quantified Self for childhood obesity at a weight-loss camp in Qatar\nSleep quality predicted from wearable activity data with deep learning (CNN)\nSentiment analysis of a breast cancer forum for adherence indicators",
+   "keywords": [
+    "Quantified Self",
+    "sleep quality",
+    "sentiment analysis"
+   ],
+   "explanation": "Section 'Data Driven Adherence Support and Artificial Intelligence'; any two are enough.",
+   "id": "telehealth-042",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "mcq",
+   "q": "In the lecture's BioPatch slides, the analyzed output shown was for which measure?",
+   "options": [
+    "Blood glucose",
+    "Physical activity",
+    "Retinal images",
+    "Polygenic risk"
+   ],
+   "answer": 1,
+   "explanation": "The BioPatch section includes a slide titled 'Analyzed output of Physical Activity'.",
+   "star": true,
+   "id": "telehealth-043",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "short",
+   "q": "List the aspects of the BioPatch wearable covered in the lecture.",
+   "answer": "Description of the BioPatch\nSpecifications and data collection\nData output\nAnalyzed output of physical activity\nApplications",
+   "keywords": [
+    "specifications",
+    "data collection",
+    "data output",
+    "physical activity",
+    "applications"
+   ],
+   "explanation": "The BioPatch slides are mostly figures; these are their headings.",
+   "star": true,
+   "id": "telehealth-044",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "fill",
+   "q": "The lecture presents the BioPatch in its section on IoT ____ devices.",
+   "answer": [
+    "wearable",
+    "wearables"
+   ],
+   "explanation": "BioPatch follows the 'IoT Wearable Devices' section as an example device.",
+   "star": true,
+   "id": "telehealth-045",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "fill",
+   "q": "In the iHelp project, TMU ran digital trials of mobile applications and monitoring via ____ devices among high-risk individuals.",
+   "answer": [
+    "wearable",
+    "wearables"
+   ],
+   "explanation": "TMU's iHelp contribution (2) was digital trials with mobile apps and wearable-device monitoring.",
+   "star": true,
+   "id": "telehealth-046",
+   "lecture": "telehealth"
+  },
+  {
+   "type": "mcq",
+   "q": "In the lecture's model of digital health data enhancing observational studies, wearables are used to capture:",
+   "options": [
+    "Genomic sequencing data",
+    "Physical activity and sleep",
+    "Radiology images",
+    "Insurance claims"
+   ],
+   "answer": 1,
+   "explanation": "The slide lists 'Wearables for Physical Activity and Sleep' alongside mobile PROs and clinical data.",
+   "star": true,
+   "id": "telehealth-047",
    "lecture": "telehealth"
   }
  ]

@@ -189,7 +189,8 @@
       "Serum troponin"
     ],
     "answer": 3,
-    "explanation": "The multi-modalities slide lists task-based EEG, fMRI and connectome (plus stimulation-based EEG)."
+    "explanation": "The multi-modalities slide lists task-based EEG, fMRI and connectome (plus stimulation-based EEG).",
+    "star": true
   },
   {
     "type": "mcq",
@@ -293,65 +294,206 @@
   },
   {
     "type": "short",
-    "q": "List the 7 steps of the neuroprognostication framework presented in the lecture.",
-    "answer": "1) Determine current function; 2) Predict the trajectory of recovery; 3) Define goals of care; 4) Define good and bad outcomes; 5) Assess value modifiers; 6) Decision-making (e.g., continue or withdraw life-sustaining treatment); 7) Communication with family/surrogates using shared decision-making.",
+    "q": "List the seven steps of the neuroprognostication framework.",
+    "answer": "1. Determine current function\n2. Trajectory of recovery\n3. Goals of care\n4. Define good and bad outcomes\n5. Value modifiers\n6. Decision-making\n7. Communication",
     "keywords": [
       "current function",
       "trajectory of recovery",
       "goals of care",
-      "good and bad outcomes",
+      "outcomes",
       "value modifiers",
-      "decision-making",
       "communication"
     ],
-    "explanation": ""
+    "explanation": "Slides '7-Step Framework for Neuroprognostication' (Fischer et al. 2022).",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Name the six subscales of the CRS-R and state its main purposes.",
-    "answer": "The six subscales are auditory, visual, motor, verbal (oromotor), communication, and arousal. The CRS-R is used to assist diagnosis and differential diagnosis of the level of consciousness, prognostic assessment, and planning of treatment and nursing care.",
+    "q": "Name the six subscales of the CRS-R.",
+    "answer": "1. Auditory\n2. Visual\n3. Motor\n4. Verbal (oromotor)\n5. Communication\n6. Arousal",
     "keywords": [
       "auditory",
       "visual",
       "motor",
       "verbal",
       "communication",
-      "arousal",
-      "diagnosis",
-      "prognosis"
+      "arousal"
     ],
-    "explanation": ""
+    "explanation": "CRS-R slide in the iGuardian workflow section (total score 0-23)."
   },
   {
     "type": "short",
-    "q": "Why is continuous EEG/consciousness monitoring important in neuro-ICU patients? Support your answer with examples from the lecture's seizure prevalence data.",
-    "answer": "Seizures, often nonconvulsive, are very common in the ICU and can only be detected by EEG monitoring. Examples: early post-traumatic seizures 4-25% (late 9-42%) in TBI; nonconvulsive seizures 8-18% in aneurysmal SAH; early seizures 28-31% in ICH on CEEG; 4-23% in ischemic stroke; up to 27% in meningitis; 15-20% after supratentorial craniotomy. EEG can also detect covert awareness in unresponsive patients, informing prognosis.",
+    "q": "Why is continuous EEG monitoring important in neuro-ICU patients?",
+    "answer": "Seizures are very common in the ICU (e.g., 28-31% early seizures in ICH)\nMany are nonconvulsive\nNonconvulsive seizures can only be detected by EEG",
     "keywords": [
-      "seizure",
+      "seizures",
+      "common",
       "nonconvulsive",
-      "TBI",
-      "ICH",
-      "subarachnoid hemorrhage",
-      "continuous EEG",
-      "prevalence"
+      "EEG"
     ],
-    "explanation": ""
+    "explanation": "Slide 'The prevalence of seizure is very high in the ICU'."
+  },
+  {
+    "type": "mcq",
+    "q": "In the iGuardian EEG study, which voice commands were given to patients during EEG recording?",
+    "options": [
+      "Raise the right arm, left arm, then both arms (5 times each)",
+      "Open and close the right hand, left hand, then both hands (10 times each)",
+      "Blink the eyes, move the tongue, then nod the head (10 times each)",
+      "Imagine swimming, then imagine walking through the house (20 times each)"
+    ],
+    "answer": 1,
+    "explanation": "iGuardian enrollment workflow slides: commands were right-hand, left-hand and both-hands open/close, ten times each, recorded with the EEG."
   },
   {
     "type": "short",
-    "q": "Describe the patient enrollment workflow and data collected in the iGuardian EEG study at Shuang Ho Hospital (Taipei Neuroscience Institute).",
-    "answer": "Research staff screened the NCU patient list daily for eligible diagnoses, then physicians assessed clinical stability before the study was explained and consent obtained. EEG was deferred until head drains were removed (wound care by nurse practitioners or after suture removal). Patients received voice commands (right, left, both hands open/close, 10 times each) recorded with the EEG, and CRS-R was assessed. Data collected included demographics, diagnosis and medications, discharge disposition, and heart rate, blood pressure and SpO2 before and after EEG; about 100 patients were enrolled (96 Shuang Ho, 4 Hsiao Chung-Cheng).",
+    "q": "Distinguish a vegetative state from a minimally conscious state (MCS).",
+    "answer": "Vegetative state: wakefulness without awareness; only reflexive responses to stimuli.\nMCS: minimal awareness of self or environment, with inconsistent responses to stimuli.",
     "keywords": [
-      "NCU",
-      "screening",
-      "physician assessment",
-      "consent",
-      "drain removal",
-      "voice commands",
-      "CRS-R",
-      "vital signs",
-      "100 patients"
+      "wakefulness without awareness",
+      "reflexive",
+      "minimal awareness",
+      "inconsistent"
     ],
-    "explanation": ""
+    "explanation": "Slide 'States of Consciousness'."
+  },
+  {
+    "type": "short",
+    "q": "Name three purposes of the CRS-R.",
+    "answer": "1. Diagnosis of the level of consciousness\n2. Differential diagnosis\n3. Prognostic assessment\n4. Planning treatment and nursing care",
+    "keywords": [
+      "diagnosis",
+      "differential diagnosis",
+      "prognostic",
+      "treatment"
+    ],
+    "explanation": "CRS-R slide in the iGuardian section."
+  },
+  {
+    "type": "short",
+    "q": "What tasks were patients asked to perform so that EEG could detect awareness in unresponsive patients?",
+    "answer": "1. Motor imagery tasks (e.g., imagining swimming)\n2. Spatial navigation imagery tasks",
+    "keywords": [
+      "motor imagery",
+      "swimming",
+      "spatial navigation"
+    ],
+    "explanation": "Slides 'Detection of Brain Activation in Unresponsive Patients Using EEG Analysis'."
+  },
+  {
+    "type": "short",
+    "q": "In neuroprognostication, how are a 'good outcome' and a 'bad outcome' defined?",
+    "answer": "Good outcome: the patient meets the goals of care within the time frame.\nBad outcome: the patient does not meet the goals of care, or meets them too late.",
+    "keywords": [
+      "good outcome",
+      "goals of care",
+      "time frame",
+      "bad outcome"
+    ],
+    "explanation": "Step 4 of the 7-step neuroprognostication framework."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the title of Dr. Lin's lecture, multimodality machine learning is used to:",
+    "options": [
+      "Automate billing for neuro-ICU admissions",
+      "Replace the neurological examination with fMRI",
+      "Predict the prognosis of brain injury patients",
+      "Schedule EEG technicians across hospitals"
+    ],
+    "answer": 2,
+    "explanation": "The lecture is titled 'Using multimodalities machine learning to predict the prognosis of brain injury patients'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "According to the lecture, how can AI/machine learning help in monitoring brain injury patients?",
+    "answer": "Predict prognosis (coma or recovery: how long, how well, how much)\nCombine multimodal data: task-based EEG, fMRI, connectome\nEEG spectral analysis to detect awareness in unresponsive patients",
+    "keywords": [
+      "prognosis",
+      "multimodal",
+      "EEG",
+      "awareness"
+    ],
+    "explanation": "Title slide, 'Coma or Recovery?', multi-modalities slide and the EEG awareness study.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "The lecture opens brain-injury prognosis with the question 'Coma or ____?' (how long, how well, how much).",
+    "answer": [
+      "Recovery"
+    ],
+    "explanation": "The 'Coma or Recovery?' slide frames the prognosis questions machine learning aims to answer.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "The MOST-funded smart-healthcare alliance project led by Prof. Yu-Chuan Li aimed to build:",
+    "options": [
+      "A national EHR for all outpatient clinics",
+      "The first transnational open consciousness-monitoring platform",
+      "A wearable BioPatch registry for cancer patients",
+      "A single-hospital PACS for neurosurgery images"
+    ],
+    "answer": 1,
+    "explanation": "The project set out to establish the first transnational open consciousness-monitoring platform system.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "In the multi-center consciousness-monitoring data collection, how many patients were enrolled and where were most recruited?",
+    "options": [
+      "96 in total, split evenly between two hospitals",
+      "400 in total, mostly at Taipei Medical University Hospital",
+      "100 in total, 96 at Shuang-Ho Hospital",
+      "100 in total, 96 at Wan Fang Hospital"
+    ],
+    "answer": 2,
+    "explanation": "Shuang-Ho Hospital enrolled 96 patients and Hsiao Chung-Cheng Hospital 4, for 100 in total.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Name four kinds of data collected for each case in the multi-center consciousness-monitoring datamart.",
+    "answer": "Demographics: name, sex, birth date, age, chart number\nAdmission/discharge dates and discharge destination\nResponsible physician, diagnosis and medications\nHeart rate, blood pressure, SpO2 before and after EEG\nEEG data",
+    "keywords": [
+      "diagnosis",
+      "medications",
+      "blood pressure",
+      "EEG"
+    ],
+    "explanation": "Case data slide (個案資料收集) and EEG data slide; any four are enough.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "For the multi-center EEG study, research staff screened the ____ (neuro critical care unit) patient list every day for eligible cases.",
+    "answer": [
+      "NCU",
+      "neuro critical care unit"
+    ],
+    "explanation": "The enrollment workflow begins with a daily review of the NCU patient list.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture's seizure prevalence table, seizures occur in up to what proportion of patients with meningitis?",
+    "options": [
+      "7%",
+      "17%",
+      "27%",
+      "47%"
+    ],
+    "answer": 2,
+    "explanation": "The table reports seizures in up to 27% of patients with meningitis."
+  },
+  {
+    "type": "fill",
+    "q": "Nonconvulsive seizures in aneurysmal subarachnoid hemorrhage are reported in about 8 to ____% of patients.",
+    "answer": [
+      "18"
+    ],
+    "explanation": "The seizure prevalence table gives 8-18% for nonconvulsive seizures in aSAH."
   }
 ]

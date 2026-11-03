@@ -9,7 +9,8 @@
       "Artificial Intelligence and Information Technology"
     ],
     "answer": 1,
-    "explanation": "The lecture defines AIoT (Artificial Intelligence of Things) as Artificial Intelligence + Internet of Things."
+    "explanation": "The lecture defines AIoT (Artificial Intelligence of Things) as Artificial Intelligence + Internet of Things.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -21,7 +22,8 @@
       "Elimination of the need for clinicians"
     ],
     "answer": 3,
-    "explanation": "The AIoT slide lists improved human-machine interactions, enhanced data management/analytics, and improved clinical decision making; it never claims clinicians are replaced."
+    "explanation": "The AIoT slide lists improved human-machine interactions, enhanced data management/analytics, and improved clinical decision making; it never claims clinicians are replaced.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -57,7 +59,8 @@
       "Replacing chronic disease care with acute care"
     ],
     "answer": 1,
-    "explanation": "The 'Before/After COVID' slide lists reducing unnecessary visits, remote monitoring, long-term chronic care, teleconsultations at home, and continuity of care."
+    "explanation": "The 'Before/After COVID' slide lists reducing unnecessary visits, remote monitoring, long-term chronic care, teleconsultations at home, and continuity of care.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -237,7 +240,8 @@
       "They are easy to compare with studies using medical devices"
     ],
     "answer": 2,
-    "explanation": "Consumer wearables are best for real-time and long-term monitoring and heart rate, but require a smartphone, are not medical devices and are hard to compare with medical-device studies."
+    "explanation": "Consumer wearables are best for real-time and long-term monitoring and heart rate, but require a smartphone, are not medical devices and are hard to compare with medical-device studies.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -249,7 +253,8 @@
       "Not clinically validated"
     ],
     "answer": 1,
-    "explanation": "Clinical wearables are robust and validated with fewer privacy concerns, but are expensive, not designed for long periods or real-time sync, need more logistics, and may be disliked by users."
+    "explanation": "Clinical wearables are robust and validated with fewer privacy concerns, but are expensive, not designed for long periods or real-time sync, need more logistics, and may be disliked by users.",
+    "star": true
   },
   {
     "type": "fill",
@@ -258,7 +263,8 @@
       "Things",
       "Thing"
     ],
-    "explanation": "AIoT = Artificial Intelligence + Internet of Things."
+    "explanation": "AIoT = Artificial Intelligence + Internet of Things.",
+    "star": true
   },
   {
     "type": "fill",
@@ -342,84 +348,209 @@
   },
   {
     "type": "short",
-    "q": "List the four 'take home messages' from Dr. Shabbir's lecture on AIoT wearables for telemedicine and homecare.",
-    "answer": "1) Focus on the needs/problem, not on technology. 2) Consider technology as a tool, not as a solution. 3) Focus on prevention and early detection. 4) Use technology to empower and engage patients.",
+    "q": "List the four take-home messages of the lecture on AIoT wearables for telemedicine.",
+    "answer": "1. Focus on the needs/problem, not on technology\n2. Technology is a tool, not a solution\n3. Focus on prevention and early detection\n4. Use technology to empower and engage patients",
     "keywords": [
-      "needs/problem not technology",
-      "tool not solution",
-      "preventive",
+      "needs",
+      "tool",
+      "prevention",
       "early detection",
-      "empower",
-      "engage patients"
+      "empower"
     ],
-    "explanation": ""
+    "explanation": "Final 'Take home message' slide."
   },
   {
     "type": "short",
-    "q": "Compare consumer wearables (e.g., Fitbit) and clinical wearables (e.g., Actigraph) for monitoring physical activity and sleep in clinical studies. Give at least two advantages and two disadvantages of each.",
-    "answer": "Consumer wearables: best for real-time and long-term monitoring and heart rate, cheaper and acceptable to users; but they require a smartphone, are not medical devices with accuracy concerns, may send data to servers outside the EU, and are hard to compare with medical-device studies. Clinical wearables: robust, clinically validated, comparable across studies, no software changes, fewer privacy concerns; but expensive, not designed for long periods or real-time sync, more logistic work (charging, syncing), and unattractive to users.",
+    "q": "Name three disadvantages of consumer wearables (e.g., Fitbit) for clinical studies.",
+    "answer": "1. Require a smartphone\n2. Not a medical device; accuracy concerns\n3. Data sent to servers outside the EU\n4. Hard to compare with studies using medical devices",
     "keywords": [
-      "real-time",
-      "long-term",
-      "heart rate",
       "smartphone",
       "not a medical device",
       "accuracy",
-      "clinically validated",
-      "comparable",
-      "expensive",
-      "privacy",
-      "logistics",
-      "real-time sync"
+      "servers",
+      "compare"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Consumer Wearables (i.e. Fitbit)'.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Name the four pillars combined in the Digiquit mobile adherence solution and briefly explain how AI personalization works in it.",
-    "answer": "The four pillars are behavioral change (I-Change model), artificial intelligence personalization, validated clinical content, and digital engagement (e.g., gamification). AI personalization uses recommender-system technology that learns each user's preferred type of motivational message and the best time to send it, using user and message meta-features such as age, gender, quitting date, Richmond score and I-Change factors.",
+    "q": "Name the four pillars of the Digiquit mobile adherence solution.",
+    "answer": "1. Behavioral change (I-Change model)\n2. Artificial intelligence personalization\n3. Validated clinical content\n4. Digital engagement (e.g., gamification)",
     "keywords": [
       "behavioral change",
-      "I-Change",
-      "artificial intelligence personalization",
+      "personalization",
       "validated clinical content",
-      "digital engagement",
+      "digital engagement"
+    ],
+    "explanation": "Slides 'Digiquit - Mobile Adherence Solution'."
+  },
+  {
+    "type": "mcq",
+    "q": "In the iHelp H2020 project, TMU applied AI to EHR data to predict high-risk individuals for which cancers?",
+    "options": [
+      "Lung and breast cancer",
+      "Colorectal and gastric cancer",
+      "Prostate and bladder cancer",
+      "Pancreatic and liver cancer"
+    ],
+    "answer": 3,
+    "explanation": "Slide 'Contribution of TMU' in the iHelp section."
+  },
+  {
+    "type": "short",
+    "q": "Name three benefits of AIoT (Artificial Intelligence of Things) in healthcare.",
+    "answer": "1. Improved human-machine interactions\n2. Enhanced data management and analytics\n3. Improved clinical decision making",
+    "keywords": [
+      "human-machine interactions",
+      "data management",
+      "analytics",
+      "clinical decision making"
+    ],
+    "explanation": "Slide 'Artificial Intelligence of Things (AIoT)'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Name three advantages of clinical wearables (e.g., Actigraph) over consumer wearables.",
+    "answer": "1. Robust and clinically validated\n2. Comparable with multiple studies\n3. No software changes during the study\n4. Fewer privacy concerns",
+    "keywords": [
+      "clinically validated",
+      "comparable",
+      "software",
+      "privacy"
+    ],
+    "explanation": "Slide 'Clinical Wearables (i.e. Actigraph)'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Define persuasive technology.",
+    "answer": "Any interactive computing system designed to change people's attitudes and/or behaviors (Fogg, 2003).",
+    "keywords": [
+      "interactive computing system",
+      "attitudes",
+      "behaviors"
+    ],
+    "explanation": "Slide 'Persuasive Technology & Adherence'."
+  },
+  {
+    "type": "short",
+    "q": "How does AI personalize messages in the Digiquit / Quit And Return app?",
+    "answer": "A recommender system learns each user's preferences automatically:\n1. Favorite type of motivational message\n2. Best time to send messages",
+    "keywords": [
       "recommender system",
-      "message type",
-      "timing"
+      "preferences",
+      "type",
+      "time"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Behavioral Design AI-Based Personalised Messages'."
   },
   {
     "type": "short",
-    "q": "Describe TMU's three contributions to the iHelp H2020 project (2021-2024).",
-    "answer": "1) Applying data analytics, AI and deep learning to EHR data to predict individuals at high risk of pancreatic and liver cancer for early-stage management. 2) Conducting digital trials of mobile apps and wearable-device monitoring for personalized healthcare and improved quality of life among high-risk individuals. 3) Evaluating these digital solutions in pancreatic and liver cancer patients.",
+    "q": "Name three changing healthcare needs in the post-COVID era that telehealth addresses.",
+    "answer": "1. Reduce unnecessary visits\n2. Remotely monitor and interpret patient data\n3. Long-term care for chronic disease\n4. Tele-consultations at home\n5. Continuity of care",
     "keywords": [
-      "EHR",
-      "AI/deep learning",
-      "predict high risk",
-      "pancreatic cancer",
-      "liver cancer",
-      "digital trials",
-      "wearables",
-      "quality of life",
-      "evaluation"
+      "unnecessary visits",
+      "remotely monitor",
+      "chronic disease",
+      "tele-consultations",
+      "continuity of care"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Life: Before COVID - After COVID'.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "One changing healthcare need of the (post-)COVID-19 era is ensuring ____ of care.",
+    "answer": [
+      "continuity"
+    ],
+    "explanation": "The 'Before COVID - After COVID' slide lists ensuring continuity of care.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following was NOT listed as a changing healthcare need in the (post-)COVID-19 era?",
+    "options": [
+      "Increasing routine in-person follow-up visits",
+      "Tele-consultations for patients at home",
+      "Remote monitoring and interpretation of patient data",
+      "Long-term care for chronic disease management"
+    ],
+    "answer": 0,
+    "explanation": "The slide lists reducing (not increasing) unnecessary visits, alongside teleconsultation, remote monitoring and chronic care.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "The lecture raised key open questions about expanding the point of care to the home via technology and about real-world data algorithms. State at least three of these questions.",
-    "answer": "Point of care at home: Will there be a new doctor-patient relationship? How should the clinical workflow be? Are EHRs ready? Real-world data algorithms: Can we trust them, and are they biased? Who designs and evaluates them? Design for adherence: Should clinicians wait for technology maturity or shape its design, and how can they make decisions about fast-evolving technologies?",
+    "q": "Give two examples of data-driven adherence support with AI from the lecture.",
+    "answer": "360° Quantified Self for childhood obesity at a weight-loss camp in Qatar\nSleep quality predicted from wearable activity data with deep learning (CNN)\nSentiment analysis of a breast cancer forum for adherence indicators",
     "keywords": [
-      "doctor-patient relationship",
-      "clinical workflow",
-      "EHR ready",
-      "trust",
-      "data bias",
-      "who designs and evaluates",
-      "clinicians shape design"
+      "Quantified Self",
+      "sleep quality",
+      "sentiment analysis"
     ],
-    "explanation": ""
+    "explanation": "Section 'Data Driven Adherence Support and Artificial Intelligence'; any two are enough."
+  },
+  {
+    "type": "mcq",
+    "q": "In the lecture's BioPatch slides, the analyzed output shown was for which measure?",
+    "options": [
+      "Blood glucose",
+      "Physical activity",
+      "Retinal images",
+      "Polygenic risk"
+    ],
+    "answer": 1,
+    "explanation": "The BioPatch section includes a slide titled 'Analyzed output of Physical Activity'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "List the aspects of the BioPatch wearable covered in the lecture.",
+    "answer": "Description of the BioPatch\nSpecifications and data collection\nData output\nAnalyzed output of physical activity\nApplications",
+    "keywords": [
+      "specifications",
+      "data collection",
+      "data output",
+      "physical activity",
+      "applications"
+    ],
+    "explanation": "The BioPatch slides are mostly figures; these are their headings.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "The lecture presents the BioPatch in its section on IoT ____ devices.",
+    "answer": [
+      "wearable",
+      "wearables"
+    ],
+    "explanation": "BioPatch follows the 'IoT Wearable Devices' section as an example device.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "In the iHelp project, TMU ran digital trials of mobile applications and monitoring via ____ devices among high-risk individuals.",
+    "answer": [
+      "wearable",
+      "wearables"
+    ],
+    "explanation": "TMU's iHelp contribution (2) was digital trials with mobile apps and wearable-device monitoring.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "In the lecture's model of digital health data enhancing observational studies, wearables are used to capture:",
+    "options": [
+      "Genomic sequencing data",
+      "Physical activity and sleep",
+      "Radiology images",
+      "Insurance claims"
+    ],
+    "answer": 1,
+    "explanation": "The slide lists 'Wearables for Physical Activity and Sleep' alongside mobile PROs and clinical data.",
+    "star": true
   }
 ]

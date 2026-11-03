@@ -45,7 +45,8 @@
       "Poor legibility of handwriting"
     ],
     "answer": 2,
-    "explanation": "The lecture lists three problems of paper records: limited access, huge storage space, and lack of multimedia information such as radiology images (MRI)."
+    "explanation": "The lecture lists three problems of paper records: limited access, huge storage space, and lack of multimedia information such as radiology images (MRI).",
+    "star": true
   },
   {
     "type": "mcq",
@@ -57,7 +58,8 @@
       "Restricted to a single inpatient ward"
     ],
     "answer": 1,
-    "explanation": "The EHR is defined as a digital record shared across departments, with a scope spanning different healthcare organizations."
+    "explanation": "The EHR is defined as a digital record shared across departments, with a scope spanning different healthcare organizations.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -69,7 +71,8 @@
       "Active tools to manage information, e.g., decision support"
     ],
     "answer": 3,
-    "explanation": "The EHR system includes the active tools used to manage information (e.g., visualization, decision support); the two terms are often used interchangeably."
+    "explanation": "The EHR system includes the active tools used to manage information (e.g., visualization, decision support); the two terms are often used interchangeably.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -81,7 +84,8 @@
       "Images/videos"
     ],
     "answer": 2,
-    "explanation": "The lecture shows four EHR data types (images/videos, bio-signals, free text, coded data); ICD codes like 250 and 401.9 are coded data."
+    "explanation": "The lecture shows four EHR data types (images/videos, bio-signals, free text, coded data); ICD codes like 250 and 401.9 are coded data.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -93,7 +97,8 @@
       "Initial investment in hardware, software, and training"
     ],
     "answer": 3,
-    "explanation": "Disadvantages listed are initial investment, time to learn, and system failures/security; the other options are advantages."
+    "explanation": "Disadvantages listed are initial investment, time to learn, and system failures/security; the other options are advantages.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -105,7 +110,8 @@
       "25M NTD"
     ],
     "answer": 1,
-    "explanation": "The case study reports annual savings of about 8M NTD; 2.2M NTD was the reduced paper/printing cost."
+    "explanation": "The case study reports annual savings of about 8M NTD; 2.2M NTD was the reduced paper/printing cost.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -382,8 +388,8 @@
   },
   {
     "type": "short",
-    "q": "List the five purposes of a (paper-based) medical record described in the lecture.",
-    "answer": "1) Recall observations - record history and treatment plans; 2) Inform others - share information with other professionals; 3) Gain knowledge - research, disease patterns, adverse drug reactions; 4) Monitor performance - track drug therapy, lab follow-up, disease progression; 5) Justify interventions - evidence supporting medical decisions.",
+    "q": "Name the five purposes of a paper-based medical record.",
+    "answer": "1. Recall observations\n2. Inform others\n3. Gain knowledge\n4. Monitor performance\n5. Justify interventions",
     "keywords": [
       "recall observations",
       "inform others",
@@ -391,81 +397,240 @@
       "monitor performance",
       "justify interventions"
     ],
-    "explanation": ""
+    "explanation": "Slides 'Purpose of Paper-based Medical Record' at the start of the lecture."
   },
   {
     "type": "short",
-    "q": "Compare EHR with paper-based records: give at least three advantages and three disadvantages of EHR from the lecture.",
-    "answer": "Advantages: comprehensiveness of information (phenotype, behavior, genotype); longer duration of use and retention of data; greater degree of data structure (NLP for free text); serves multiple users/uses at the same time; includes multimedia and is not limited to one place. Disadvantages: initial investment (hardware, software, training, support); takes time to learn; system failures and security risks.",
+    "q": "Name three advantages of an EHR compared with paper-based records.",
+    "answer": "1. Comprehensiveness of information (phenotype, behavior, genotype)\n2. Longer duration of use and retention of data\n3. Greater degree of data structure\n4. Serves multiple uses at the same time",
     "keywords": [
       "comprehensiveness",
       "retention",
       "structure",
-      "multiple uses",
-      "initial investment",
-      "time to learn",
-      "system failure",
-      "security"
+      "multiple uses"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Recap: EHR VS Paper-based' (advantages); any three are enough.",
+    "star": true
   },
   {
     "type": "short",
     "q": "Name the five functional components of an EHR system.",
-    "answer": "1) Patient data capture and review; 2) Computerized provider order entry (CPOE); 3) Clinical decision support system (CDSS); 4) Access to knowledge resources; 5) Integrated communication and reporting support (e.g., patient handoff reports).",
+    "answer": "1. Patient data capture and review\n2. Computerized provider order entry (CPOE)\n3. Clinical decision support system (CDSS)\n4. Access to knowledge resources\n5. Integrated communication and reporting support",
     "keywords": [
-      "data capture and review",
+      "data capture",
       "CPOE",
       "CDSS",
       "knowledge resources",
       "communication and reporting"
     ],
-    "explanation": ""
+    "explanation": "Section II 'Functional Components of an Electronic Health Record System'."
   },
   {
     "type": "short",
-    "q": "Match each type of EHR data to the code standard used for it: disease, medication, laboratory, clinical terms (diagnoses/findings), and imaging. Why are such standards needed?",
-    "answer": "Disease: ICD-10-CM; medication: RxNorm or ATC; laboratory: LOINC; diagnoses, symptoms and findings: SNOMED CT; imaging: DICOM. Standards provide a common language so data from multiple sources can be integrated, exchanged (e.g., via HL7 CDA/FHIR) and aggregated across hospitals for care, CDSS and research.",
+    "q": "Which code standard does an EHR use for each of these data types: diseases, medications, laboratory tests, and images?",
+    "answer": "Diseases: ICD-10-CM\nMedications: RxNorm or ATC\nLaboratory tests: LOINC\nImages: DICOM",
     "keywords": [
       "ICD-10-CM",
-      "RxNorm",
       "ATC",
       "LOINC",
-      "SNOMED CT",
-      "DICOM",
-      "interoperability"
+      "DICOM"
     ],
-    "explanation": ""
+    "explanation": "Slides 'Adopt code standards' and the multiple-source-data block diagram.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Describe the two general ways data are captured into an EHR, and the three mechanisms by which physicians' notes can be entered.",
-    "answer": "Data capture: (1) electronic interfaces from already-automated systems such as laboratory systems or PharmaCloud; (2) direct manual data entry when no electronic source exists or it cannot be accessed. Physician notes: (1) transcription (e.g., dictation or OCR of forms); (2) clinic staff transfer or coding of data from a paper encounter form; (3) direct data entry by physicians, facilitated by templates or macros.",
+    "q": "Name the two general ways data are captured into an EHR.",
+    "answer": "1. Electronic interfaces from systems that are already automated (e.g., laboratory systems, PharmaCloud)\n2. Direct manual data entry when no electronic source exists or it cannot be accessed",
     "keywords": [
       "electronic interfaces",
-      "manual data entry",
-      "transcription",
-      "paper encounter form",
-      "direct entry",
-      "templates"
+      "manual data entry"
     ],
-    "explanation": ""
+    "explanation": "Section III 'Fundamental Issues', slide 'Data Capture'."
   },
   {
     "type": "short",
-    "q": "List the four uses of EHR query and surveillance systems and the five challenges ahead for EHRs identified in the lecture.",
-    "answer": "Query/surveillance uses: clinical care (preventive care, recalled drugs), clinical trials (finding eligible patients), quality reporting (internal QI and public reporting, e.g., antibiotic use), and retrospective studies (real-world data such as NHI database, TMUCDR, MIMIC). Challenges: users' information needs/leadership, usability, standards, privacy and security, and costs and benefits.",
+    "q": "Name the four uses of EHR query and surveillance systems.",
+    "answer": "1. Clinical care\n2. Clinical trials\n3. Quality reporting\n4. Retrospective studies",
     "keywords": [
       "clinical care",
       "clinical trials",
       "quality reporting",
-      "retrospective studies",
+      "retrospective studies"
+    ],
+    "explanation": "Section IV 'Query and Surveillance Systems'."
+  },
+  {
+    "type": "short",
+    "q": "Name three disadvantages of an EHR compared with paper-based records.",
+    "answer": "1. Initial investment (hardware, software, training, support)\n2. Takes time to learn\n3. System failures\n4. Security risks",
+    "keywords": [
+      "initial investment",
+      "time to learn",
+      "system failures",
+      "security"
+    ],
+    "explanation": "Slide 'Recap: EHR VS Paper-based' (disadvantages).",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Name three of the five challenges ahead for EHRs identified in the lecture.",
+    "answer": "1. Users' information needs / leadership\n2. Usability\n3. Standards\n4. Privacy and security\n5. Costs and benefits",
+    "keywords": [
       "leadership",
       "usability",
       "standards",
       "privacy and security",
       "costs and benefits"
     ],
-    "explanation": ""
+    "explanation": "Section V 'Challenges Ahead'; any three are enough."
+  },
+  {
+    "type": "short",
+    "q": "Name three types of data validation checks used when entering data into an EHR.",
+    "answer": "1. Range checks (e.g., serum potassium 3.5-5)\n2. Pattern checks (e.g., telephone number)\n3. Consistency checks (e.g., prostate cancer in a female)\n4. Spelling checks",
+    "keywords": [
+      "range checks",
+      "pattern checks",
+      "consistency checks",
+      "spelling checks"
+    ],
+    "explanation": "Slide 'Data Validation' in the Data Capture section."
+  },
+  {
+    "type": "short",
+    "q": "Name three problems of paper-based medical records that the EHR addresses.",
+    "answer": "Limited access: only in one place, used by one person at a time\nRequire huge storage space (medical records room)\nLack multimedia information such as MRI/radiology images",
+    "keywords": [
+      "limited access",
+      "space",
+      "multimedia"
+    ],
+    "explanation": "Slides 'Problem of Paper record' list limited access, huge space and lack of multimedia.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is listed in the lecture as an ADVANTAGE of an EHR over paper-based records?",
+    "options": [
+      "Lower initial investment in hardware and training",
+      "Serving multiple uses at the same time",
+      "No time needed to learn the new system",
+      "Freedom from system failures and security risks"
+    ],
+    "answer": 1,
+    "explanation": "The recap lists 'serve multiple uses at the same time' as an advantage; cost, learning time and failures/security are disadvantages.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Define an electronic health record (EHR) as presented in the lecture.",
+    "answer": "A digital medical record that can be shared across departments\nUsed across different healthcare organizations\nHolds comprehensive health information: history, allergies, immunizations, labs, radiology images",
+    "keywords": [
+      "digital",
+      "shared",
+      "healthcare organizations",
+      "comprehensive"
+    ],
+    "explanation": "Slide 'What is an Electronic Health Record (EHR)?' gives definition, scope, function and focus.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture's EHR definition slide, what is the 'focus' of an EHR?",
+    "options": [
+      "Billing and insurance claims for a single clinic",
+      "Patient-managed storage of personal fitness data",
+      "Comprehensive health management by different healthcare professionals",
+      "Archiving radiology images for one department"
+    ],
+    "answer": 2,
+    "explanation": "The EHR's focus is comprehensive health management from different healthcare professionals.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "Compared with an EHR, an 'EHR system' also includes the active ____ used to manage the information, such as visualization and decision support.",
+    "answer": [
+      "tools",
+      "active tools"
+    ],
+    "explanation": "The term EHR system includes the active tools (visualization, decision support) used to manage the information.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Name the four types of data shown in the lecture's example of an electronic health record.",
+    "answer": "Images/videos\nBio-signals\nFree text\nCoded data (e.g., 250: Diabetes)",
+    "keywords": [
+      "images",
+      "bio-signals",
+      "free text",
+      "coded"
+    ],
+    "explanation": "The 'Example of an electronic health record' slide labels images/videos, bio-signals, free text and coded data.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which EHR data type most needs natural language processing (NLP) before it can be used as structured data?",
+    "options": [
+      "Coded diagnoses such as ICD codes",
+      "Laboratory values coded in LOINC",
+      "Bio-signals such as ECG waveforms",
+      "Free-text clinical notes"
+    ],
+    "answer": 3,
+    "explanation": "The recap lists 'degree of structure of data (NLP for free text)', since free text is unstructured.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT listed in the lecture as an input saved to the medical record?",
+    "options": [
+      "Nurse care records",
+      "Staff payroll records",
+      "Laboratory results",
+      "Personal information"
+    ],
+    "answer": 1,
+    "explanation": "Inputs to the medical record are personal information, lab results, treatment, nurse care, disease and medication.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "In the southern Taiwan medical center case study, about how many staff positions could be downsized by no longer printing, storing and sending paper records?",
+    "options": [
+      "About 3",
+      "About 13",
+      "About 30",
+      "About 130"
+    ],
+    "answer": 1,
+    "explanation": "About 25,000 person-hours saved per year converts to roughly 13 staff.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Describe the benefits reported when a ~1,400-bed southern Taiwan medical center abolished paper records.",
+    "answer": "Paper and printing costs reduced by about NT$2.2M\nAbout 25,000 person-hours saved per year (~13 staff)\nClinic nursing staff save 18 hours (2.25 people)\nTotal savings about NT$8M per year",
+    "keywords": [
+      "2.2M",
+      "25,000",
+      "13 staff",
+      "8M"
+    ],
+    "explanation": "Slide 'Benefit - A case study from medical center'.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "The EHR advantage 'duration of use and ____ of data' means health data can be kept and used over the long term.",
+    "answer": [
+      "retention"
+    ],
+    "explanation": "The recap lists 'duration of use and retention of data' among EHR advantages.",
+    "star": true
   }
 ]

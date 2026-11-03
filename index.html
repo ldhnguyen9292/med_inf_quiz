@@ -47,6 +47,7 @@
       </div>
 
       <label class="toggle"><input type="checkbox" id="preferUnseen" checked> Prioritize unseen / previously wrong questions</label>
+      <label class="toggle" style="margin-top:8px"><input type="checkbox" id="starOnly"> Only ⭐ key topics — learning objectives &amp; emphasized in class (<span id="starCount">0</span>)</label>
 
       <div class="actions">
         <button class="btn primary" id="startBtn">Start</button>
@@ -73,7 +74,7 @@
     <div class="dots" id="dots"></div>
 
     <article class="card qcard">
-      <div class="qmeta"><span class="tag" id="qType"></span><span class="tag ghost" id="qLecture"></span></div>
+      <div class="qmeta"><span class="tag" id="qType"></span><span class="tag ghost" id="qLecture"></span><span class="tag star hidden" id="qStar">⭐ Key topic</span></div>
       <p class="qtext" id="qText"></p>
       <div id="qBody"></div>
       <div id="feedback" class="feedback hidden"></div>

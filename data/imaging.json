@@ -9,7 +9,8 @@
       "A table of DICOM header attributes describing the acquisition settings"
     ],
     "answer": 1,
-    "explanation": "The lecture defines a digital image as a 2D function f that takes spatial coordinates x and y and returns a gray level (intensity) f(x,y)."
+    "explanation": "The lecture defines a digital image as a 2D function f that takes spatial coordinates x and y and returns a gray level (intensity) f(x,y).",
+    "star": true
   },
   {
     "type": "fill",
@@ -74,7 +75,8 @@
       "function",
       "physiologic function"
     ],
-    "explanation": "The lecture states images are acquired to get information about Anatomy and Physiology (Function)."
+    "explanation": "The lecture states images are acquired to get information about Anatomy and Physiology (Function).",
+    "star": true
   },
   {
     "type": "mcq",
@@ -171,18 +173,16 @@
   },
   {
     "type": "short",
-    "q": "Compare X-ray/CR, CT, MRI, PET and ultrasound by the physical basis of image formation as presented in the lecture.",
-    "answer": "X-ray/CR: different X-ray absorption rates of tissues. CT: X-ray reconstruction from a circular scan, estimating absolute density at each voxel (typically 512x512). MRI: mass/density of hydrogen atoms in a high magnetic field; anatomical and functional. PET: concentration of glucose (radiotracer); functional, shown in pseudo-color, useful for cancer. Ultrasound: reflection of ultrasound waves; noninvasive, Doppler displayed in pseudo-color.",
+    "q": "State what the image is based on for each modality: X-ray, MRI, PET, and ultrasound.",
+    "answer": "X-ray: different X-ray absorption rates of tissues\nMRI: hydrogen atoms in a strong magnetic field\nPET: concentration of glucose (functional)\nUltrasound: reflection of ultrasound waves",
     "keywords": [
       "absorption",
-      "voxel",
       "hydrogen",
       "glucose",
-      "reflection",
-      "functional",
-      "anatomical"
+      "reflection"
     ],
-    "explanation": ""
+    "explanation": "Section 9.2 slides on each imaging modality.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -218,17 +218,15 @@
   },
   {
     "type": "short",
-    "q": "Define DICOM and describe what a single DICOM file contains.",
-    "answer": "DICOM (Digital Imaging and Communications in Medicine) is the standard for storing and communicating medical images. A single DICOM file contains a header storing information such as the patient's name, type of scan, and image dimensions, together with all of the image data, which can be three-dimensional. DICOM supports 12- to 16-bit gray images for more accurate diagnosis.",
+    "q": "What does a single DICOM file contain?",
+    "answer": "1. A header - patient's name, type of scan, image dimensions, etc.\n2. All of the image data (can be three-dimensional)",
     "keywords": [
-      "Digital Imaging and Communications in Medicine",
       "header",
-      "patient name",
-      "scan type",
-      "image dimensions",
+      "patient's name",
+      "type of scan",
       "image data"
     ],
-    "explanation": ""
+    "explanation": "Section 9.3, slide 'PACS and DICOM'."
   },
   {
     "type": "mcq",
@@ -272,21 +270,22 @@
       "Acquisition operations"
     ],
     "answer": 1,
-    "explanation": "Low level: noise reduction, contrast enhancement, sharpening; mid level: segmentation, edge detection; high level: image understanding, labeling, analysis."
+    "explanation": "Low level: noise reduction, contrast enhancement, sharpening; mid level: segmentation, edge detection; high level: image understanding, labeling, analysis.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Distinguish image enhancement from image restoration as defined in the lecture, giving an example of each.",
-    "answer": "Image enhancement makes an image clearer to the user by emphasizing certain features; it is subjective ('it looks good'), e.g., contrast enhancement or pseudo-color. Image restoration improves the image using objective criteria, e.g., noise removal. Both are steps in the image processing pipeline after acquisition.",
+    "q": "Distinguish image enhancement from image restoration.",
+    "answer": "Enhancement: makes the image clearer to the user by emphasizing features; subjective (e.g., contrast enhancement).\nRestoration: improves the image by objective criteria (e.g., noise removal).",
     "keywords": [
       "enhancement",
       "subjective",
       "restoration",
       "objective",
-      "noise removal",
-      "contrast"
+      "noise removal"
     ],
-    "explanation": ""
+    "explanation": "Section 9.4, slides 'Steps in Image Processing'.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -310,7 +309,8 @@
       "Restoration"
     ],
     "answer": 2,
-    "explanation": "The lecture defines recognition as identifying image objects (e.g., liver, kidneys, spine); representation stores extracted features outside the image."
+    "explanation": "The lecture defines recognition as identifying image objects (e.g., liver, kidneys, spine); representation stores extracted features outside the image.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -327,18 +327,16 @@
   {
     "type": "short",
     "q": "Explain the difference between CADe and CADx.",
-    "answer": "In computer-assisted detection (CADe), the computer locates regions of interest (ROIs) in the image where abnormalities are suspected, and the radiologist must evaluate their medical significance. In computer-assisted diagnosis (CADx), the computer is given an ROI with a suspected abnormality and outputs the likely diagnoses and possibly management recommendations.",
+    "answer": "CADe (detection): the computer locates suspicious regions of interest (ROIs); the radiologist evaluates them.\nCADx (diagnosis): given an ROI, the computer outputs likely diagnoses and possibly management recommendations.",
     "keywords": [
       "CADe",
       "detection",
-      "locates ROI",
-      "radiologist evaluates",
+      "ROI",
       "CADx",
-      "diagnosis",
-      "likely diagnoses",
-      "management recommendations"
+      "diagnosis"
     ],
-    "explanation": ""
+    "explanation": "Section 9.5, slide on CADe and CADx.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -350,7 +348,8 @@
       "Must be built into the PACS hardware of each hospital"
     ],
     "answer": 1,
-    "explanation": "The lecture states AI-based devices cannot work autonomously and can only be adjunct or supportive devices giving a second opinion."
+    "explanation": "The lecture states AI-based devices cannot work autonomously and can only be adjunct or supportive devices giving a second opinion.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -366,22 +365,18 @@
   },
   {
     "type": "short",
-    "q": "List the AI computer vision tasks for CAD presented in the lecture and give example models for each.",
-    "answer": "Image classification: Convolutional Neural Networks (CNN), often with transfer learning. Object detection: R-CNN, Fast R-CNN, Faster R-CNN, SSD (Single Shot MultiBox Detector), YOLO (e.g., a YOLOv3-based model for gallstones on CT). Image segmentation: Mask R-CNN, FCN (Fully Convolutional Network), U-Net.",
+    "q": "Name the three computer vision tasks used for AI-based CAD, with one example model for each.",
+    "answer": "1. Image classification - CNN\n2. Object detection - YOLO (or SSD, Faster R-CNN)\n3. Image segmentation - U-Net (or FCN, Mask R-CNN)",
     "keywords": [
       "classification",
       "CNN",
-      "transfer learning",
-      "object detection",
+      "detection",
       "YOLO",
-      "SSD",
-      "Faster R-CNN",
       "segmentation",
-      "U-Net",
-      "FCN",
-      "Mask R-CNN"
+      "U-Net"
     ],
-    "explanation": ""
+    "explanation": "Section 9.5, slides 'Computer vision for CAD application using AI'.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -415,5 +410,119 @@
     ],
     "answer": 1,
     "explanation": "The regulatory policy slide introduces Software as Medical Device (SaMD), with the FDA maintaining a list of AI/ML-enabled devices."
+  },
+  {
+    "type": "short",
+    "q": "Define a digital image.",
+    "answer": "A two-dimensional function f(x,y) that returns the gray level (intensity) at each spatial coordinate; it is divided into small cells called pixels.",
+    "keywords": [
+      "f(x,y)",
+      "gray level",
+      "intensity",
+      "pixels"
+    ],
+    "explanation": "Section 9.1, slide 'Digital Image'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "What is PACS, and what are its three subsystems?",
+    "answer": "Picture Archiving and Communication System: gives fast access to images and reports anywhere, anytime.\n1. Image and data acquisition\n2. PACS controller and archive\n3. Display",
+    "keywords": [
+      "Picture Archiving and Communication System",
+      "acquisition",
+      "archive",
+      "display"
+    ],
+    "explanation": "Section 9.3, slides 'PACS and DICOM' and 'PACS Components'."
+  },
+  {
+    "type": "short",
+    "q": "Name the three levels of image processing operations, with one example of each.",
+    "answer": "1. Low level - noise reduction, contrast enhancement\n2. Mid level - segmentation, edge detection\n3. High level - image understanding/analysis",
+    "keywords": [
+      "low level",
+      "noise reduction",
+      "mid level",
+      "segmentation",
+      "high level",
+      "image understanding"
+    ],
+    "explanation": "Section 9.4, slides 'Image Processing Operations'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "What is medical imaging, according to the lecture?",
+    "answer": "A field developing tools to acquire, manipulate and archive digital images\nused by the medical profession to give patients better care\nImages give information on anatomy and physiology (function)",
+    "keywords": [
+      "acquire",
+      "archive",
+      "anatomy",
+      "physiology"
+    ],
+    "explanation": "Slide 'What is medical imaging?'.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture, most medical images are:",
+    "options": [
+      "Color photographs of visible-light intensity",
+      "Vector drawings storing shapes, not pixels",
+      "Gray-level images of a physical energy's intensity",
+      "Binary images with only black and white pixels"
+    ],
+    "answer": 2,
+    "explanation": "Most medical images are gray-level images representing the intensity of a specific physical energy, not colored light.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "State the two purposes of digital image processing.",
+    "answer": "Improve pictorial information for human interpretation\nProcess image data for storage, retrieval, transmission and representation for autonomous machine perception",
+    "keywords": [
+      "pictorial information",
+      "storage",
+      "machine perception"
+    ],
+    "explanation": "Slide 'Purpose of Digital Image Processing'.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Aligning an anatomical CT image with a functional PET image of the same patient is an example of:",
+    "options": [
+      "Image segmentation",
+      "Image registration",
+      "Image compression",
+      "Color processing"
+    ],
+    "answer": 1,
+    "explanation": "Image registration combines anatomical and functional images such as CT-PET or MRI-PET.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "A system is given an ROI of a suspected lesion and outputs the likely diagnoses and management recommendations. This is:",
+    "options": [
+      "CADe (computer-assisted detection)",
+      "A PACS display subsystem",
+      "A DICOM structured report",
+      "CADx (computer-assisted diagnosis)"
+    ],
+    "answer": 3,
+    "explanation": "In CADx the computer is given an ROI and outputs likely diagnoses; in CADe it locates suspicious ROIs.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "U-Net, FCN and Mask R-CNN are AI models used for image ____ in computer-aided diagnosis.",
+    "answer": [
+      "segmentation",
+      "image segmentation"
+    ],
+    "explanation": "The lecture lists Mask R-CNN, FCN and U-Net under image segmentation.",
+    "star": true
   }
 ]

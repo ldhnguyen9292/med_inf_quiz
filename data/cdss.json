@@ -33,7 +33,8 @@
       "Systems that organize and present information to aid problem solving, such as dashboards and templates"
     ],
     "answer": 3,
-    "explanation": "The three categories are (1) context-based retrieval of documents (infobuttons), (2) patient-specific alerts/reminders/recommendations, and (3) systems that organize and present information (dashboards, templates, order sets)."
+    "explanation": "The three categories are (1) context-based retrieval of documents (infobuttons), (2) patient-specific alerts/reminders/recommendations, and (3) systems that organize and present information (dashboards, templates, order sets).",
+    "star": true
   },
   {
     "type": "mcq",
@@ -45,7 +46,8 @@
       "They are regulated by the FDA as medical devices, which guarantees that their content is evidence-based"
     ],
     "answer": 2,
-    "explanation": "Order sets give actionable recommendations, act as a mnemonic/checklist, and speed selection of a group of relevant activities."
+    "explanation": "Order sets give actionable recommendations, act as a mnemonic/checklist, and speed selection of a group of relevant activities.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -57,7 +59,8 @@
       "Test sensitivity, test specificity, and an accurate estimate of disease prevalence"
     ],
     "answer": 1,
-    "explanation": "The lecture lists accurate data, pertinent knowledge, and appropriate problem-solving skills; a CDS program needs the same three."
+    "explanation": "The lecture lists accurate data, pertinent knowledge, and appropriate problem-solving skills; a CDS program needs the same three.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -69,7 +72,8 @@
       "Reduced regulatory and payer interest in measuring the quality of care delivered"
     ],
     "answer": 0,
-    "explanation": "The four reasons are physician information needs, ubiquity of EHRs, personalized/precision medicine, and evidence that CDS improves quality and reduces cost."
+    "explanation": "The four reasons are physician information needs, ubiquity of EHRs, personalized/precision medicine, and evidence that CDS improves quality and reduces cost.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -81,7 +85,8 @@
       "81%"
     ],
     "answer": 3,
-    "explanation": "Up to 81% of ambulatory encounters lacked critical information, with an average of four missing items per case."
+    "explanation": "Up to 81% of ambulatory encounters lacked critical information, with an average of four missing items per case.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -129,7 +134,8 @@
       "Proprietary systems and knowledge formats, poor interoperability, workflow mismatch, and usability concerns"
     ],
     "answer": 3,
-    "explanation": "The lecture lists proprietary nature, lack of data/knowledge interoperability, workflow mismatch, and usability concerns."
+    "explanation": "The lecture lists proprietary nature, lack of data/knowledge interoperability, workflow mismatch, and usability concerns.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -213,7 +219,8 @@
       "A uniform probability of 0.5 assigned to every candidate disease"
     ],
     "answer": 0,
-    "explanation": "The posterior after each finding becomes the prior for the next application of Bayes' rule; the approach was used for congenital heart disease (Gorry and Barnett 1968)."
+    "explanation": "The posterior after each finding becomes the prior for the next application of Bayes' rule; the approach was used for congenital heart disease (Gorry and Barnett 1968).",
+    "star": true
   },
   {
     "type": "mcq",
@@ -225,7 +232,8 @@
       "Lack of transparency: they cannot explain why they reach their conclusions"
     ],
     "answer": 3,
-    "explanation": "Associations learned from data are not inspectable, so outputs must be taken at face value and dataset biases may be hidden."
+    "explanation": "Associations learned from data are not inspectable, so outputs must be taken at face value and dataset biases may be hidden.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -249,7 +257,8 @@
       "Neural-network classification"
     ],
     "answer": 1,
-    "explanation": "MYCIN used backward chaining, looking for rules that could conclude a premise; most contemporary rule systems use forward chaining."
+    "explanation": "MYCIN used backward chaining, looking for rules that could conclude a premise; most contemporary rule systems use forward chaining.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -261,7 +270,8 @@
       "Action slot"
     ],
     "answer": 0,
-    "explanation": "The evoke slot defines the trigger, the logic slot encodes decision logic, the action slot defines what to do, and the data slot defines variables."
+    "explanation": "The evoke slot defines the trigger, the logic slot encodes decision logic, the action slot defines what to do, and the data slot defines variables.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -273,7 +283,8 @@
       "Site-specific database queries must be written inside curly braces because the standard lacks data semantics"
     ],
     "answer": 3,
-    "explanation": "Arden Syntax is only a syntax; local queries for variables must be written inside curly braces for each EHR, limiting sharing."
+    "explanation": "Arden Syntax is only a syntax; local queries for variables must be written inside curly braces for each EHR, limiting sharing.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -309,7 +320,8 @@
       "QDM (Quality Data Model)"
     ],
     "answer": 0,
-    "explanation": "GEM is an ANSI XML mark-up standard for demarcating guideline actions and eligibility criteria but provides no execution mechanism."
+    "explanation": "GEM is an ANSI XML mark-up standard for demarcating guideline actions and eligibility criteria but provides no execution mechanism.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -333,7 +345,8 @@
       "Are vendor-certified plug-ins that modify the EHR's internal database schema to add new features"
     ],
     "answer": 2,
-    "explanation": "SMART apps use standard API methods to access EHR data, compute externally, and return results in an iFrame, web page, or standalone app."
+    "explanation": "SMART apps use standard API methods to access EHR data, compute externally, and return results in an iFrame, web page, or standalone app.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -357,7 +370,8 @@
       "Overly long passwords"
     ],
     "answer": 0,
-    "explanation": "Excessive alert fatigue undermines CDS efficacy in CPOE and leads to very high user override rates."
+    "explanation": "Excessive alert fatigue undermines CDS efficacy in CPOE and leads to very high user override rates.",
+    "star": true
   },
   {
     "type": "fill",
@@ -406,7 +420,8 @@
       "inference engine",
       "rule engine"
     ],
-    "explanation": "Rule-based systems need a formal rule language plus an interpreter, i.e., an inference engine."
+    "explanation": "Rule-based systems need a formal rule language plus an interpreter, i.e., an inference engine.",
+    "star": true
   },
   {
     "type": "fill",
@@ -416,7 +431,8 @@
       "Event-Condition-Action",
       "event condition action"
     ],
-    "explanation": "ECA rules trigger individual alerts or reminders when data change, time passes, or actions occur."
+    "explanation": "ECA rules trigger individual alerts or reminders when data change, time passes, or actions occur.",
+    "star": true
   },
   {
     "type": "fill",
@@ -425,7 +441,8 @@
       "MLMs",
       "MLM"
     ],
-    "explanation": "Arden Syntax became an HL7/ANSI standard for MLMs in 1999."
+    "explanation": "Arden Syntax became an HL7/ANSI standard for MLMs in 1999.",
+    "star": true
   },
   {
     "type": "fill",
@@ -434,7 +451,8 @@
       "ontology",
       "ontologies"
     ],
-    "explanation": "SNOMED CT and the NCI Thesaurus are terminologies represented as knowledge graphs, making them ontologies."
+    "explanation": "SNOMED CT and the NCI Thesaurus are terminologies represented as knowledge graphs, making them ontologies.",
+    "star": true
   },
   {
     "type": "fill",
@@ -443,7 +461,8 @@
       "Protégé",
       "Protege"
     ],
-    "explanation": "Protégé was used to create the guideline ontology and to generate knowledge-acquisition tools."
+    "explanation": "Protégé was used to create the guideline ontology and to generate knowledge-acquisition tools.",
+    "star": true
   },
   {
     "type": "fill",
@@ -474,118 +493,544 @@
     "explanation": "Lack of adaptation to setting-specific factors (SSFs) is why rules working in one site often fail elsewhere."
   },
   {
-    "type": "short",
-    "q": "List the five aspects (components) of CDS in Greenes' conceptual model (Fig. 24.1).",
-    "answer": "(1) Method of computation/inferencing (execution of the CDS function); (2) knowledge needed to carry out the function; (3) information model governing how data are provided to the CDSS; (4) type of recommendation provided (prediction, action, classification, citations); (5) how the process interacts with the application environment, i.e., how it is invoked and how data and recommendations are communicated.",
-    "keywords": [
-      "inferencing",
-      "knowledge",
-      "information model",
-      "recommendation",
-      "application environment",
-      "invoked"
+    "type": "mcq",
+    "q": "Which of the following is NOT one of the five aspects of CDS in Greenes' conceptual model (Fig. 24.1)?",
+    "options": [
+      "The method of computation or inferencing",
+      "The information model for the input data",
+      "The type of recommendation to be provided",
+      "The vendor license model of the host EHR"
     ],
-    "explanation": ""
+    "answer": 3,
+    "explanation": "Fig. 24.1: (1) computation/inferencing, (2) knowledge, (3) information model, (4) type of recommendation, (5) interaction with the application environment."
   },
   {
     "type": "short",
-    "q": "Explain the difference between forward chaining and backward chaining in rule-based systems, and state which one MYCIN used.",
-    "answer": "In backward chaining, when the system does not know whether a rule's premise is true, it looks backward for other rules that could conclude that premise (goal-driven). In forward chaining, when a rule fires and its conclusion becomes true, the system looks forward for other rules whose premises use that conclusion (data-driven). MYCIN used backward chaining; most contemporary rule-based systems use forward chaining.",
+    "q": "Explain the difference between backward chaining and forward chaining. Which did MYCIN use?",
+    "answer": "Backward chaining: if a rule's premise is unknown, look back for rules that could conclude it (goal-driven).\nForward chaining: when a rule fires, look forward for rules that use its conclusion.\nMYCIN used backward chaining.",
     "keywords": [
       "backward chaining",
-      "forward chaining",
       "premise",
-      "conclusion",
+      "forward chaining",
       "fires",
       "MYCIN"
     ],
-    "explanation": ""
+    "explanation": "Section 'Rule-Based Approaches' describing MYCIN.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Why is Arden Syntax rule sharing across institutions difficult? Describe the 'curly braces problem' with an example.",
-    "answer": "Arden Syntax standardizes only syntax, not the semantics of the data. The database queries that bind variables to patient data must be written inside curly braces in the data slot and depend on each local EHR's schema and coding, so each MLM must be rewritten per site. Semantic ambiguities add to this: e.g., an MLM about serum potassium must decide whether to use a hemolyzed specimen, a whole-blood potassium value, or last night's value.",
+    "q": "Why is it difficult to share Arden Syntax rules (MLMs) between institutions?",
+    "answer": "Arden Syntax standardizes only syntax, not data semantics.\nDatabase queries go in 'curly braces' in the data slot and depend on each local EHR schema, so they must be rewritten for each site.",
     "keywords": [
       "syntax",
       "semantics",
       "curly braces",
-      "data slot",
-      "local database",
-      "query",
-      "potassium"
+      "local"
     ],
-    "explanation": ""
+    "explanation": "Discussion of Arden Syntax and Medical Logic Modules (the 'curly braces problem').",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Why are belief networks and rule bases called 'declarative' knowledge representations?",
+    "options": [
+      "The knowledge is learned automatically from large EHR datasets",
+      "The knowledge is hardcoded inside the program's procedural logic",
+      "The knowledge is an explicit model that can be inspected and edited directly",
+      "The knowledge is declared by law and endorsed by HL7 and ANSI"
+    ],
+    "answer": 2,
+    "explanation": "Section 24.3.2.5: declarative models are examinable and editable; in hardcoded algorithms or machine learning the knowledge is not readily inspectable.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Why are belief networks, influence diagrams, and rule bases described as 'declarative' knowledge representations, and how does this contrast with hardcoded algorithms and machine learning?",
-    "answer": "In declarative representations, the knowledge is an explicit, inspectable, and editable model (e.g., adding an edge to a belief network or adding/removing rules) that directly changes system behavior and communicates what the system 'knows'. In hardcoded algorithms, knowledge is buried in program code that must be reprogrammed, and in machine-learning systems, learned associations are not readily inspectable or editable.",
+    "q": "What are the 'five rights' of clinical decision support?",
+    "answer": "Provide:\n1. The right information\n2. To the right person\n3. In the right format\n4. Through the right channel\n5. At the right point in workflow",
     "keywords": [
-      "inspectable",
-      "editable",
-      "explicit model",
-      "transparent",
-      "hardcoded",
-      "machine learning"
+      "right information",
+      "right person",
+      "right format",
+      "right channel",
+      "workflow"
     ],
-    "explanation": ""
+    "explanation": "Chapter introduction (Osheroff et al. 2012)."
+  },
+  {
+    "type": "mcq",
+    "q": "With CDS Hooks, an event in the EHR (e.g., starting an order) invokes an external service. In what form does the service return its advice for display in the EHR?",
+    "options": [
+      "A Medical Logic Module",
+      "A 'card'",
+      "A FHIR resource bundle",
+      "An infobutton link"
+    ],
+    "answer": 1,
+    "explanation": "Section 24.5.4 'Externalizing CDS': the service returns a card (text with an assessment or suggested action), possibly with a link to a SMART app."
   },
   {
     "type": "short",
-    "q": "Describe the ontology-driven, component-based approach of ATHENA-CDS and its advantages.",
-    "answer": "ATHENA-CDS separates static domain knowledge (a generic guideline ontology with eligibility criteria, clinical algorithm, guideline drugs) from problem-solving knowledge. Knowledge bases for specific guidelines (hypertension, CHF, chronic pain, diabetes, hyperlipidemia, CKD) are created by instantiating the ontology in Protégé, and they can be mapped to different problem solvers (therapy planning, eligibility determination). This 'mix and match' allows reuse and easy updating; the EON infrastructure drives it with VistA patient data.",
+    "q": "What is alert fatigue, and why is it a problem for CDS?",
+    "answer": "Clinicians receive so many (often interruptive) alerts that they start ignoring them.\nThis leads to very high override rates and undermines the efficacy of CDS.",
     "keywords": [
-      "ontology",
-      "static knowledge",
-      "problem-solving",
-      "Protégé",
-      "knowledge base",
-      "reuse",
-      "guideline"
+      "alerts",
+      "ignoring",
+      "override rates",
+      "efficacy"
     ],
-    "explanation": ""
+    "explanation": "Section 24.5.5 'Usability Research and CDS'.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Explain how CDS Hooks and SMART on FHIR work together for externalized CDS, and state the main downside the lecture notes.",
-    "answer": "SMART apps use standard FHIR APIs to access EHR data, perform inferences outside the EHR, and return results. CDS Hooks lets an event in the host EHR (e.g., starting to write an order) programmatically invoke an external decision-support service, which returns a 'card' displayed in the EHR, possibly with a link to a SMART app. The downside is that there are no constraints on what happens inside the apps or links to native EHR workflows, which can lead to a proliferation of apps/hooks of limited utility that are hard to manage and update.",
-    "keywords": [
-      "CDS Hooks",
-      "SMART",
-      "FHIR",
-      "event",
-      "card",
-      "external service",
-      "proliferation"
-    ],
-    "explanation": ""
-  },
-  {
-    "type": "short",
-    "q": "Give the main usability-related concerns about CDS raised in the lecture and what the 'five rights' recommend.",
-    "answer": "Health IT and CDS are double-edged swords: poorly designed systems cause unintended consequences and new errors, often from mismatches between the user's mental model and the application's design or workflow. Interruptive pop-ups cause alert fatigue and very high override rates. Human-factors issues (colors, layout, choosing medications from long lists) and efficient structured data capture are also concerns. CDS should deliver the right information to the right person in the right format through the right channel at the right point in workflow.",
-    "keywords": [
-      "alert fatigue",
-      "override",
-      "unintended consequences",
-      "mental model",
-      "workflow",
-      "human factors",
-      "five rights"
-    ],
-    "explanation": ""
-  },
-  {
-    "type": "short",
-    "q": "According to the conclusions, why will human clinicians and informaticians always be needed alongside CDS tools?",
-    "answer": "There is no evidence that machines will equal humans in handling unexpected situations, integrating visual and auditory subtleties of a patient's problem, incorporating patient values and priorities into care plans, or dealing with social and ethical issues. Practitioners also have information meaningless to the machine, so health-care workers should retain discretion in using decision-support tools, and trained informaticians are needed to foster cooperation between physicians and computer tools.",
+    "q": "Why will human clinicians always be needed alongside CDS tools? Give three reasons.",
+    "answer": "Machines are not shown to equal humans in:\n1. Dealing with unexpected situations\n2. Integrating visual and auditory subtleties of a patient\n3. Incorporating patient values and priorities\n4. Handling social and ethical issues",
     "keywords": [
       "unexpected situations",
+      "visual and auditory",
       "patient values",
-      "social and ethical",
-      "discretion",
-      "cooperative relationship"
+      "social and ethical"
     ],
-    "explanation": ""
+    "explanation": "Section 24.6 'Conclusions'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Why is the word 'support' important in 'clinical decision support'?",
+    "answer": "CDS systems do not make the clinical decision themselves; they provide relevant knowledge and analyses so that clinicians, patients, and organizations can make more informed judgments.",
+    "keywords": [
+      "do not make",
+      "knowledge",
+      "clinicians",
+      "informed judgments"
+    ],
+    "explanation": "Chapter introduction, before the five rights.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Name the three basic categories of CDS systems.",
+    "answer": "1. Retrieve relevant documents using the clinical context (e.g., infobuttons)\n2. Patient-specific alerts, reminders, order sets, recommendations\n3. Organize and present information (e.g., dashboards, templates)",
+    "keywords": [
+      "infobuttons",
+      "alerts",
+      "reminders",
+      "dashboards"
+    ],
+    "explanation": "Chapter introduction and start of Section 24.3 'Methods of CDS'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Name the three requirements for excellent clinical decision-making.",
+    "answer": "1. Accurate data\n2. Pertinent knowledge\n3. Appropriate problem-solving (clinical reasoning) skills",
+    "keywords": [
+      "accurate data",
+      "pertinent knowledge",
+      "problem-solving"
+    ],
+    "explanation": "Section 24.1 'The Nature of Clinical Decision Making'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "What is the main criticism of CDS based on machine learning?",
+    "answer": "Lack of transparency: the system cannot explain why it reached a conclusion, so its output must be accepted at face value and hidden biases in the training data cannot be detected.",
+    "keywords": [
+      "transparency",
+      "explain",
+      "face value",
+      "biases"
+    ],
+    "explanation": "Section 24.3.2.4 'Learning from Data', machine learning subsection."
+  },
+  {
+    "type": "short",
+    "q": "Name the three 'naive' Bayesian assumptions made by de Dombal's abdominal pain system.",
+    "answer": "1. Conditional independence of the findings\n2. Mutual exclusivity of the diagnoses\n3. Exhaustiveness of the seven diagnoses",
+    "keywords": [
+      "conditional independence",
+      "mutual exclusivity",
+      "exhaustiveness"
+    ],
+    "explanation": "Section 24.3.2.4, de Dombal's Bayesian system for acute abdominal pain."
+  },
+  {
+    "type": "mcq",
+    "q": "In the long-running debate between structured/coded data entry and free-text entry with NLP, what was the professor's conclusion?",
+    "options": [
+      "Structured coded entry has clearly won, so free text should be removed from the EHR",
+      "Free text plus modern NLP has made coded data entry unnecessary for CDS",
+      "It is 'A plus B': use coded structured data and also apply NLP to free text",
+      "Neither works, so CDS should rely only on data typed directly into alerts"
+    ],
+    "answer": 2,
+    "explanation": "He stressed it is not 'A versus B' but 'A plus B': coded data and NLP of free text together (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Why did the traditional side of the debate insist that clinical data be structured and coded as much as possible?",
+    "options": [
+      "Coded data are machine-executable, so computers can recognize and use them",
+      "Coded data take clinicians less time to enter than writing free-text notes",
+      "Coded data are required by law before any record can be stored in the EHR",
+      "Coded data preserve the nuance and hedging of the clinician's own wording"
+    ],
+    "answer": 0,
+    "explanation": "Structured, coded data are easy for the machine to recognize and act on, whereas clinicians find structured forms restrictive (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "According to the professor, what problem with free text remains even with large language models?",
+    "options": [
+      "Free text cannot be stored in a relational database or sent between hospitals",
+      "Hedges like 'not uncommon' are ambiguous and map to no definite probability",
+      "LLMs can only read free text that has first been coded in ICD-10 format",
+      "Free text is always too short to describe a patient's history of present illness"
+    ],
+    "answer": 1,
+    "explanation": "Humans inject uncertainty into free text ('not uncommon', 'likely'), so its meaning cannot be quantified precisely (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "In the professor's hospital, urologists often ordered an intravenous pyelogram (IVP) without first checking kidney function. What CDS was built in response?",
+    "options": [
+      "A monthly report sent to radiologists listing every IVP performed in the hospital",
+      "A rule that silently blocked all IVP orders for patients older than 65 years",
+      "An NLP tool that summarized the radiology report after each IVP was done",
+      "It showed recent renal function with a risk rating and offered to cancel the IVP"
+    ],
+    "answer": 3,
+    "explanation": "The system displayed recent kidney function (creatinine/BUN) with a risk rating and could cancel the IVP and order a renal test first; doctors liked it (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "In the professor's statin example, what did the CDS do when a doctor prescribed a statin?",
+    "options": [
+      "It showed the patient's lipid profile and asked for one to be checked first if none existed",
+      "It automatically doubled the dose when LDL was above target",
+      "It replaced the statin with a cheaper generic drug from the formulary",
+      "It sent the prescription to the NHI for prior authorization"
+    ],
+    "answer": 0,
+    "explanation": "Prescribing a statin without a lipid profile led to NHI non-payment plus fines, so the CDS showed or requested the lipid profile (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "What was the key idea Thomas Bayes added to classical probability, as told in class?",
+    "options": [
+      "Probabilities are fixed numbers that never change, like drawing from a deck of cards",
+      "Probabilities can only be estimated by expert opinion, never by data",
+      "Probabilities can be updated as new evidence (conditions) arrives",
+      "Probabilities apply only to gambling and not to medical diagnosis"
+    ],
+    "answer": 2,
+    "explanation": "In the wet-road example, a street-washing truck changes the chance it rained last night: conditional, updatable probability (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Backward chaining relies on the logical equivalence that 'If P then Q' is the same as:",
+    "options": [
+      "If Q then P",
+      "If not P then not Q",
+      "If P then not Q",
+      "If not Q then not P"
+    ],
+    "answer": 3,
+    "explanation": "The contrapositive (not Q -> not P) is equivalent to P -> Q; forward chaining goes from facts to conclusions, backward chaining from a goal back to facts (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Consider the rule: 'When a penicillin order is entered, if the patient has a documented penicillin allergy, display an alert.' In ECA terms, the allergy check is the:",
+    "options": [
+      "Condition",
+      "Event",
+      "Action",
+      "Evoke slot"
+    ],
+    "answer": 0,
+    "explanation": "Event = order entered, Condition = documented allergy, Action = alert; his recurring example of a simple ECA rule (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Why did the professor call the Glasgow Coma Scale and APGAR score 'ad hoc' scoring systems?",
+    "options": [
+      "They are derived exactly from Bayes' theorem",
+      "Their points are experience-based, not mathematics",
+      "They can only be calculated by a computer",
+      "They are no longer used in clinical practice"
+    ],
+    "answer": 1,
+    "explanation": "Once certainty or points are attached to rules by experience (as with certainty factors), it is ad hoc, not mathematics (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "What does the '7' in HL7 refer to?",
+    "options": [
+      "The seventh version of the HL7 standard",
+      "The seven founding member countries of HL7 International",
+      "Layer 7, the application layer, of the ISO OSI model",
+      "The seven resource types defined by FHIR"
+    ],
+    "answer": 2,
+    "explanation": "HL7 works at layer 7 (application) of the OSI model; mnemonic 'Please Do Not Trust Salesman's Advice' (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "In SMART on FHIR, where does the decision logic (the knowledge) reside, and why does this matter?",
+    "options": [
+      "In the FHIR resources themselves, so each hospital must edit its own FHIR server",
+      "In the SMART app, so the same logic can be reused across hospitals",
+      "In the HL7 v2 messages, so it travels with every lab result",
+      "In the OSI network layer, so routers can apply it to traffic"
+    ],
+    "answer": 1,
+    "explanation": "FHIR only defines data and how to retrieve it; SMART handles login, authorization and patient context, and the reusable logic sits in the app (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "According to the professor, an ontology is especially useful when:",
+    "options": [
+      "A drug must be ordered faster than the pharmacy can dispense it",
+      "A hospital needs to encrypt patient data before sending it",
+      "A rule fires too often and causes alert fatigue",
+      "One concept has many names, e.g., shortness of breath, SOB and dyspnea"
+    ],
+    "answer": 3,
+    "explanation": "An ontology stores concepts, their synonyms and links (dyspnea -> breathing -> inspiration/expiration) (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "YouTube researchers let a machine learn from many videos without labels, and it discovered a consistent object that turned out to be cats. This illustrates:",
+    "options": [
+      "Unsupervised learning, which finds patterns or clusters without given answers",
+      "Supervised learning, which trains on labeled ground-truth examples",
+      "Rule-based reasoning using event-condition-action rules",
+      "Backward chaining from a goal toward supporting facts"
+    ],
+    "answer": 0,
+    "explanation": "Supervised learning needs labels (ground truth); unsupervised learning, like data mining, discovers clusters with no labels (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "The professor said a model output of one million tokens corresponds to roughly how many English words?",
+    "options": [
+      "About 100,000 words, since each word uses ten tokens",
+      "Exactly one million words, since one token equals one word",
+      "About 750,000 words, since some words split into several tokens",
+      "About two million words, since tokens bundle several words"
+    ],
+    "answer": 2,
+    "explanation": "Common words are one token, but longer words like 'suspicious' split into several, so 1M tokens is about 750,000 words (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Why did Epic's ICU sepsis prediction CDS fall from about 67% to about 30% accuracy during COVID-19?",
+    "options": [
+      "The hospital switched off the alert during the pandemic",
+      "The ICU patient mix changed, so its prior probabilities were no longer valid",
+      "Physicians began entering sepsis data only as free text",
+      "The FHIR standard was replaced in the middle of the pandemic"
+    ],
+    "answer": 1,
+    "explanation": "The ICU population changed, so the model's priors were wrong; CDS must be monitored, not 'shoot and forget' (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Who bears liability when a physician follows or rejects a CDS/AI recommendation, according to the professor?",
+    "options": [
+      "The software vendor, in every case",
+      "The hospital IT department that installed the system",
+      "The government agency that certified the system",
+      "Whoever makes the final decision, normally the physician"
+    ],
+    "answer": 3,
+    "explanation": "The decision-maker is liable; as in self-driving levels 4-5, liability shifts to a company only if it takes the decision and insures it (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "Injecting contrast media into a patient with impaired kidney function can cause contrast-induced ____, which may require emergency dialysis.",
+    "answer": [
+      "nephropathy",
+      "nephropathy (CIN)",
+      "CIN",
+      "acute kidney injury",
+      "AKI"
+    ],
+    "explanation": "This is why renal function must be checked before ordering an IVP (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "The professor's one-word answer to 'why are transformers such a big deal?' is ____.",
+    "answer": [
+      "attention",
+      "attention mechanism",
+      "self-attention"
+    ],
+    "explanation": "From the paper 'Attention Is All You Need'; models evolved LSTM -> BERT -> GPT (generative pre-trained transformer) (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "In the OSI mnemonic 'Please Do Not Trust Salesman's Advice', the 'D' stands for the ____ layer.",
+    "answer": [
+      "data link",
+      "data-link",
+      "datalink"
+    ],
+    "explanation": "Physical, Data link, Network, Transport, Session, Presentation, Application; Ethernet cards handle layers 1-2 and TCP/IP layers 3-4 (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "The ontology modeling language invented for Tim Berners-Lee's Semantic Web vision is ____.",
+    "answer": [
+      "OWL",
+      "Web Ontology Language"
+    ],
+    "explanation": "Berners-Lee invented the WWW and HTML, then proposed the Semantic Web (ontologies on the internet), which did not take off (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "AI that does things for you, not just answers questions, is called ____ AI (after perception AI and generative AI, before physical AI).",
+    "answer": [
+      "agentic",
+      "agent",
+      "agent-based"
+    ],
+    "explanation": "The four waves of AI are perception, generative, agentic and physical; robots need not be humanoid, e.g. a Roomba (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "The most common neural-network topology, the MLP, stands for multilayer ____.",
+    "answer": [
+      "perceptron",
+      "perceptrons"
+    ],
+    "explanation": "During training, machine learning updates the model's parameters (connection weights) rather than staying fixed (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "How should a CDS choose between conflicting guidelines or rules for the same problem?",
+    "answer": "Choose the guideline with the strongest evidence (clinical trial data)\nIf all are opinion-based, follow the most authoritative organization (e.g., AHA, WHO)\nA knowledge engineer resolves rule conflicts before execution",
+    "keywords": [
+      "evidence",
+      "clinical trial",
+      "authoritative organization",
+      "knowledge engineer"
+    ],
+    "explanation": "Conflict resolution comes before the rule engine runs, and he called it more a physician problem than a computer problem (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Compare structured/coded data entry with free text for CDS, and state the professor's conclusion.",
+    "answer": "Coded data: machine-executable but restrictive for clinicians\nFree text: expressive but ambiguous and uncertain\nNLP/LLMs now extract information from free text\nConclusion: A plus B, not A versus B",
+    "keywords": [
+      "machine-executable",
+      "restrictive",
+      "ambiguous",
+      "NLP",
+      "A plus B"
+    ],
+    "explanation": "For 30-40 years coded entry 'won'; NLP has now caught up, so both are used together (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Why must a CDS system be monitored after deployment? Give an example from class.",
+    "answer": "Monitor it; do not 'shoot and forget': accuracy and usefulness change over time\nDrug-drug interaction reminders: only 3 per 1,000 accepted, so alert fatigue\nEpic sepsis model fell from 67% to 30% during COVID as the patient mix changed",
+    "keywords": [
+      "shoot and forget",
+      "alert fatigue",
+      "sepsis",
+      "monitor"
+    ],
+    "explanation": "Monitor usage and accuracy regularly and revise or retire alerts (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Describe the Learning Health System cycle (Charles Friedman) and the role of CDS in it.",
+    "answer": "Data -> Knowledge (analytics, machine learning)\nKnowledge -> Practice: CDS applies the knowledge\nPractice -> new Data: monitor responses to CDS\nThen the cycle repeats",
+    "keywords": [
+      "data",
+      "knowledge",
+      "practice",
+      "CDS",
+      "cycle"
+    ],
+    "explanation": "D->K, K->P, P->D; CDS is the step that puts knowledge into practice (emphasized in class).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Today, with near-ubiquitous EHRs, what information problem motivates CDS according to the chapter?",
+    "options": [
+      "EHRs now hold too little data to support any clinical decision",
+      "Overabundant EHR data cause 'information chaos', hiding what is relevant",
+      "EHR data can no longer be exchanged because FHIR was withdrawn",
+      "Clinicians now have more time per visit than they can use well"
+    ],
+    "answer": 1,
+    "explanation": "Knowledge and data keep expanding while visit time shrinks; the excess of EHR data ('information chaos') is a key motivation for CDS (course learning objective).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which pairing correctly matches a class example to a key motivation for CDS?",
+    "options": [
+      "IVP renal-function check -> reducing costs; statin lipid check -> genomics",
+      "Statin lipid-profile check -> precision medicine based on the patient's genome",
+      "IVP check -> patient safety; statin check -> avoiding NHI fines",
+      "Ontology of synonyms -> reducing NHI fines for missing laboratory tests"
+    ],
+    "answer": 2,
+    "explanation": "The IVP alert prevents contrast-induced nephropathy (safety/quality) and the statin alert avoided costly NHI fines (cost), two motivations for CDS (course learning objective).",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "The motivation to deliver care tailored to each patient's preferences and individual genome is called personalized or ____ medicine.",
+    "answer": [
+      "precision"
+    ],
+    "explanation": "Precision medicine is one of the four reasons CDS has become urgent in the 21st century (course learning objective).",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "What are the four key motivations for computer-based clinical decision support?",
+    "answer": "Growing physician information needs: expanding knowledge, less time\nUbiquitous EHRs: integrate and use the data\nPersonalized (precision) care: preferences, genome\nEvidence that CDS improves quality and reduces cost",
+    "keywords": [
+      "information needs",
+      "EHR",
+      "precision",
+      "quality",
+      "cost"
+    ],
+    "explanation": "These are the four reasons in section 24.2; this is the week-7 learning objective in the course outline.",
+    "star": true
   }
 ]

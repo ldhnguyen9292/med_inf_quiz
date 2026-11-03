@@ -153,3 +153,6 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--primary); bord
   .card { padding: 16px; }
   .big-score { font-size: 44px; }
 }
+.hint { margin-top: 10px; }
+.kw.mono { font-family: ui-monospace, Menlo, monospace; letter-spacing: .05em; }
+.tag.star { background: var(--part-bg); color: var(--part); }

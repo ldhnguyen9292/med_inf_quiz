@@ -9,7 +9,8 @@
       "Statistical methods for analyzing clinical data and drawing inferences about populations"
     ],
     "answer": 1,
-    "explanation": "The lecture defines cognitive science as the study of the human mind and brain, focusing on how knowledge is represented and manipulated and how this is realized in the brain."
+    "explanation": "The lecture defines cognitive science as the study of the human mind and brain, focusing on how knowledge is represented and manipulated and how this is realized in the brain.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -33,7 +34,8 @@
       "Education"
     ],
     "answer": 2,
-    "explanation": "The listed fields were neuroscience, psychology, philosophy, anthropology, linguistics, education, and computer science (AI)."
+    "explanation": "The listed fields were neuroscience, psychology, philosophy, anthropology, linguistics, education, and computer science (AI).",
+    "star": true
   },
   {
     "type": "mcq",
@@ -201,7 +203,8 @@
       "An example of a latent failure only"
     ],
     "answer": 0,
-    "explanation": "Norman's door principle: things should be so straightforward there are no other possibilities; if you can't tell push vs pull, the door is badly designed."
+    "explanation": "Norman's door principle: things should be so straightforward there are no other possibilities; if you can't tell push vs pull, the door is badly designed.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -213,7 +216,8 @@
       "The submenu stays open while the cursor moves through a triangle toward it"
     ],
     "answer": 3,
-    "explanation": "Good design keeps the submenu open while the cursor moves within the (blue) triangle toward it, anticipating user intent."
+    "explanation": "Good design keeps the submenu open while the cursor moves within the (blue) triangle toward it, anticipating user intent.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -249,7 +253,8 @@
       "Hardware malfunctions and software coding errors"
     ],
     "answer": 0,
-    "explanation": "Koppel et al. grouped the errors into information (integration) errors and HCI flaws reflecting machine rules that do not correspond to usual behavior."
+    "explanation": "Koppel et al. grouped the errors into information (integration) errors and HCI flaws reflecting machine rules that do not correspond to usual behavior.",
+    "star": true
   },
   {
     "type": "fill",
@@ -337,81 +342,244 @@
   },
   {
     "type": "short",
-    "q": "Describe the three things cognitive science seeks to understand (brain, behavior, computation), giving the lecture's example for each.",
-    "answer": "Brain: understanding neurological processes, e.g., dopamine makes you feel happy. Behavior: explaining why and how humans or animals act during certain events, e.g., Pavlov's dog or irrational behaviors. Computation: simulating brain processes, e.g., artificial intelligence/artificial neural networks.",
+    "q": "Name the three things cognitive science seeks to understand.",
+    "answer": "1. Brain - neurological processes (e.g., dopamine)\n2. Behavior - why and how humans or animals act (e.g., Pavlov's dog)\n3. Computation - simulating brain processes (e.g., artificial neural networks)",
     "keywords": [
       "brain",
-      "neurological processes",
-      "dopamine",
       "behavior",
-      "Pavlov's dog",
-      "computation",
-      "artificial intelligence",
-      "neural network"
+      "computation"
     ],
-    "explanation": ""
+    "explanation": "Slide 'So what cognitive science is seeking?'."
   },
   {
     "type": "short",
-    "q": "Distinguish between active failure and latent failure as causes of medical error, with an example of each.",
-    "answer": "Active failure is an error made directly by the front-line person, e.g., a nurse or physician giving the wrong drug dose. Latent failure is an enduring systemic problem that may not be evident for some time, e.g., poor system design, communication breakdown, or inadequate training.",
+    "q": "Distinguish active failure from latent failure as causes of medical error.",
+    "answer": "Active failure: an error made directly by the front-line person (e.g., a nurse gives the wrong drug dose).\nLatent failure: an enduring systemic problem not evident for some time (e.g., poor system design, inadequate training).",
     "keywords": [
       "active failure",
       "front-line",
-      "wrong dose",
       "latent failure",
-      "systemic",
-      "poor system design",
-      "communication breakdown",
-      "inadequate training"
+      "systemic"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Cause of human error (cont.)'."
   },
   {
     "type": "short",
-    "q": "List the five processes of a cognitive walkthrough, and state two of the questions the evaluator tries to answer while observing users.",
-    "answer": "Processes: (1) determine the function of the system; (2) list possible actions; (3) identify and carry out appropriate actions; (4) perceive and interpret what happened; (5) evaluate progress toward the goal. Questions include: Will users try to achieve the right outcome? Will they notice the correct action is available? Will they associate the correct action with the expected outcome? If the correct action is performed, will they see progress toward their outcome?",
+    "q": "Name the five processes of a cognitive walkthrough.",
+    "answer": "1. Determine the function of the system\n2. List possible actions\n3. Identify and carry out appropriate actions\n4. Perceive and interpret what happened\n5. Evaluate progress toward the goal",
     "keywords": [
-      "determine function",
-      "list possible actions",
-      "carry out actions",
-      "perceive and interpret",
-      "evaluate progress",
-      "notice correct action",
-      "associate action with outcome",
-      "first-time users"
+      "function",
+      "possible actions",
+      "carry out",
+      "interpret",
+      "evaluate progress"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Cognitive walkthrough processes'."
+  },
+  {
+    "type": "mcq",
+    "q": "Lin et al. (1998) redesigned a complex medical device interface to reduce the number of steps. What did the redesign achieve?",
+    "options": [
+      "About 50% faster on average, workload unchanged, errors reduced from 25 to 5",
+      "About 25% faster on average, workload cut by a third, errors reduced from 15 to 10",
+      "About 15% faster on average, workload cut in half, errors reduced from 20 to 10",
+      "About 15% slower on average, workload cut in half, errors reduced from 20 to 2"
+    ],
+    "answer": 2,
+    "explanation": "Slide 'Reducing medical errors with HCI design': a simple procedure could need up to 25 steps; the new interface was 15% faster, halved workload, and cut errors from 20 to 10.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Summarize Lin et al. (1998) on reducing medical errors through HCI design, including the problem identified and the quantitative results after redesign.",
-    "answer": "Lin et al. found that medical device complexity increases error rates; a simple procedure could require up to 25 steps because of a complicated interface. By redesigning the interface to reduce the necessary steps, the new interface was on average 15% faster, workload was cut in half, and average errors fell from 20 to 10.",
+    "q": "How can information visualization reduce cognitive load in clinical care? Give one example from the lecture.",
+    "answer": "Visualization converts messy data into information, so clinicians find the key message quickly and correctly.\nExample: Echo summarizes ICU patients' status at a glance.",
     "keywords": [
-      "device complexity",
-      "25 steps",
-      "complicated interface",
-      "15% faster",
-      "workload halved",
-      "errors 20 to 10"
-    ],
-    "explanation": ""
-  },
-  {
-    "type": "short",
-    "q": "Give two examples of HCI flaws or HCI-based solutions related to patient safety from the lecture, and explain how information visualization can reduce cognitive load in clinical care.",
-    "answer": "HCI flaw: when the system freezes, doctors click 'prescribe' multiple times, causing duplicate orders or excessive doses; long patient names can lead to selecting the wrong patient. Solution: Sopan et al. (2014) built a system that warns clinicians when selecting patients with similar names; TMU faculty (Li and Yang) built alerts for look-alike/sound-alike medications. Visualization converts messy data into information quickly and correctly, e.g., the Echo system summarizes ICU patient status at a glance, reducing cognitive load.",
-    "keywords": [
-      "multiple clicks",
-      "prescribe",
-      "wrong patient",
-      "similar names warning",
-      "look-alike sound-alike",
       "visualization",
+      "information",
+      "quickly",
       "Echo",
-      "ICU",
-      "cognitive load"
+      "ICU"
     ],
-    "explanation": ""
+    "explanation": "Slides 'Information visualization' and 'Using visualization to reduce cognitive load'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Distinguish a slip from a mistake.",
+    "answer": "Slip: the appropriate action was chosen but executed badly (e.g., correct drug, sloppy handwriting).\nMistake: an inappropriate action was chosen (e.g., prescribing the wrong drug).",
+    "keywords": [
+      "slip",
+      "executed badly",
+      "mistake",
+      "inappropriate action"
+    ],
+    "explanation": "Slide 'Error categories'."
+  },
+  {
+    "type": "short",
+    "q": "State two differences between novices and experts in problem solving.",
+    "answer": "1. Experts solve problems in about 1/4 of the novices' time\n2. Novices work backward (symptoms to disease); experts work forward (disease to symptoms)\n3. Experts keep only relevant information",
+    "keywords": [
+      "1/4",
+      "backward",
+      "forward",
+      "relevant information"
+    ],
+    "explanation": "Slides 'Differences between novices and experts' and 'Decision directions?'."
+  },
+  {
+    "type": "short",
+    "q": "What is the think-aloud protocol?",
+    "answer": "A user test in which first-time users say aloud what they are thinking while using a system, so observers can find problems in the product (e.g., an EHR).",
+    "keywords": [
+      "first-time users",
+      "aloud",
+      "find problems"
+    ],
+    "explanation": "Slides 'Think-aloud protocol for problem solving'."
+  },
+  {
+    "type": "short",
+    "q": "Name the two categories of medication errors caused by bad system design (Koppel et al., 2005).",
+    "answer": "1. Information (integration) errors - fragmented data, systems not integrated\n2. HCI flaws - machine rules that do not match usual behavior",
+    "keywords": [
+      "information",
+      "integration",
+      "HCI flaws"
+    ],
+    "explanation": "Slide 'Goal of HCI - error prevention' (22 error types in 2 categories).",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "What is the intermediate effect?",
+    "answer": "Performance may temporarily decrease before it increases again with experience, because intermediates have trouble distinguishing important from unimportant information (too many unnecessary links).",
+    "keywords": [
+      "decrease",
+      "intermediates",
+      "important",
+      "unnecessary"
+    ],
+    "explanation": "Slides 'Intermediate effect' and 'Problem-solving (intermediates)'."
+  },
+  {
+    "type": "short",
+    "q": "Define cognitive science as presented in the lecture.",
+    "answer": "The study of the human mind and brain\nFocuses on how the mind represents and manipulates knowledge\nand how mental representations and processes are realized in the brain",
+    "keywords": [
+      "mind",
+      "brain",
+      "represents",
+      "knowledge"
+    ],
+    "explanation": "Opening slide 'Cognitive Science - Definition'.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following was NOT given in the lecture as a reason to care about cognitive science in the health industry?",
+    "options": [
+      "To design better healthcare systems",
+      "To prevent more medical errors",
+      "To replace clinicians with autonomous AI",
+      "To make patient education more profound"
+    ],
+    "answer": 2,
+    "explanation": "The slide lists better system design, patient education, error prevention, digitizing handwritten records and making images 'talk'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Give three reasons why cognitive science matters to biomedical informatics.",
+    "answer": "Design better healthcare systems\nMake more profound patient education\nPrevent more medical errors\nDigitalize hand-written records\nMake medical images 'talk'",
+    "keywords": [
+      "design",
+      "patient education",
+      "medical errors"
+    ],
+    "explanation": "Slide 'Biomedical Informatics and cognitive science'; any three are enough.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "According to the lecture, applying cognitive science in health care lets us design better systems, improve patient education and prevent more medical ____.",
+    "answer": [
+      "errors",
+      "error"
+    ],
+    "explanation": "Preventing medical errors is one of the listed reasons cognitive science matters to biomedical informatics.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "State the two fundamental principles of 'design' from the lecture.",
+    "answer": "The object should be usable even without thinking\nThe object should provide feedback so you know you used it",
+    "keywords": [
+      "without thinking",
+      "feedback"
+    ],
+    "explanation": "Slide 'Fundamental principles of design' (Norman's door video).",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "A system freezes and a doctor clicks 'prescribe' several times, creating duplicate drug orders. Under Koppel et al.'s categories this is:",
+    "options": [
+      "An information integration error from data fragmentation",
+      "A latent failure caused by inadequate staff training",
+      "A slip caused by sloppy handwriting",
+      "An HCI flaw where machine rules do not fit usual behavior"
+    ],
+    "answer": 3,
+    "explanation": "The repeated-click example is the lecture's illustration of Category 2, HCI flaws.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Sopan et al. (2014) used HCI design to prevent which type of error?",
+    "options": [
+      "Selecting the wrong patient with a similar name",
+      "Dispensing look-alike or sound-alike drugs",
+      "Overriding drug-allergy alerts too often",
+      "Entering out-of-range laboratory values"
+    ],
+    "answer": 0,
+    "explanation": "Their system warns clinicians who try to pick a patient whose name is similar to another patient's.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture, the goal of information visualization is to:",
+    "options": [
+      "Store raw data compactly for long-term archiving",
+      "Find messages in messy information swiftly and correctly",
+      "Replace statistical analysis with artistic graphics",
+      "Encrypt clinical data before it is shared"
+    ],
+    "answer": 1,
+    "explanation": "Information visualization aims to find messages from messy information swiftly and correctly, converting data into information.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "Information visualization aids in converting data into ____.",
+    "answer": [
+      "information"
+    ],
+    "explanation": "The lecture states visualization aids in converting data into information.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Give two examples of information visualization from the lecture.",
+    "answer": "Hans Rosling's animated world data\nGraph of medical expenditure rising worldwide even after correcting for GNP\nEcho summarizing ICU patient status\nVisualization to check whether hospital alerts work",
+    "keywords": [
+      "Rosling",
+      "expenditure",
+      "Echo",
+      "alerts"
+    ],
+    "explanation": "Information visualization slides; any two are enough.",
+    "star": true
   }
 ]

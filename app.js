@@ -53,7 +53,8 @@
   function selectedTypes() { return [...$("typeList").querySelectorAll("input:checked")].map(i => i.value); }
   function pool() {
     const ls = new Set(selectedLectures()), ts = new Set(selectedTypes());
-    return BANK.questions.filter(q => ls.has(q.lecture) && ts.has(q.type));
+    const so = $("starOnly").checked;
+    return BANK.questions.filter(q => ls.has(q.lecture) && ts.has(q.type) && (!so || q.star));
   }
   function wrongPool() {
     const ex = new Set(lecturesFor(exam).map(l => l.slug));
@@ -61,6 +62,8 @@
   }
   function updatePoolInfo() {
     const p = pool();
+    const ls = new Set(selectedLectures());
+    $("starCount").textContent = BANK.questions.filter(q => q.star && ls.has(q.lecture)).length;
     $("poolInfo").textContent = `${p.length} questions match your selection.`;
     $("startBtn").disabled = p.length === 0;
     const w = wrongPool().length;
@@ -78,6 +81,7 @@
     document.querySelectorAll("#countSeg button").forEach(x => x.classList.toggle("active", x === b));
   };
   $("typeList").onchange = updatePoolInfo;
+  $("starOnly").onchange = updatePoolInfo;
   $("selAll").onclick = e => { e.preventDefault(); $("lectureList").querySelectorAll("input").forEach(i => i.checked = true); updatePoolInfo(); };
   $("selNone").onclick = e => { e.preventDefault(); $("lectureList").querySelectorAll("input").forEach(i => i.checked = false); updatePoolInfo(); };
   $("homeLink").onclick = e => { e.preventDefault(); if (!quiz || quiz.done || confirm("Quit the current round?")) show("home"); };
@@ -145,6 +149,7 @@
       `<button data-k="${k}" class="${k === quiz.i ? "cur " : ""}${x.checked ? cls(x.score) : ""}">${k + 1}</button>`).join("");
     $("qType").textContent = TYPE_LABEL[q.type];
     $("qLecture").textContent = `Week ${LEC[q.lecture]?.week} · ${LEC[q.lecture]?.title}`;
+    $("qStar").classList.toggle("hidden", !q.star);
     $("qText").textContent = q.q;
 
     const body = $("qBody"); body.innerHTML = "";
@@ -178,6 +183,16 @@
       ta.disabled = it.checked && it.score !== null;
       ta.oninput = () => it.resp = ta.value;
       body.appendChild(ta);
+      if (!it.checked) {
+        const hb = document.createElement("div"); hb.className = "hint";
+        if (it.hint) hb.innerHTML = hintHTML(q);
+        else {
+          const b = document.createElement("button"); b.className = "btn small ghost"; b.textContent = "💡 Hint";
+          b.onclick = () => { it.hint = true; hb.innerHTML = hintHTML(q); };
+          hb.appendChild(b);
+        }
+        body.appendChild(hb);
+      }
     }
     renderFeedback();
 
@@ -313,6 +328,14 @@
   $("newBtn").onclick = () => { show("home"); };
   $("backHomeBtn").onclick = () => show("home");
   $("retryWrongBtn").onclick = () => startQuiz(quiz.items.filter(x => x.score < 1).map(x => x.q));
+
+  function hintHTML(q) {
+    const lines = String(q.answer).split("\n").filter(s => s.trim());
+    const points = lines.length > 1 ? lines.length : null;
+    const mask = w => w.split(/(\s+)/).map(t => /^\s+$/.test(t) ? t : t[0] + t.slice(1).replace(/[A-Za-z0-9]/g, "_")).join("");
+    const kws = (q.keywords || []).map(k => `<span class="kw mono">${esc(mask(k))}</span>`).join("");
+    return `<span class="muted small">${points ? `Expected: <b>${points} points</b>. ` : ""}Key terms: </span>${kws || '<span class="muted small">–</span>'}`;
+  }
 
   // ---------- utils ----------
   function show(v) {

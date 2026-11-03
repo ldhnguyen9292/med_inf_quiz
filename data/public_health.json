@@ -9,7 +9,8 @@
       "Health insurance billing and reimbursement"
     ],
     "answer": 1,
-    "explanation": "The lecture defines PHI as the systematic application of information and computer science and technology to public health practice, research, and learning (Public Health Informatics and Information Systems, 2002)."
+    "explanation": "The lecture defines PHI as the systematic application of information and computer science and technology to public health practice, research, and learning (Public Health Informatics and Information Systems, 2002).",
+    "star": true
   },
   {
     "type": "mcq",
@@ -21,7 +22,8 @@
       "Surgical medicine"
     ],
     "answer": 3,
-    "explanation": "The public health domain includes epidemiology, biostatistics, social and behavioral sciences, health administration, and environmental science; surgical medicine belongs to clinical medicine."
+    "explanation": "The public health domain includes epidemiology, biostatistics, social and behavioral sciences, health administration, and environmental science; surgical medicine belongs to clinical medicine.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -69,7 +71,8 @@
       "Real-time analytics and flexible funding"
     ],
     "answer": 2,
-    "explanation": "Public Health 1.0 established the basics: sanitation, infectious disease control, vaccination, and food and water safety."
+    "explanation": "Public Health 1.0 established the basics: sanitation, infectious disease control, vaccination, and food and water safety.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -93,7 +96,8 @@
       "The WHO 2023 infodemic management advocacy"
     ],
     "answer": 1,
-    "explanation": "Public Health 2.0 (mid-to-late 20th century) was catalysed by the 1988 Institute of Medicine report The Future of Public Health."
+    "explanation": "Public Health 2.0 (mid-to-late 20th century) was catalysed by the 1988 Institute of Medicine report The Future of Public Health.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -177,7 +181,8 @@
       "Context"
     ],
     "answer": 3,
-    "explanation": "The fourth PHI principle, Context, refers to operating in a governmental rather than private, profit-seeking context."
+    "explanation": "The fourth PHI principle, Context, refers to operating in a governmental rather than private, profit-seeking context.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -189,7 +194,8 @@
       "Output"
     ],
     "answer": 2,
-    "explanation": "Processing covers information retrieval, data integration, and analysis, with example tools such as SAS, R, Python, Citrix, and web browsers."
+    "explanation": "Processing covers information retrieval, data integration, and analysis, with example tools such as SAS, R, Python, Citrix, and web browsers.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -201,7 +207,8 @@
       "Processing"
     ],
     "answer": 0,
-    "explanation": "Output is the result of processing, such as a report, graph, chart, table, or map."
+    "explanation": "Output is the result of processing, such as a report, graph, chart, table, or map.",
+    "star": true
   },
   {
     "type": "mcq",
@@ -329,7 +336,8 @@
       "u-Health",
       "ubiquitous health"
     ],
-    "explanation": "uHealth (ubiquitous health) is listed with mHealth as a driver of change for PHI."
+    "explanation": "uHealth (ubiquitous health) is listed with mHealth as a driver of change for PHI.",
+    "star": true
   },
   {
     "type": "fill",
@@ -377,82 +385,286 @@
   },
   {
     "type": "short",
-    "q": "List and briefly explain the four underlying principles of public health informatics.",
-    "answer": "1) Population health: applying information science and technology to the health of populations rather than individuals. 2) Prevention: focusing on preventing disease or injury rather than treating existing conditions. 3) Causal chain: targeting points in the causal chain leading to disease, injury, or disability. 4) Context: operating within a governmental rather than a private, profit-seeking context.",
+    "q": "Name the four underlying principles of public health informatics.",
+    "answer": "1. Population health\n2. Prevention\n3. Causal chain\n4. (Governmental) context",
     "keywords": [
       "population health",
       "prevention",
       "causal chain",
-      "context",
-      "governmental"
+      "context"
     ],
-    "explanation": ""
+    "explanation": "Slide 'PHI underlying principles'.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Describe the four components of an information system, with one public health example for each.",
-    "answer": "Input: data collected from sources (e.g., population surveys, vaccination records, census or birth certificate data). Storage: a repository for data (e.g., relational database, CSV files, Google Drive). Processing: retrieval, integration, and analysis (e.g., SAS, R, Python). Output: the result of processing as a report, graph, table, or map (e.g., a map of high-incidence neighborhoods or a list of new measles cases).",
+    "q": "Name the four components of an information system.",
+    "answer": "1. Input (e.g., vaccination records)\n2. Storage (e.g., relational database)\n3. Processing (e.g., SAS, R, Python)\n4. Output (e.g., disease map, report)",
     "keywords": [
       "input",
       "storage",
       "processing",
       "output"
     ],
-    "explanation": ""
+    "explanation": "Table 'Components of an information system, illustrated with examples from public health'.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "List the 5 steps to creating a public health information system.",
-    "answer": "1) Vision and system planning. 2) Health data standards and integration. 3) Data privacy and security. 4) Systems design and implementation. 5) Visualization, analysis, and reporting of health data.",
+    "q": "List the five steps to creating a public health information system.",
+    "answer": "1. Vision and system planning\n2. Health data standards and integration\n3. Data privacy and security\n4. Systems design and implementation\n5. Visualization, analysis, and reporting",
     "keywords": [
-      "vision and system planning",
-      "data standards and integration",
+      "vision",
+      "standards",
       "privacy and security",
       "design and implementation",
-      "visualization analysis reporting"
+      "visualization"
     ],
-    "explanation": ""
+    "explanation": "Slides '5 Steps to Creating a Public Health Information System'."
   },
   {
     "type": "short",
-    "q": "Compare Public Health 1.0, 2.0, and 3.0 in terms of period and main focus.",
-    "answer": "PH 1.0 (late 19th to early 20th century): sanitation, infectious disease control, and vaccination, with a government-led approach; it could not address chronic disease or social determinants. PH 2.0 (mid-to-late 20th century, after the 1988 IOM report): professionalised agencies around core functions (assessment, policy development, assurance) and addressed chronic disease, but remained siloed. PH 3.0 (21st century): public health as chief health strategist, with cross-sector partnerships, social determinants and health equity, real-time data, and flexible funding. Overall the shift is from reactive disease control to proactive, data-driven, equity-focused systems.",
+    "q": "State the main focus of Public Health 1.0, 2.0, and 3.0.",
+    "answer": "PH 1.0: sanitation and infectious disease control (government-led)\nPH 2.0: core functions and standards, structured agencies\nPH 3.0: health equity and cross-sector collaboration with real-time data",
     "keywords": [
       "sanitation",
+      "infectious disease",
       "core functions",
-      "IOM 1988",
-      "chief health strategist",
-      "cross-sector",
       "health equity",
-      "social determinants"
+      "cross-sector"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Public Health 1.0 -> 3.0: Key Differences'.",
+    "star": true
   },
   {
     "type": "short",
-    "q": "Define infodemiology and give at least three examples of infodemiology/infoveillance applications.",
-    "answer": "Infodemiology is the science of the distribution and determinants of information in an electronic medium, specifically the Internet, or in a population, with the ultimate aim of informing public health and public policy. Examples: analysing search engine queries to predict outbreaks (e.g., Google Flu Trends); mining Twitter or microblogs for syndromic surveillance; monitoring anti-vaccination sites and vaccine sentiment; tracking health marketing campaign effectiveness; extracting user-generated outcomes (e.g., PatientsLikeMe) to monitor drug side effects.",
+    "q": "Define infodemiology.",
+    "answer": "The science of the distribution and determinants of information in an electronic medium (specifically the Internet) or in a population, with the aim of informing public health and public policy.",
     "keywords": [
-      "distribution and determinants of information",
+      "distribution and determinants",
+      "information",
       "Internet",
-      "search queries",
-      "Twitter",
-      "vaccine sentiment",
-      "Google Flu Trends"
+      "public health"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Infodemiology and infoveillance' (term coined by Eysenbach)."
   },
   {
     "type": "short",
-    "q": "Name the four major implementation challenges facing public health informatics described in the lecture.",
-    "answer": "1) Fragmented data systems (legacy integration, lack of standard protocols, resistance to change). 2) Limited analytics expertise (workforce shortage, competition with the private sector). 3) Data quality and bias (underrepresentation of vulnerable populations, inconsistent collection, historical bias). 4) Funding and resource constraints (high upfront costs, ongoing maintenance).",
+    "q": "Name the four major implementation challenges facing public health informatics.",
+    "answer": "1. Fragmented data systems\n2. Limited analytics expertise\n3. Data quality and bias\n4. Funding and resource constraints",
     "keywords": [
       "fragmented data systems",
       "analytics expertise",
       "data quality",
-      "bias",
-      "funding constraints"
+      "funding"
     ],
-    "explanation": ""
+    "explanation": "Slide 'Implementation Challenges' near the end of the lecture."
+  },
+  {
+    "type": "short",
+    "q": "Define public health informatics.",
+    "answer": "The systematic application of information and computer science and technology to public health practice, research, and learning.",
+    "keywords": [
+      "systematic application",
+      "computer science",
+      "public health practice"
+    ],
+    "explanation": "Opening definition slide 'Public Health Informatics (PHI)'.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Compare clinical medicine and public health in terms of focus and goal.",
+    "answer": "Clinical medicine: focuses on individuals; goal is treatment of disease, injury, disability.\nPublic health: focuses on the population; goal is prevention of disease, injury, disability.",
+    "keywords": [
+      "individuals",
+      "treatment",
+      "population",
+      "prevention"
+    ],
+    "explanation": "Table 'Comparison of clinical medicine and levels of public health'."
+  },
+  {
+    "type": "short",
+    "q": "Give three examples of infodemiology or infoveillance applications.",
+    "answer": "1. Analysing search engine queries to predict outbreaks (Google Flu Trends)\n2. Mining Twitter posts for syndromic surveillance\n3. Monitoring vaccine sentiment / anti-vaccination sites\n4. Tracking health marketing campaigns",
+    "keywords": [
+      "search engine queries",
+      "Twitter",
+      "vaccine sentiment",
+      "marketing campaigns"
+    ],
+    "explanation": "Slides 'Infoveillance Success Stories' and 'Examples of infodemiology applications'."
+  },
+  {
+    "type": "mcq",
+    "q": "According to the lecture's 'business of public health' diagram, PHI practice mainly involves:",
+    "options": [
+      "Evaluating the impact of public health information systems",
+      "Design, implementation and operation of PH information systems",
+      "Treatment of individual patients in clinical settings",
+      "Developing new drugs for population-level diseases"
+    ],
+    "answer": 1,
+    "explanation": "PHI practice is design, implementation and operation of PH information systems; evaluating their impact is PHI research.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Explain the role of PHI in public health practice (the 'business of public health').",
+    "answer": "Data and information feed PH information systems\nwhich support PH business processes (assessment, assurance, policy)\nto improve population health outcomes",
+    "keywords": [
+      "information systems",
+      "assessment",
+      "population health outcomes"
+    ],
+    "explanation": "Slide 'Public health informatics aims to advance the business of public health'.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "In the lecture's diagram, public health informatics lies at the overlap of public health, information science and technology, and which third domain?",
+    "options": [
+      "Clinical medicine and surgery",
+      "Genomics and molecular biology",
+      "Health insurance and finance",
+      "Leadership, communication and professionalism"
+    ],
+    "answer": 3,
+    "explanation": "The PHI diagram combines public health, information science & technology, and leadership, communication and professionalism.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Describe the origins of public health informatics as presented in the lecture.",
+    "answer": "Public health evolved: 1.0 sanitation, 2.0 core functions, 3.0 cross-sector real-time data\nInformatics brings methods from computer science and information science\nPHI (2002): applying them to PH practice",
+    "keywords": [
+      "1.0",
+      "computer science",
+      "information science",
+      "2002"
+    ],
+    "explanation": "PH 1.0-3.0 slides, the 'Interdisciplinary nature' slide and the 2002 PHI definition.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "List the drivers of change for public health informatics and information systems.",
+    "answer": "Electronic health records and National Health Insurance data\nPrecision public health\nmHealth and uHealth\nPublic Health 3.0",
+    "keywords": [
+      "electronic health records",
+      "precision public health",
+      "mHealth",
+      "Public Health 3.0"
+    ],
+    "explanation": "Slide 'Drivers of change for PHI and information systems'.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which of the following is NOT listed in the lecture as a driver of change for PHI and information systems?",
+    "options": [
+      "Paper-based disease registries",
+      "Precision public health",
+      "mHealth and uHealth",
+      "Public Health 3.0"
+    ],
+    "answer": 0,
+    "explanation": "The drivers are EHR/NHI data, precision public health, mHealth/uHealth and Public Health 3.0.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "____ health, abbreviated mHealth, is listed alongside uHealth as a driver of public health informatics.",
+    "answer": [
+      "Mobile"
+    ],
+    "explanation": "mHealth (mobile health) and uHealth (ubiquitous health) are listed drivers of PHI.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "List the disciplines that contribute knowledge and methods to public health informatics.",
+    "answer": "Public health: epidemiology, biostatistics, social and behavioral sciences, health administration, environmental science\nInformatics: computer science and information science",
+    "keywords": [
+      "epidemiology",
+      "biostatistics",
+      "computer science",
+      "information science"
+    ],
+    "explanation": "Slide 'Interdisciplinary nature' of PHI.",
+    "star": true
+  },
+  {
+    "type": "fill",
+    "q": "Informatics brings methods, knowledge and theories from computer science and ____ science to support public health.",
+    "answer": [
+      "information"
+    ],
+    "explanation": "The 'Interdisciplinary nature' slide names computer science and information science as informatics' sources.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Within PHI, which contribution does the lecture attribute to computer science?",
+    "options": [
+      "Measuring disease frequency and determinants in populations",
+      "Assessing air quality and water contamination risks",
+      "Methods to store, manipulate, transform and display data",
+      "Managing health agency budgets and personnel"
+    ],
+    "answer": 2,
+    "explanation": "Computer science supplies methods and techniques to store, manipulate, transform and display data and information.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Define a public health information system.",
+    "answer": "Technical components used to support the business of public health organizations\nAn information system is a collection of computer-based tools to collect, store and process information",
+    "keywords": [
+      "technical components",
+      "business of public health",
+      "collect",
+      "process"
+    ],
+    "explanation": "Slide 'Public health information systems'.",
+    "star": true
+  },
+  {
+    "type": "mcq",
+    "q": "Which pair does the lecture give as examples of information systems used in public health?",
+    "options": [
+      "PACS and DICOM structured reporting",
+      "BRFSS and Taiwan's Nationwide Cancer Registry System",
+      "CPOE and the Antibiotic Assistant program",
+      "Quit And Return and Digiquit apps"
+    ],
+    "answer": 1,
+    "explanation": "The lecture cites the Behavioral Risk Factor Surveillance System and Taiwan's Nationwide Cancer Registry System.",
+    "star": true
+  },
+  {
+    "type": "short",
+    "q": "Define precision public health.",
+    "answer": "Applying and combining new and existing technologies to describe and analyze individuals and their environment over the life course\nto tailor preventive interventions for at-risk groups and improve population health",
+    "keywords": [
+      "technologies",
+      "environment",
+      "tailor",
+      "at-risk groups"
+    ],
+    "explanation": "Frontiers in Public Health definition on the 'Precision public health' slide."
+  },
+  {
+    "type": "mcq",
+    "q": "Which three advances in health data collection does the lecture cite as enabling precision public health?",
+    "options": [
+      "Paper surveys, census data and death certificates",
+      "PACS, DICOM and radiology reports",
+      "Search queries, tweets and news articles",
+      "PGHD from smart technologies, EHRs and genomic sequencing"
+    ],
+    "answer": 3,
+    "explanation": "Precision public health is enabled by patient-generated health data, EHRs and genomic sequencing."
   }
 ]
